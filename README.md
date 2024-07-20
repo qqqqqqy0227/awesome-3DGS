@@ -412,7 +412,16 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 [📄 Paper](https://arxiv.org/pdf/2401.02436v2.pdf)
 
 #### Compact3d: Compressing gaussian splat radiance field models with vector quantization
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+
+**Authors**: KL Navaneet, Kossar Pourahmadi Meibodi, Soroush Abbasi Koohpayegani, Hamed Pirsiavash
+
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting (3DGS) is a new method for modeling and rendering 3D radiance fields that achieves much faster learning and rendering time compared to SOTA NeRF methods. However, it comes with the drawback of a much larger storage demand compared to NeRF methods since it needs to store the parameters for millions of 3D Gaussians. We notice that large groups of Gaussians share similar parameters and introduce a simple vector quantization method based on K-means algorithm to quantize the Gaussian parameters. Then, we store the small codebook along with the index of the code for each Gaussian. We compress the indices further by sorting them and using a method similar to run-length encoding. Moreover, we use a simple regularizer that encourages zero opacity (invisible Gaussians) to reduce the number of Gaussians, thereby compressing the model and speeding up the rendering. We do extensive experiments on standard benchmarks as well as an existing 3D dataset that is an order of magnitude larger than the standard benchmarks used in this field. We show that our simple yet effective method can reduce the storage costs for 3DGS by 40 to 50x and rendering time by 2 to 3x with a very small drop in the quality of rendered images.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2311.18159)
 
 ### Training Efficiency
 #### DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines
@@ -423,6 +432,7 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 <summary><b>Abstract</b></summary>
 Differentiable rendering is a technique used in an important emerging class of visual computing applications that involves representing a 3D scene as a model that is trained from 2D images using gradient descent. Recent works (e.g. 3D Gaussian Splatting) use a rasterization pipeline to enable rendering high quality photo-realistic imagery at high speeds from these learned 3D models. These methods have been demonstrated to be very promising, providing state-of-art quality for many important tasks. However, training a model to represent a scene is still a time-consuming task even when using powerful GPUs. In this work, we observe that the gradient computation phase during training is a significant bottleneck on GPUs due to the large number of atomic operations that need to be processed. These atomic operations overwhelm atomic units in the L2 partitions causing stalls. To address this challenge, we leverage the observations that during the gradient computation: (1) for most warps, all threads atomically update the same memory locations; and (2) warps generate varying amounts of atomic traffic (since some threads may be inactive). We propose DISTWAR, a software-approach to accelerate atomic operations based on two key ideas: First, we enable warp-level reduction of threads at the SM sub-cores using registers to leverage the locality in intra-warp atomic updates. Second, we distribute the atomic computation between the warp-level reduction at the SM and the L2 atomic units to increase the throughput of atomic computation. Warps with many threads performing atomic updates to the same memory locations are scheduled at the SM, and the rest using L2 atomic units. We implement DISTWAR using existing warp-level primitives. We evaluate DISTWAR on widely used raster-based differentiable rendering workloads. We demonstrate significant speedups of 2.44x on average (up to 5.7x).
 </details>
+
 [📄 Paper](https://arxiv.org/pdf/2401.05345v1.pdf)
 
 ### Rendering Efficiency
@@ -438,11 +448,18 @@ Differentiable rendering is a technique used in an important emerging class of v
 [📄 Paper](https://arxiv.org/pdf/2402.13827v1.pdf)
 
 #### GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+ 
+ **Authors**: Abdullah Hamdi, Luke Melas-Kyriazi, Jinjie Mai, Guocheng Qian, Ruoshi Liu, Carl Vondrick, Bernard Ghanem, Andrea Vedaldi
+
+<details>
+<summary><b>Abstract</b></summary>
+Advancements in 3D Gaussian Splatting have significantly accelerated 3D reconstruction and generation. However, it may require a large number of Gaussians, which creates a substantial memory footprint. This paper introduces GES (Generalized Exponential Splatting), a novel representation that employs Generalized Exponential Function (GEF) to model 3D scenes, requiring far fewer particles to represent a scene and thus significantly outperforming Gaussian Splatting methods in efficiency with a plug-and-play replacement ability for Gaussian-based utilities. GES is validated theoretically and empirically in both principled 1D setup and realistic 3D scenes.
+It is shown to represent signals with sharp edges more accurately, which are typically challenging for Gaussians due to their inherent low-pass characteristics. Our empirical analysis demonstrates that GEF outperforms Gaussians in fitting natural-occurring signals (e.g. squares, triangles, and parabolic signals), thereby reducing the need for extensive splitting operations that increase the memory footprint of Gaussian Splatting. With the aid of a frequency-modulated loss, GES achieves competitive performance in novel-view synthesis benchmarks while requiring less than half the memory storage of Gaussian Splatting and increasing the rendering speed by up to 39%. The code is available on the project website this https <a herf=https://abdullahamdi.com/ges>URL<a> .
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2402.10128)
 
 ## Photorealism
-#### Microfacet models for refraction through rough surfaces
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
 
 #### Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting
 
@@ -1047,9 +1064,6 @@ With the onset of diffusion-based generative models and their ability to generat
 
 [📄 Paper](https://arxiv.org/pdf/2311.17907v1.pdf)
 
-#### Alpha shapes: determining 3D shape complexity across morphologically diverse structures
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
-
 #### GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting
 
 **Authors**: Ming-Hsuan Yang, Deqing Sun, Yongtao Wang, Zhiwei Lin, Jinlin He, Yajiao Xiong, Xingjian Ran, Xiaoyu Zhou
@@ -1219,7 +1233,15 @@ Reconstructing dynamic 3D scenes from 2D images and generating diverse views ove
 ## Autonomous Driving
 ### Autonomous Driving Scene Reconstruction
 #### Street gaussians for modeling dynamic urban scenes
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+
+**Authors**: Yunzhi Yan, Haotong Lin, Chenxu Zhou, Weijie Wang, Haiyang Sun, Kun Zhan, Xianpeng Lang, Xiaowei Zhou, Sida Peng
+
+<details>
+<summary><b>Abstract</b></summary>
+This paper aims to tackle the problem of modeling dynamic urban streets for autonomous driving scenes. Recent methods extend NeRF by incorporating tracked vehicle poses to animate vehicles, enabling photo-realistic view synthesis of dynamic urban street scenes. However, significant limitations are their slow training and rendering speed. We introduce Street Gaussians, a new explicit scene representation that tackles these limitations. Specifically, the dynamic urban scene is represented as a set of point clouds equipped with semantic logits and 3D Gaussians, each associated with either a foreground vehicle or the background. To model the dynamics of foreground object vehicles, each object point cloud is optimized with optimizable tracked poses, along with a 4D spherical harmonics model for the dynamic appearance. The explicit representation allows easy composition of object vehicles and background, which in turn allows for scene editing operations and rendering at 135 FPS (1066 × 1600 resolution) within half an hour of training. The proposed method is evaluated on multiple challenging benchmarks, including KITTI and Waymo Open datasets. Experiments show that the proposed method consistently outperforms state-of-the-art methods across all datasets. The code will be released to ensure reproducibility.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2401.01339)
 
 #### HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting
 
@@ -1434,7 +1456,15 @@ Dense simultaneous localization and mapping (SLAM) is crucial for robotics and a
 ## Dynamic 3D Gaussian Splatting
 ### Multi-view Videos
 #### SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+
+**Authors**: Richard Shaw, Michal Nazarczuk, Jifei Song, Arthur Moreau, Sibi Catley-Chandar, Helisa Dhamo, Eduardo Perez-Pellitero
+
+<details>
+<summary><b>Abstract</b></summary>
+Novel view synthesis has shown rapid progress recently, with methods capable of producing increasingly photorealistic results. 3D Gaussian Splatting has emerged as a promising method, producing high-quality renderings of scenes and enabling interactive viewing at real-time frame rates. However, it is limited to static scenes. In this work, we extend 3D Gaussian Splatting to reconstruct dynamic scenes. We model a scene's dynamics using dynamic MLPs, learning deformations from temporally-local canonical representations to per-frame 3D Gaussians. To disentangle static and dynamic regions, tuneable parameters weigh each Gaussian's respective MLP parameters, improving the dynamics modelling of imbalanced scenes. We introduce a sliding window training strategy that partitions the sequence into smaller manageable windows to handle arbitrary length scenes while maintaining high rendering quality. We propose an adaptive sampling strategy to determine appropriate window size hyperparameters based on the scene's motion, balancing training overhead with visual quality. Training a separate dynamic 3D Gaussian model for each sliding window allows the canonical representation to change, enabling the reconstruction of scenes with significant geometric changes. Temporal consistency is enforced using a fine-tuning step with self-supervising consistency loss on randomly sampled novel views. As a result, our method produces high-quality renderings of general dynamic scenes with competitive quantitative performance, which can be viewed in real-time in our dynamic interactive viewer.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2312.13308)
 
 #### Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
 
@@ -1492,8 +1522,16 @@ Implicit neural representation has paved the way for new approaches to dynamic s
 
 [📄 Paper](https://arxiv.org/pdf/2309.13101v2.pdf)
 
-#### 4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+#### 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
+
+**Authors**: Yuanxing Duan, Fangyin Wei, Qiyu Dai, Yuhang He, Wenzheng Chen, Baoquan Chen
+
+<details>
+<summary><b>Abstract</b></summary>
+We consider the problem of novel-view synthesis (NVS) for dynamic scenes. Recent neural approaches have accomplished exceptional NVS results for static 3D scenes, but extensions to 4D time-varying scenes remain non-trivial. Prior efforts often encode dynamics by learning a canonical space plus implicit or explicit deformation fields, which struggle in challenging scenarios like sudden movements or generating high-fidelity renderings. In this paper, we introduce 4D Gaussian Splatting (4DRotorGS), a novel method that represents dynamic scenes with anisotropic 4D XYZT Gaussians, inspired by the success of 3D Gaussian Splatting in static scenes. We model dynamics at each timestamp by temporally slicing the 4D Gaussians, which naturally compose dynamic 3D Gaussians and can be seamlessly projected into images. As an explicit spatial-temporal representation, 4DRotorGS demonstrates powerful capabilities for modeling complicated dynamics and fine details--especially for scenes with abrupt motions. We further implement our temporal slicing and splatting techniques in a highly optimized CUDA acceleration framework, achieving real-time inference rendering speeds of up to 277 FPS on an RTX 3090 GPU and 583 FPS on an RTX 4090 GPU. Rigorous evaluations on scenes with diverse motions showcase the superior efficiency and effectiveness of 4DRotorGS, which consistently outperforms existing methods both quantitatively and qualitatively.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2402.03307)
 
 #### Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
 
@@ -1570,8 +1608,16 @@ Accurate 3D tracking in highly deformable scenes with occlusions and shadows can
 
 [📄 Paper](https://arxiv.org/pdf/2403.11447v1.pdf)
 
-#### An efficient 3d gaussian representation for monocular/multi-view dynamic scenes
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+#### A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis
+
+**Authors**: Kai Katsumata, Duc Minh Vo, Hideki Nakayama
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting (3DGS) has shown remarkable success in synthesizing novel views given multiple views of a static scene. Yet, 3DGS faces challenges when applied to dynamic scenes because 3D Gaussian parameters need to be updated per timestep, requiring a large amount of memory and at least a dozen observations per timestep. To address these limitations, we present a compact dynamic 3D Gaussian representation that models positions and rotations as functions of time with a few parameter approximations while keeping other properties of 3DGS including scale, color and opacity invariant. Our method can dramatically reduce memory usage and relax a strict multi-view assumption. In our experiments on monocular and multi-view scenarios, we show that our method not only matches state-of-the-art methods, often linked with slower rendering speeds, in terms of high rendering quality but also significantly surpasses them by achieving a rendering speed of 118 frames per second (FPS) at a resolution of 1,352×1,014 on a single GPU.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2311.12897)
 
 #### Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle
 
@@ -2090,8 +2136,16 @@ Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturi
 
 [📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
 
-#### 4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+#### 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
+
+**Authors**: Yuanxing Duan, Fangyin Wei, Qiyu Dai, Yuhang He, Wenzheng Chen, Baoquan Chen
+
+<details>
+<summary><b>Abstract</b></summary>
+We consider the problem of novel-view synthesis (NVS) for dynamic scenes. Recent neural approaches have accomplished exceptional NVS results for static 3D scenes, but extensions to 4D time-varying scenes remain non-trivial. Prior efforts often encode dynamics by learning a canonical space plus implicit or explicit deformation fields, which struggle in challenging scenarios like sudden movements or generating high-fidelity renderings. In this paper, we introduce 4D Gaussian Splatting (4DRotorGS), a novel method that represents dynamic scenes with anisotropic 4D XYZT Gaussians, inspired by the success of 3D Gaussian Splatting in static scenes. We model dynamics at each timestamp by temporally slicing the 4D Gaussians, which naturally compose dynamic 3D Gaussians and can be seamlessly projected into images. As an explicit spatial-temporal representation, 4DRotorGS demonstrates powerful capabilities for modeling complicated dynamics and fine details--especially for scenes with abrupt motions. We further implement our temporal slicing and splatting techniques in a highly optimized CUDA acceleration framework, achieving real-time inference rendering speeds of up to 277 FPS on an RTX 3090 GPU and 583 FPS on an RTX 4090 GPU. Rigorous evaluations on scenes with diverse motions showcase the superior efficiency and effectiveness of 4DRotorGS, which consistently outperforms existing methods both quantitatively and qualitatively.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2402.03307)
 
 #### Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras
 
@@ -2227,7 +2281,15 @@ In this paper we present ADOP, a novel point-based, differentiable neural render
 [📄 Paper](https://arxiv.org/pdf/2110.06635v3.pdf)
 
 #### GS++: Error Analyzing and Optimal Gaussian Splatting
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+
+**Authors**: Letian Huang, Jiayang Bai, Jie Guo, Yanwen Guo
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting has garnered extensive attention and application in real-time neural rendering. Concurrently, concerns have been raised about the limitations of this technology in aspects such as point cloud storage, performance , and robustness in sparse viewpoints , leading to various improvements. However, there has been a notable lack of attention to the projection errors introduced by the local affine approximation inherent in the splatting itself, and the consequential impact of these errors on the quality of photo-realistic rendering. This paper addresses the projection error function of 3D Gaussian Splatting, commencing with the residual error from the first-order Taylor expansion of the projection function ϕ. The analysis establishes a correlation between the error and the Gaussian mean position. Subsequently, leveraging function optimization theory, this paper analyzes the function's minima to provide an optimal projection strategy for Gaussian Splatting referred to Optimal Gaussian Splatting. Experimental validation further confirms that this projection methodology reduces artifacts, resulting in a more convincingly realistic rendering.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2402.00752v1)
 
 #### TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering
 
@@ -2820,7 +2882,15 @@ Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturi
 [📄 Paper](https://arxiv.org/pdf/2402.05054v1.pdf)
 
 #### GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+
+**Authors**: Hao Li, Yuanyuan Gao, Chenming Wu, Dingwen Zhang, Yalun Dai, Chen Zhao, Haocheng Feng, Errui Ding, Jingdong Wang, Junwei Han
+
+<details>
+<summary><b>Abstract</b></summary>
+This paper presents GGRt, a novel approach to generalizable novel view synthesis that alleviates the need for real camera poses, complexity in processing high-resolution images, and lengthy optimization processes, thus facilitating stronger applicability of 3D Gaussian Splatting (3D-GS) in real-world scenarios. Specifically, we design a novel joint learning framework that consists of an Iterative Pose Optimization Network (IPO-Net) and a Generalizable 3D-Gaussians (G-3DG) model. With the joint learning mechanism, the proposed framework can inherently estimate robust relative pose information from the image observations and thus primarily alleviate the requirement of real camera poses. Moreover, we implement a deferred back-propagation mechanism that enables high-resolution training and inference, overcoming the resolution constraints of previous methods. To enhance the speed and efficiency, we further introduce a progressive Gaussian cache module that dynamically adjusts during training and inference. As the first pose-free generalizable 3D-GS framework, GGRt achieves inference at ≥ 5 FPS and real-time rendering at ≥ 100 FPS. Through extensive experimentation, we demonstrate that our method outperforms existing NeRF-based pose-free techniques in terms of inference speed and effectiveness. It can also approach the real pose-based 3D-GS methods. Our contributions provide a significant leap forward for the integration of computer vision and computer graphics into practical applications, offering state-of-the-art results on LLFF, KITTI, and Waymo Open datasets and enabling real-time rendering for immersive experiences.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2403.10147)
 
 #### SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering
 
@@ -2956,7 +3026,14 @@ Recent advancements in 3D reconstruction from single images have been driven by 
 [📄 Paper](https://arxiv.org/pdf/2312.09147v2.pdf)
 
 #### Control4d: Dynamic portrait editing by learning 4d gan from 2d diffusion-based editor
-  - **Not Found on Arxiv by arxiv api, will be append manually later**
+
+**Authors**: Ruizhi Shao, Jingxiang Sun, Cheng Peng, Zerong Zheng, Boyao Zhou, Hongwen Zhang, Yebin Liu
+
+<details>
+<summary><b>Abstract</b></summary>
+We introduce Control4D, an innovative framework for editing dynamic 4D portraits using text instructions. Our method addresses the prevalent challenges in 4D editing, notably the inefficiencies of existing 4D representations and the inconsistent editing effect caused by diffusion-based editors. We first propose GaussianPlanes, a novel 4D representation that makes Gaussian Splatting more structured by applying plane-based decomposition in 3D space and time. This enhances both efficiency and robustness in 4D editing. Furthermore, we propose to leverage a 4D generator to learn a more continuous generation space from inconsistent edited images produced by the diffusion-based editor, which effectively improves the consistency and quality of 4D editing. Comprehensive evaluation demonstrates the superiority of Control4D, including significantly reduced training time, high-quality rendering, and spatial-temporal consistency in 4D portrait editing. The link to our project website is this https <a herf=https://control4darxiv.github.io/>URL<a>.
+</details>
+[📄 Paper](https://arxiv.org/pdf/2312.09147v2.pdf)
 
 ### Grid
 #### Compact 3D Scene Representation via Self-Organizing Gaussian Grids
