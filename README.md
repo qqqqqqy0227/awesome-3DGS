@@ -79,10 +79,8 @@
       - [ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation](#prolificdreamer-high-fidelity-and-diverse-text-to-3d-generation-with-variational-score-distillation)
       - [LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching](#luciddreamer-towards-high-fidelity-text-to-3d-generation-via-interval-score-matching)
     - [Image to 3D Object](#image-to-3d-object)
-      - [Zero-1-to-3: Zero-shot One Image to 3D Object](#zero-1-to-3-zero-shot-one-image-to-3d-object)
       - [DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation](#dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-1)
       - [FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model](#fdgaussian-fast-gaussian-splatting-from-single-image-via-geometric-aware-diffusion-model)
-      - [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](#repaint123-fast-and-high-quality-one-image-to-3d-generation-with-progressive-controllable-2d-repainting)
     - [Multi-Object and Scene Generation](#multi-object-and-scene-generation)
       - [CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting](#cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting)
       - [Alpha shapes: determining 3D shape complexity across morphologically diverse structures](#alpha-shapes-determining-3d-shape-complexity-across-morphologically-diverse-structures)
@@ -995,16 +993,6 @@ The recent advancements in text-to-3D generation mark a significant milestone in
 [📄 Paper](https://arxiv.org/pdf/2311.11284v3.pdf)
 
 ### Image to 3D Object
-#### Zero-1-to-3: Zero-shot One Image to 3D Object
-
-**Authors**: Carl Vondrick, Sergey Zakharov, Pavel Tokmakov, Basile Van Hoorick, Rundi Wu, Ruoshi Liu
-
-<details>
-<summary><b>Abstract</b></summary>
-We introduce Zero-1-to-3, a framework for changing the camera viewpoint of an object given just a single RGB image. To perform novel view synthesis in this under-constrained setting, we capitalize on the geometric priors that large-scale diffusion models learn about natural images. Our conditional diffusion model uses a synthetic dataset to learn controls of the relative camera viewpoint, which allow new images to be generated of the same object under a specified camera transformation. Even though it is trained on a synthetic dataset, our model retains a strong zero-shot generalization ability to out-of-distribution datasets as well as in-the-wild images, including impressionist paintings. Our viewpoint-conditioned diffusion approach can further be used for the task of 3D reconstruction from a single image. Qualitative and quantitative experiments show that our method significantly outperforms state-of-the-art single-view 3D reconstruction and novel view synthesis models by leveraging Internet-scale pre-training.
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2303.11328v1.pdf)
 
 #### DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 
@@ -1028,14 +1016,6 @@ Reconstructing detailed 3D objects from single-view images remains a challenging
 
 [📄 Paper](https://arxiv.org/pdf/2403.10242v1.pdf)
 
-#### Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting
-
-**Authors**: Li Yuan, Munan Ning, Yida Wei, Peng Jin, Xinhua Cheng, Yatian Pang, Zhenyu Tang, Junwu Zhang
-
-<details>
-<summary><b>Abstract</b></summary>
-Recent one image to 3D generation methods commonly adopt Score Distillation Sampling (SDS). Despite the impressive results, there are multiple deficiencies including multi-view inconsistency, over-saturated and over-smoothed textures, as well as the slow generation speed. To address these deficiencies, we present Repaint123 to alleviate multi-view bias as well as texture degradation and speed up the generation process. The core idea is to combine the powerful image generation capability of the 2D diffusion model and the texture alignment ability of the repainting strategy for generating high-quality multi-view images with consistency. We further propose visibility-aware adaptive repainting strength for overlap regions to enhance the generated image quality in the repainting process. The generated high-quality and multi-view consistent images enable the use of simple Mean Square Error (MSE) loss for fast 3D content generation. We conduct extensive experiments and show that our method has a superior ability to generate high-quality 3D content with multi-view consistency and fine textures in 2 minutes from scratch. Our project page is available at https://pku-yuangroup.github.io/repaint123/.
-</details>
 
 [📄 Paper](https://arxiv.org/pdf/2312.13271v3.pdf)
 
