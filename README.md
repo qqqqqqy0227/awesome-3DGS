@@ -91,7 +91,6 @@
     - [4D Generation](#4d-generation)
       - [GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation](#gaussianflow-splatting-gaussian-dynamics-for-4d-content-creation)
       - [MVDream: Multi-view Diffusion for 3D Generation](#mvdream-multi-view-diffusion-for-3d-generation)
-      - [HexPlane: A Fast Representation for Dynamic Scenes](#hexplane-a-fast-representation-for-dynamic-scenes)
       - [BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors](#bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors)
       - [4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency](#4dgen-grounded-4d-content-generation-with-spatial-temporal-consistency)
       - [DreamGaussian4D: Generative 4D Gaussian Splatting](#dreamgaussian4d-generative-4d-gaussian-splatting)
@@ -1097,17 +1096,6 @@ We introduce MVDream, a diffusion model that is able to generate consistent mult
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2308.16512v4.pdf)
-
-#### HexPlane: A Fast Representation for Dynamic Scenes
-
-**Authors**: Justin Johnson, Ang Cao
-
-<details>
-<summary><b>Abstract</b></summary>
-Modeling and re-rendering dynamic 3D scenes is a challenging task in 3D vision. Prior approaches build on NeRF and rely on implicit representations. This is slow since it requires many MLP evaluations, constraining real-world applications. We show that dynamic 3D scenes can be explicitly represented by six planes of learned features, leading to an elegant solution we call HexPlane. A HexPlane computes features for points in spacetime by fusing vectors extracted from each plane, which is highly efficient. Pairing a HexPlane with a tiny MLP to regress output colors and training via volume rendering gives impressive results for novel view synthesis on dynamic scenes, matching the image quality of prior work but reducing training time by more than $100\times$. Extensive ablations confirm our HexPlane design and show that it is robust to different feature fusion mechanisms, coordinate systems, and decoding mechanisms. HexPlane is a simple and effective solution for representing 4D volumes, and we hope they can broadly contribute to modeling spacetime for dynamic 3D scenes.
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2301.09632v2.pdf)
 
 #### BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
 
