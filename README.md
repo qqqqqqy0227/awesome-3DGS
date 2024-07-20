@@ -7,7 +7,6 @@
       - [Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering](#scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering)
       - [LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS](#lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps)
       - [Compact 3D Scene Representation via Self-Organizing Gaussian Grids](#compact-3d-scene-representation-via-self-organizing-gaussian-grids)
-      - [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](#instant-neural-graphics-primitives-with-a-multiresolution-hash-encoding)
       - [Compact 3D Gaussian Representation for Radiance Field](#compact-3d-gaussian-representation-for-radiance-field)
       - [GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering](#ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering)
       - [Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis](#compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis)
@@ -130,7 +129,6 @@
   - [Dynamic 3D Gaussian Splatting](#dynamic-3d-gaussian-splatting)
     - [Multi-view Videos](#multi-view-videos)
       - [SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting](#swags-sampling-windows-adaptively-for-dynamic-3d-gaussian-splatting)
-      - [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](#instant-neural-graphics-primitives-with-a-multiresolution-hash-encoding-1)
       - [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](#dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis)
       - [3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos](#3dgstream-on-the-fly-training-of-3d-gaussians-for-efficient-streaming-of-photo-realistic-free-viewpoint-videos)
       - [Bridging 3D Gaussian and Mesh for Freeview Video Rendering](#bridging-3d-gaussian-and-mesh-for-freeview-video-rendering)
@@ -366,17 +364,6 @@ Recent advancements in real-time neural rendering using point-based techniques h
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2312.13299v2.pdf)
-
-#### Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
-
-**Authors**: Alexander Keller, Christoph Schied, Alex Evans, Thomas Müller
-
-<details>
-<summary><b>Abstract</b></summary>
-Neural graphics primitives, parameterized by fully connected neural networks, can be costly to train and evaluate. We reduce this cost with a versatile new input encoding that permits the use of a smaller network without sacrificing quality, thus significantly reducing the number of floating point and memory access operations: a small neural network is augmented by a multiresolution hash table of trainable feature vectors whose values are optimized through stochastic gradient descent. The multiresolution structure allows the network to disambiguate hash collisions, making for a simple architecture that is trivial to parallelize on modern GPUs. We leverage this parallelism by implementing the whole system using fully-fused CUDA kernels with a focus on minimizing wasted bandwidth and compute operations. We achieve a combined speedup of several orders of magnitude, enabling training of high-quality neural graphics primitives in a matter of seconds, and rendering in tens of milliseconds at a resolution of ${1920\!\times\!1080}$.
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2201.05989v2.pdf)
 
 #### Compact 3D Gaussian Representation for Radiance Field
 
@@ -1465,17 +1452,6 @@ Novel view synthesis has shown rapid progress recently, with methods capable of 
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2312.13308)
-
-#### Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
-
-**Authors**: Alexander Keller, Christoph Schied, Alex Evans, Thomas Müller
-
-<details>
-<summary><b>Abstract</b></summary>
-Neural graphics primitives, parameterized by fully connected neural networks, can be costly to train and evaluate. We reduce this cost with a versatile new input encoding that permits the use of a smaller network without sacrificing quality, thus significantly reducing the number of floating point and memory access operations: a small neural network is augmented by a multiresolution hash table of trainable feature vectors whose values are optimized through stochastic gradient descent. The multiresolution structure allows the network to disambiguate hash collisions, making for a simple architecture that is trivial to parallelize on modern GPUs. We leverage this parallelism by implementing the whole system using fully-fused CUDA kernels with a focus on minimizing wasted bandwidth and compute operations. We achieve a combined speedup of several orders of magnitude, enabling training of high-quality neural graphics primitives in a matter of seconds, and rendering in tens of milliseconds at a resolution of ${1920\!\times\!1080}$.
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2201.05989v2.pdf)
 
 #### Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
 
