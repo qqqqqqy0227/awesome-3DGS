@@ -417,11 +417,8 @@ We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, a
 </li>
 
 </ul> </details>  
-   
 
-**3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities**
-
-#### 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+# 3D Gaussian Splatting for Real-Time Radiance Field Rendering
 
 **Authors**: George Drettakis, Thomas Leimkühler, Georgios Kopanas, Bernhard Kerbl
 
