@@ -4,7 +4,7 @@ We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, a
 
 # Table of Contents
 
-![pic of toc](https://files.lsmcloud.top/blog215e612be9929f395b54b637f44efe0e.jpg)
+![pic of toc](https://files.lsmcloud.top/blogcae01165e2daaa4cd846db9dd64eb2e7.jpg)
 
 ## The proposal of 3D Gaussian Splatting
 
