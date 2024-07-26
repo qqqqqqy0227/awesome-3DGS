@@ -2,7 +2,11 @@
 
 We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418), that aims to analyze existing 3DGS-related works from multiple intersecting perspectives, including related tasks, technologies, challenges, and opportunities.
 
-## 3DGS
+# Table of Contents
+
+![pic of toc](https://files.lsmcloud.top/blog215e612be9929f395b54b637f44efe0e.jpg)
+
+## The proposal of 3D Gaussian Splatting
 
 <details>
   <summary>Click to expand</summary>
@@ -11,7 +15,9 @@ We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, a
   </ul>
 </details>
 
-## Optimization of 3D Gaussian Splatting
+## Related Tasks
+
+### Optimization of 3D Gaussian Splatting
 
 <details>
   <summary>Click to expand</summary>
@@ -61,7 +67,7 @@ We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, a
   </ul>
 </details>
 
-## Generalization and Sparse Views
+### Generalization and Sparse Views
 
 <details>
   <summary>Click to expand</summary>
@@ -88,7 +94,7 @@ We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, a
   </ul>
 </details>
 
-## Applications of 3D Gaussian Splatting
+### Applications of 3D Gaussian Splatting
 
 <details>
   <summary>Click to expand</summary>
@@ -212,7 +218,7 @@ We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, a
   </ul>
 </details>
 
-## Extensions of 3D Gaussian Splatting
+### Extensions of 3D Gaussian Splatting
 
 <details>
   <summary>Click to expand</summary>
