@@ -1,6 +1,8 @@
-# awesome-3DGS
+# Awesome-3DGS
 
-## awesome-3DGS
+We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418), that aims to analyze existing 3DGS-related works from multiple intersecting perspectives, including related tasks, technologies, challenges, and opportunities.
+
+## 3DGS
 
 <details>
   <summary>Click to expand</summary>
