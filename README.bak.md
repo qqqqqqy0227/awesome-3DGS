@@ -1,5 +1,8 @@
-# awesome-3DGS
-- [awesome-3DGS](#awesome-3dgs)
+# Awesome-3DGS
+
+We provide a survey, [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418), that aims to analyze existing 3DGS-related works from multiple intersecting perspectives, including related tasks, technologies, challenges, and opportunities.
+
+- [Awesome-3DGS](#awesome-3dgs)
       - [3D Gaussian Splatting for Real-Time Radiance Field Rendering](#3d-gaussian-splatting-for-real-time-radiance-field-rendering)
 - [Optimization of 3D Gaussian Splatting](#optimization-of-3d-gaussian-splatting)
   - [Efficiency](#efficiency)
@@ -313,7 +316,6 @@
       - [Gaussian Shell Maps for Efficient 3D Human Generation](#gaussian-shell-maps-for-efficient-3d-human-generation-3)
       - [HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting](#hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting-1)
 
-3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities
 
 #### 3D Gaussian Splatting for Real-Time Radiance Field Rendering
 
