@@ -436,7 +436,10 @@ Radiance Field methods have recently revolutionized novel-view synthesis of scen
 # Optimization of 3D Gaussian Splatting
 ## Efficiency
 ### Storage Efficiency
-#### Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
+
+### Improving efficient Gaussian representations
+
+##### 🎈Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
 
 **Authors**: Bo Dai, Dahua Lin, LiMin Wang, Yuanbo Xiangli, Linning Xu, Mulin Yu, Tao Lu
 
@@ -447,40 +450,7 @@ Neural rendering methods have significantly advanced photo-realistic 3D scene re
 
 [📄 Paper](https://arxiv.org/pdf/2312.00109v1.pdf)
 
-#### LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
-
-**Authors**: Zhangyang Wang, Dejia Xu, Zehao Zhu, Kairun Wen, Kevin Wang, Zhiwen Fan
-
-<details>
-<summary><b>Abstract</b></summary>
-Recent advancements in real-time neural rendering using point-based techniques have paved the way for the widespread adoption of 3D representations. However, foundational approaches like 3D Gaussian Splatting come with a substantial storage overhead caused by growing the SfM points to millions, often demanding gigabyte-level disk space for a single unbounded scene, posing significant scalability challenges and hindering the splatting efficiency. To address this challenge, we introduce LightGaussian, a novel method designed to transform 3D Gaussians into a more efficient and compact format. Drawing inspiration from the concept of Network Pruning, LightGaussian identifies Gaussians that are insignificant in contributing to the scene reconstruction and adopts a pruning and recovery process, effectively reducing redundancy in Gaussian counts while preserving visual effects. Additionally, LightGaussian employs distillation and pseudo-view augmentation to distill spherical harmonics to a lower degree, allowing knowledge transfer to more compact representations while maintaining reflectance. Furthermore, we propose a hybrid scheme, VecTree Quantization, to quantize all attributes, resulting in lower bitwidth representations with minimal accuracy losses. In summary, LightGaussian achieves an averaged compression rate over 15x while boosting the FPS from 139 to 215, enabling an efficient representation of complex scenes on Mip-NeRF 360, Tank and Temple datasets. Project website: https://lightgaussian.github.io/
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2311.17245v5.pdf)
-
-#### Compact 3D Scene Representation via Self-Organizing Gaussian Grids
-
-**Authors**: Peter Eisert, Anna Hilsmann, Florian Barthel, Wieland Morgenstern
-
-<details>
-<summary><b>Abstract</b></summary>
-3D Gaussian Splatting has recently emerged as a highly promising technique for modeling of static 3D scenes. In contrast to Neural Radiance Fields, it utilizes efficient rasterization allowing for very fast rendering at high-quality. However, the storage size is significantly higher, which hinders practical deployment, e.g. on resource constrained devices. In this paper, we introduce a compact scene representation organizing the parameters of 3D Gaussian Splatting (3DGS) into a 2D grid with local homogeneity, ensuring a drastic reduction in storage requirements without compromising visual quality during rendering. Central to our idea is the explicit exploitation of perceptual redundancies present in natural scenes. In essence, the inherent nature of a scene allows for numerous permutations of Gaussian parameters to equivalently represent it. To this end, we propose a novel highly parallel algorithm that regularly arranges the high-dimensional Gaussian parameters into a 2D grid while preserving their neighborhood structure. During training, we further enforce local smoothness between the sorted parameters in the grid. The uncompressed Gaussians use the same structure as 3DGS, ensuring a seamless integration with established renderers. Our method achieves a reduction factor of 17x to 42x in size for complex scenes with no increase in training time, marking a substantial leap forward in the domain of 3D scene distribution and consumption. Additional information can be found on our project page: https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2312.13299v2.pdf)
-
-#### Compact 3D Gaussian Representation for Radiance Field
-
-**Authors**: Eunbyung Park, Jong Hwan Ko, Xiangyu Sun, Daniel Rho, Joo Chan Lee
-
-<details>
-<summary><b>Abstract</b></summary>
-Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturing complex 3D scenes with high fidelity. However, one persistent challenge that hinders the widespread adoption of NeRFs is the computational bottleneck due to the volumetric rendering. On the other hand, 3D Gaussian splatting (3DGS) has recently emerged as an alternative representation that leverages a 3D Gaussisan-based representation and adopts the rasterization pipeline to render the images rather than volumetric rendering, achieving very fast rendering speed and promising image quality. However, a significant drawback arises as 3DGS entails a substantial number of 3D Gaussians to maintain the high fidelity of the rendered images, which requires a large amount of memory and storage. To address this critical issue, we place a specific emphasis on two key objectives: reducing the number of Gaussian points without sacrificing performance and compressing the Gaussian attributes, such as view-dependent color and covariance. To this end, we propose a learnable mask strategy that significantly reduces the number of Gaussians while preserving high performance. In addition, we propose a compact but effective representation of view-dependent color by employing a grid-based neural field rather than relying on spherical harmonics. Finally, we learn codebooks to compactly represent the geometric attributes of Gaussian by vector quantization. With model compression techniques such as quantization and entropy coding, we consistently show over 25$\times$ reduced storage and enhanced rendering speed, while maintaining the quality of the scene representation, compared to 3DGS. Our work provides a comprehensive framework for 3D scene representation, achieving high performance, fast training, compactness, and real-time rendering. Our project page is available at https://maincold2.github.io/c3dgs/.
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
-
-#### GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
+##### 🎈GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
 
 **Authors**: Guocheng Qian, Jinjie Mai, Andrea Vedaldi, Bernard Ghanem, Carl Vondrick, Ruoshi Liu, Luke Melas-Kyriazi, Abdullah Hamdi
 
@@ -491,7 +461,44 @@ Advancements in 3D Gaussian Splatting have significantly accelerated 3D reconstr
 
 [📄 Paper](https://arxiv.org/pdf/2402.10128v2.pdf)
 
-#### Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
+####  Developing pruning strategies or compressing SH parameters
+
+##### 🎈LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
+
+**Authors**: Zhangyang Wang, Dejia Xu, Zehao Zhu, Kairun Wen, Kevin Wang, Zhiwen Fan
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent advancements in real-time neural rendering using point-based techniques have paved the way for the widespread adoption of 3D representations. However, foundational approaches like 3D Gaussian Splatting come with a substantial storage overhead caused by growing the SfM points to millions, often demanding gigabyte-level disk space for a single unbounded scene, posing significant scalability challenges and hindering the splatting efficiency. To address this challenge, we introduce LightGaussian, a novel method designed to transform 3D Gaussians into a more efficient and compact format. Drawing inspiration from the concept of Network Pruning, LightGaussian identifies Gaussians that are insignificant in contributing to the scene reconstruction and adopts a pruning and recovery process, effectively reducing redundancy in Gaussian counts while preserving visual effects. Additionally, LightGaussian employs distillation and pseudo-view augmentation to distill spherical harmonics to a lower degree, allowing knowledge transfer to more compact representations while maintaining reflectance. Furthermore, we propose a hybrid scheme, VecTree Quantization, to quantize all attributes, resulting in lower bitwidth representations with minimal accuracy losses. In summary, LightGaussian achieves an averaged compression rate over 15x while boosting the FPS from 139 to 215, enabling an efficient representation of complex scenes on Mip-NeRF 360, Tank and Temple datasets. Project website: https://lightgaussian.github.io/
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2311.17245v5.pdf)
+
+##### 🎈Compact 3D Scene Representation via Self-Organizing Gaussian Grids
+
+**Authors**: Peter Eisert, Anna Hilsmann, Florian Barthel, Wieland Morgenstern
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting has recently emerged as a highly promising technique for modeling of static 3D scenes. In contrast to Neural Radiance Fields, it utilizes efficient rasterization allowing for very fast rendering at high-quality. However, the storage size is significantly higher, which hinders practical deployment, e.g. on resource constrained devices. In this paper, we introduce a compact scene representation organizing the parameters of 3D Gaussian Splatting (3DGS) into a 2D grid with local homogeneity, ensuring a drastic reduction in storage requirements without compromising visual quality during rendering. Central to our idea is the explicit exploitation of perceptual redundancies present in natural scenes. In essence, the inherent nature of a scene allows for numerous permutations of Gaussian parameters to equivalently represent it. To this end, we propose a novel highly parallel algorithm that regularly arranges the high-dimensional Gaussian parameters into a 2D grid while preserving their neighborhood structure. During training, we further enforce local smoothness between the sorted parameters in the grid. The uncompressed Gaussians use the same structure as 3DGS, ensuring a seamless integration with established renderers. Our method achieves a reduction factor of 17x to 42x in size for complex scenes with no increase in training time, marking a substantial leap forward in the domain of 3D scene distribution and consumption. Additional information can be found on our project page: https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2312.13299v2.pdf)
+
+##### 🎈Compact 3D Gaussian Representation for Radiance Field
+
+**Authors**: Eunbyung Park, Jong Hwan Ko, Xiangyu Sun, Daniel Rho, Joo Chan Lee
+
+<details>
+<summary><b>Abstract</b></summary>
+Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturing complex 3D scenes with high fidelity. However, one persistent challenge that hinders the widespread adoption of NeRFs is the computational bottleneck due to the volumetric rendering. On the other hand, 3D Gaussian splatting (3DGS) has recently emerged as an alternative representation that leverages a 3D Gaussisan-based representation and adopts the rasterization pipeline to render the images rather than volumetric rendering, achieving very fast rendering speed and promising image quality. However, a significant drawback arises as 3DGS entails a substantial number of 3D Gaussians to maintain the high fidelity of the rendered images, which requires a large amount of memory and storage. To address this critical issue, we place a specific emphasis on two key objectives: reducing the number of Gaussian points without sacrificing performance and compressing the Gaussian attributes, such as view-dependent color and covariance. To this end, we propose a learnable mask strategy that significantly reduces the number of Gaussians while preserving high performance. In addition, we propose a compact but effective representation of view-dependent color by employing a grid-based neural field rather than relying on spherical harmonics. Finally, we learn codebooks to compactly represent the geometric attributes of Gaussian by vector quantization. With model compression techniques such as quantization and entropy coding, we consistently show over 25$\times$ reduced storage and enhanced rendering speed, while maintaining the quality of the scene representation, compared to 3DGS. Our work provides a comprehensive framework for 3D scene representation, achieving high performance, fast training, compactness, and real-time rendering. Our project page is available at https://maincold2.github.io/c3dgs/.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
+
+####  Applying Vector Quantization(VQ) techniques
+
+##### 🎈Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
 
 **Authors**: Rüdiger Westermann, Josef Stumpfegger, Simon Niedermayr
 
@@ -502,7 +509,7 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 
 [📄 Paper](https://arxiv.org/pdf/2401.02436v2.pdf)
 
-#### Compact3d: Compressing gaussian splat radiance field models with vector quantization
+#### 🎈Compact3d: Compressing gaussian splat radiance field models with vector quantization
 
 **Authors**: KL Navaneet, Kossar Pourahmadi Meibodi, Soroush Abbasi Koohpayegani, Hamed Pirsiavash
 
