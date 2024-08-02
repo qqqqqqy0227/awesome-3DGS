@@ -9,7 +9,7 @@
 <details>
   <summary>Click to expand</summary>
   <ul>
-    <li><a href="#3d-gaussian-splatting-for-real-time-radiance-field-rendering">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
+    <li><a href="#🎈3d-gaussian-splatting-for-real-time-radiance-field-rendering">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
   </ul>
 </details>
 
@@ -24,46 +24,53 @@
       <ul>
         <li>Storage Efficiency
           <ul>
-            <li><a href="#scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
-            <li><a href="#lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
-            <li><a href="#compact-3d-scene-representation-via-self-organizing-gaussian-grids">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
-            <li><a href="#compact-3d-gaussian-representation-for-radiance-field">Compact 3D Gaussian Representation for Radiance Field</a></li>
-            <li><a href="#ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
-            <li><a href="#compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
-            <li><a href="#compact3d-compressing-gaussian-splat-radiance-field-models-with-vector-quantization">Compact3d: Compressing gaussian splat radiance field models with vector quantization</a></li>
+            <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+            <li><a href="#🎈lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
+            <li><a href="#🎈compact-3d-scene-representation-via-self-organizing-gaussian-grids">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
+            <li><a href="#🎈compact-3d-gaussian-representation-for-radiance-field">Compact 3D Gaussian Representation for Radiance Field</a></li>
+            <li><a href="#🎈ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
+            <li><a href="#🎈compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
+            <li><a href="#🎈compact3d-compressing-gaussian-splat-radiance-field-models-with-vector-quantization">Compact3d: Compressing gaussian splat radiance field models with vector quantization</a></li>
+						<li><a href="#🎈ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model">ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model</a></li>
+						<li><a href="#🎈F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting">F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈Tangram-Splatting Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors">Tangram-Splatting Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors</a></li>
+            <li><a href="#🎈Gaussian-Forest Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling">Gaussian-Forest Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling</a></li>
+            <li><a href="#🎈Reducing the Memory Footprint of 3D Gaussian Splatting">Reducing the Memory Footprint of 3D Gaussian Splatting</a></li>
           </ul>
         </li>
         <li>Training Efficiency
           <ul>
-            <li><a href="#distwar-fast-differentiable-rendering-on-raster-based-rendering-pipelines">DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines</a></li>
+            <li><a href="#🎈distwar-fast-differentiable-rendering-on-raster-based-rendering-pipelines">DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines</a></li>
+            <li><a href="#🎈I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions">I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions</a></li>
           </ul>
         </li>
         <li>Rendering Efficiency
           <ul>
-            <li><a href="#identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
-            <li><a href="#gscore-efficient-radiance-field-rendering-via-architectural-support-for-3d-gaussian-splatting">GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈gscore-efficient-radiance-field-rendering-via-architectural-support-for-3d-gaussian-splatting">GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Photorealism
       <ul>
-        <li><a href="#microfacet-models-for-refraction-through-rough-surfaces">Microfacet models for refraction through rough surfaces</a></li>
-        <li><a href="#mirror-3dgs-incorporating-mirror-reflections-into-3d-gaussian-splatting">Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting</a></li>
-        <li><a href="#scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-1">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
-        <li><a href="#mip-splatting-alias-free-3d-gaussian-splatting">Mip-Splatting: Alias-free 3D Gaussian Splatting</a></li>
-        <li><a href="#relightable-3d-gaussian-real-time-point-cloud-relighting-with-brdf-decomposition-and-ray-tracing">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</a></li>
-        <li><a href="#gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
-        <li><a href="#multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
-        <li><a href="#spec-gaussian-anisotropic-view-dependent-appearance-for-3d-gaussian-splatting">Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting</a></li>
-        <li><a href="#fregs-3d-gaussian-splatting-with-progressive-frequency-regularization">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
-        <li><a href="#deblurgs-gaussian-splatting-for-camera-motion-blur">DeblurGS: Gaussian Splatting for Camera Motion Blur</a></li>
-        <li><a href="#gaussianpro-3d-gaussian-splatting-with-progressive-propagation">GaussianPro: 3D Gaussian Splatting with Progressive Propagation</a></li>
-        <li><a href="#sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
+        <li><a href="#🎈microfacet-models-for-refraction-through-rough-surfaces">Microfacet models for refraction through rough surfaces</a></li>
+        <li><a href="#🎈mirror-3dgs-incorporating-mirror-reflections-into-3d-gaussian-splatting">Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-1">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+        <li><a href="#🎈mip-splatting-alias-free-3d-gaussian-splatting">Mip-Splatting: Alias-free 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈relightable-3d-gaussian-real-time-point-cloud-relighting-with-brdf-decomposition-and-ray-tracing">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</a></li>
+        <li><a href="#🎈gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
+        <li><a href="#🎈multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
+        <li><a href="#🎈spec-gaussian-anisotropic-view-dependent-appearance-for-3d-gaussian-splatting">Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈fregs-3d-gaussian-splatting-with-progressive-frequency-regularization">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
+        <li><a href="#🎈deblurgs-gaussian-splatting-for-camera-motion-blur">DeblurGS: Gaussian Splatting for Camera Motion Blur</a></li>
+        <li><a href="#🎈gaussianpro-3d-gaussian-splatting-with-progressive-propagation">GaussianPro: 3D Gaussian Splatting with Progressive Propagation</a></li>
+        <li><a href="#🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
       </ul>
     </li>
   </ul>
 </details>
+
 
 ### Generalization and Sparse Views
 
@@ -72,25 +79,31 @@
   <ul>
     <li>Generalizable 3D Gaussian Splatting
       <ul>
-        <li><a href="#agg-amortized-generative-3d-gaussians-for-single-image-to-3d">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
-        <li><a href="#triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
-        <li><a href="#splatter-image-ultra-fast-single-view-3d-reconstruction">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
-        <li><a href="#mvsnerf-fast-generalizable-radiance-field-reconstruction-from-multi-view-stereo">MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo</a></li>
-        <li><a href="#pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
-        <li><a href="#mvsplat-efficient-3d-gaussian-splatting-from-sparse-multi-view-images">MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images</a></li>
+        <li><a href="#🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
+        <li><a href="#🎈triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
+        <li><a href="#🎈splatter-image-ultra-fast-single-view-3d-reconstruction">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
+        <li><a href="#🎈mvsnerf-fast-generalizable-radiance-field-reconstruction-from-multi-view-stereo">MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo</a></li>
+        <li><a href="#🎈pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
+        <li><a href="#🎈mvsplat-efficient-3d-gaussian-splatting-from-sparse-multi-view-images">MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images</a></li>
+        <li><a href="#🎈FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes">FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes</a></li>
       </ul>
     </li>
     <li>Sparse Views Setting
       <ul>
-        <li><a href="#touch-gs-visual-tactile-supervised-3d-gaussian-splatting">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
-        <li><a href="#dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
-        <li><a href="#gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
-        <li><a href="#depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
-        <li><a href="#fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
+        <li><a href="#🎈touch-gs-visual-tactile-supervised-3d-gaussian-splatting">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
+        <li><a href="#🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
+        <li><a href="#🎈depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
+        <li><a href="#🎈fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
+        <li><a href="#🎈CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization">CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization</a></li>
+				<li><a href="#🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data">Dense 3D Gaussian Splatting Initialization for Sparse Image Data</a></li>
+				<li><a href="#🎈DIG3D Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction">DIG3D: Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction</a></li>
+				<li><a href="#🎈Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views">Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views</a></li>
       </ul>
     </li>
   </ul>
 </details>
+
 
 ### Applications of 3D Gaussian Splatting
 
@@ -101,82 +114,92 @@
       <ul>
         <li>Body Reconstruction
           <ul>
-            <li><a href="#ash-animatable-gaussian-splats-for-efficient-and-photoreal-human-rendering">ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering</a></li>
-            <li><a href="#animatable-gaussians-learning-pose-dependent-gaussian-maps-for-high-fidelity-human-avatar-modeling">Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling</a></li>
-            <li><a href="#gauhuman-articulated-gaussian-splatting-from-monocular-human-videos">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
-            <li><a href="#gaussianavatar-towards-realistic-human-avatar-modeling-from-a-single-video-via-animatable-3d-gaussians">GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians</a></li>
-            <li><a href="#3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
-            <li><a href="#human-gaussian-splatting-real-time-rendering-of-animatable-avatars">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
-            <li><a href="#hugs-human-gaussian-splats">HUGS: Human Gaussian Splats</a></li>
+            <li><a href="#🎈ash-animatable-gaussian-splats-for-efficient-and-photoreal-human-rendering">ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering</a></li>
+            <li><a href="#🎈animatable-gaussians-learning-pose-dependent-gaussian-maps-for-high-fidelity-human-avatar-modeling">Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling</a></li>
+            <li><a href="#🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
+            <li><a href="#🎈gaussianavatar-towards-realistic-human-avatar-modeling-from-a-single-video-via-animatable-3d-gaussians">GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians</a></li>
+            <li><a href="#🎈3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈human-gaussian-splatting-real-time-rendering-of-animatable-avatars">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
+            <li><a href="#🎈hugs-human-gaussian-splats">HUGS: Human Gaussian Splats</a></li>
           </ul>
         </li>
         <li>Head Reconstruction
           <ul>
-            <li><a href="#gaussianavatars-photorealistic-head-avatars-with-rigged-3d-gaussians">GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians</a></li>
-            <li><a href="#gaussian-head-avatar-ultra-high-fidelity-head-avatar-via-dynamic-gaussians">Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians</a></li>
+            <li><a href="#🎈gaussianavatars-photorealistic-head-avatars-with-rigged-3d-gaussians">GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians</a></li>
+            <li><a href="#🎈gaussian-head-avatar-ultra-high-fidelity-head-avatar-via-dynamic-gaussians">Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians</a></li>
+            <li><a href="#🎈Fast 3D Stylized Gaussian Portrait Generation From a Single lmage With Style Aligned Sampling Loss">Fast 3D Stylized Gaussian Portrait Generation From a Single lmage With Style Aligned Sampling Loss</a></li>
+            <li><a href="#🎈GaussianTalker Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting">GaussianTalker Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈GaussianTalker Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting">GaussianTalker Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈Learn2Talk 3D Talking Face Learns from 2D Talking Face">Learn2Talk 3D Talking Face Learns from 2D Talking Face</a></li>
+            <li><a href="#🎈TalkingGaussian Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting">TalkingGaussian Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting</a></li>
           </ul>
         </li>
         <li>Others
           <ul>
-            <li><a href="#gaussianhair-hair-modeling-and-rendering-with-light-aware-gaussians">GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</a></li>
+            <li><a href="#🎈gaussianhair-hair-modeling-and-rendering-with-light-aware-gaussians">GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Non-Rigid Object Reconstruction
       <ul>
-        <li><a href="#gart-gaussian-articulated-template-models">GART: Gaussian Articulated Template Models</a></li>
-        <li><a href="#neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
+        <li><a href="#🎈gart-gaussian-articulated-template-models">GART: Gaussian Articulated Template Models</a></li>
+        <li><a href="#🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
       </ul>
     </li>
     <li>Artificial Intelligence-Generated Content (AIGC)
       <ul>
         <li>Text to 3D Objects
           <ul>
-            <li><a href="#hyper-3dg-text-to-3d-gaussian-generation-via-hypergraph">Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph</a></li>
-            <li><a href="#text-to-3d-using-gaussian-splatting">Text-to-3D using Gaussian Splatting</a></li>
-            <li><a href="#gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
-            <li><a href="#brightdreamer-generic-3d-gaussian-generative-framework-for-fast-text-to-3d-synthesis">BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis</a></li>
-            <li><a href="#learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
-            <li><a href="#im-3d-iterative-multiview-diffusion-and-reconstruction-for-high-quality-3d-generation">IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation</a></li>
-            <li><a href="#humangaussian-text-driven-3d-human-generation-with-gaussian-splatting">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
-            <li><a href="#gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
-            <li><a href="#gaussian-shell-maps-for-efficient-3d-human-generation">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
-            <li><a href="#gaussiandreamer-fast-generation-from-text-to-3d-gaussians-by-bridging-2d-and-3d-diffusion-models">GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models</a></li>
-            <li><a href="#lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
-            <li><a href="#dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
-            <li><a href="#prolificdreamer-high-fidelity-and-diverse-text-to-3d-generation-with-variational-score-distillation">ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</a></li>
-            <li><a href="#luciddreamer-towards-high-fidelity-text-to-3d-generation-via-interval-score-matching">LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching</a></li>
+            <li><a href="#🎈hyper-3dg-text-to-3d-gaussian-generation-via-hypergraph">Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph</a></li>
+            <li><a href="#🎈text-to-3d-using-gaussian-splatting">Text-to-3D using Gaussian Splatting</a></li>
+            <li><a href="#🎈gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
+            <li><a href="#🎈brightdreamer-generic-3d-gaussian-generative-framework-for-fast-text-to-3d-synthesis">BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis</a></li>
+            <li><a href="#🎈learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈im-3d-iterative-multiview-diffusion-and-reconstruction-for-high-quality-3d-generation">IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation</a></li>
+            <li><a href="#🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
+            <li><a href="#🎈gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
+            <li><a href="#🎈gaussian-shell-maps-for-efficient-3d-human-generation">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
+            <li><a href="#🎈gaussiandreamer-fast-generation-from-text-to-3d-gaussians-by-bridging-2d-and-3d-diffusion-models">GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models</a></li>
+            <li><a href="#🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
+            <li><a href="#🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
+            <li><a href="#🎈prolificdreamer-high-fidelity-and-diverse-text-to-3d-generation-with-variational-score-distillation">ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</a></li>
+            <li><a href="#🎈luciddreamer-towards-high-fidelity-text-to-3d-generation-via-interval-score-matching">LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching</a></li>
           </ul>
         </li>
         <li>Image to 3D Object
           <ul>
-            <li><a href="#dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-1">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
-            <li><a href="#fdgaussian-fast-gaussian-splatting-from-single-image-via-geometric-aware-diffusion-model">FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</a></li>
+            <li><a href="#🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-1">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
+            <li><a href="#🎈fdgaussian-fast-gaussian-splatting-from-single-image-via-geometric-aware-diffusion-model">FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</a></li>
+            <li><a href="#🎈GS-LRM Large Reconstruction Model">GS-LRM Large Reconstruction Model</a></li>
+            <li><a href="#🎈GSD View-Guided Gaussian Splatting Diffusion for 3D Reconstruction">GSD View-Guided Gaussian Splatting Diffusion for 3D Reconstruction</a></li>
           </ul>
         </li>
         <li>Multi-Object and Scene Generation
           <ul>
-            <li><a href="#cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
-            <li><a href="#alpha-shapes-determining-3d-shape-complexity-across-morphologically-diverse-structures">Alpha shapes: determining 3D shape complexity across morphologically diverse structures</a></li>
-            <li><a href="#gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
-            <li><a href="#repaint-inpainting-using-denoising-diffusion-probabilistic-models">RePaint: Inpainting using Denoising Diffusion Probabilistic Models</a></li>
-            <li><a href="#text2immersion-generative-immersive-scene-with-3d-gaussians">Text2Immersion: Generative Immersive Scene with 3D Gaussians</a></li>
-            <li><a href="#luciddreamer-domain-free-generation-of-3d-gaussian-splatting-scenes">LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes</a></li>
+            <li><a href="#🎈cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
+            <li><a href="#🎈alpha-shapes-determining-3d-shape-complexity-across-morphologically-diverse-structures">Alpha shapes: determining 3D shape complexity across morphologically diverse structures</a></li>
+            <li><a href="#🎈gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
+            <li><a href="#🎈repaint-inpainting-using-denoising-diffusion-probabilistic-models">RePaint: Inpainting using Denoising Diffusion Probabilistic Models</a></li>
+            <li><a href="#🎈text2immersion-generative-immersive-scene-with-3d-gaussians">Text2Immersion: Generative Immersive Scene with 3D Gaussians</a></li>
+            <li><a href="#🎈luciddreamer-domain-free-generation-of-3d-gaussian-splatting-scenes">LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes</a></li>
+            <li><a href="#🎈ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation">ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation</a></li>
+            <li><a href="#🎈Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion">Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion</a></li>
+            <li><a href="#🎈Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting">Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting</a></li>
           </ul>
         </li>
         <li>4D Generation
           <ul>
-            <li><a href="#gaussianflow-splatting-gaussian-dynamics-for -4d-content-creation">GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation</a></li>
-            <li><a href="#mvdream-multi-view-diffusion-for-3d-generation">MVDream: Multi-view Diffusion for 3D Generation</a></li>
-            <li><a href="#bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
-            <li><a href="#4dgen-grounded-4d-content-generation-with-spatial-temporal-consistency">4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency</a></li>
-            <li><a href="#dreamgaussian4d-generative-4d-gaussian-splatting">DreamGaussian4D: Generative 4D Gaussian Splatting</a></li>
-            <li><a href="#dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-2">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
-            <li><a href="#motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
-            <li><a href="#fast-dynamic-3d-object-generation-from-a-single-view-video">Fast Dynamic 3D Object Generation from a Single-view Video</a></li>
-            <li><a href="#align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
-            <li><a href="#real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
+            <li><a href="#🎈gaussianflow-splatting-gaussian-dynamics-for -4d-content-creation">GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation</a></li>
+            <li><a href="#🎈mvdream-multi-view-diffusion-for-3d-generation">MVDream: Multi-view Diffusion for 3D Generation</a></li>
+            <li><a href="#🎈bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
+            <li><a href="#🎈4dgen-grounded-4d-content-generation-with-spatial-temporal-consistency">4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency</a></li>
+            <li><a href="#🎈dreamgaussian4d-generative-4d-gaussian-splatting">DreamGaussian4D: Generative 4D Gaussian Splatting</a></li>
+            <li><a href="#🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-2">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
+            <li><a href="#🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
+            <li><a href="#🎈fast-dynamic-3d-object-generation-from-a-single-view-video">Fast Dynamic 3D Object Generation from a Single-view Video</a></li>
+            <li><a href="#🎈align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
+            <li><a href="#🎈real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
           </ul>
         </li>
       </ul>
@@ -185,36 +208,45 @@
       <ul>
         <li>Autonomous Driving Scene Reconstruction
           <ul>
-            <li><a href="#street-gaussians-for-modeling-dynamic-urban-scenes">Street gaussians for modeling dynamic urban scenes</a></li>
-            <li><a href="#hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
-            <li><a href="#3dgs-calib-3d-gaussian-splatting-for-multimodal-spatiotemporal-calibration">3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration</a></li>
-            <li><a href="#drivinggaussian-composite-gaussian-splatting-for-surrounding-dynamic-autonomous-driving-scenes">DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes</a></li>
+            <li><a href="#🎈street-gaussians-for-modeling-dynamic-urban-scenes">Street gaussians for modeling dynamic urban scenes</a></li>
+            <li><a href="#🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
+            <li><a href="#🎈3dgs-calib-3d-gaussian-splatting-for-multimodal-spatiotemporal-calibration">3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration</a></li>
+            <li><a href="#🎈drivinggaussian-composite-gaussian-splatting-for-surrounding-dynamic-autonomous-driving-scenes">DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes</a></li>
           </ul>
         </li>
         <li>Simultaneous Localization and Mapping (SLAM)
           <ul>
-            <li><a href="#high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
-            <li><a href="#gs-slam-dense-visual-slam-with-3d-gaussian-splatting">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
-            <li><a href="#photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
-            <li><a href="#sgs-slam-semantic-gaussian-splatting-for-neural-dense-slam">SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM</a></li>
-            <li><a href="#neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
-            <li><a href="#depth-anything-unleashing-the-power-of-large-scale-unlabeled-data">Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data</a></li>
-            <li><a href="#droid-slam-deep-visual-slam-for-monocular-stereo-and-rgb-d-cameras">DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras</a></li>
-            <li><a href="#semgauss-slam-dense-semantic-gaussian-splatting-slam">SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM</a></li>
-            <li><a href="#gaussian-slam-photo-realistic-dense-slam-with-gaussian-splatting">Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting</a></li>
-            <li><a href="#gaussnav-gaussian-splatting-for-visual-navigation">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
-            <li><a href="#rgbd-gs-icp-slam">RGBD GS-ICP SLAM</a></li>
-            <li><a href="#joint-scene-and-object-tracking-for-cost-effective-augmented-reality-assisted-patient-positioning-in-radiation-therapy">Joint Scene and Object Tracking for Cost-Effective Augmented Reality Assisted Patient Positioning in Radiation Therapy</a></li>
-            <li><a href="#3dgs-reloc-3d-gaussian-splatting-for-map-representation-and-visual-relocalization">3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization</a></li>
-            <li><a href="#how-nerfs-and-3d-gaussian-splatting-are-reshaping-slam-a-survey">How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey</a></li>
-            <li><a href="#gaussian-splatting-slam">Gaussian Splatting SLAM</a></li>
-            <li><a href="#splatam-splat-track--map-3d-gaussians-for-dense-rgb-d-slam">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</a></li>
+            <li><a href="#🎈high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
+            <li><a href="#🎈gs-slam-dense-visual-slam-with-3d-gaussian-splatting">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
+            <li><a href="#🎈sgs-slam-semantic-gaussian-splatting-for-neural-dense-slam">SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM</a></li>
+            <li><a href="#🎈neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈depth-anything-unleashing-the-power-of-large-scale-unlabeled-data">Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data</a></li>
+            <li><a href="#🎈droid-slam-deep-visual-slam-for-monocular-stereo-and-rgb-d-cameras">DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras</a></li>
+            <li><a href="#🎈semgauss-slam-dense-semantic-gaussian-splatting-slam">SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM</a></li>
+            <li><a href="#🎈gaussian-slam-photo-realistic-dense-slam-with-gaussian-splatting">Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting</a></li>
+            <li><a href="#🎈gaussnav-gaussian-splatting-for-visual-navigation">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
+            <li><a href="#🎈rgbd-gs-icp-slam">RGBD GS-ICP SLAM</a></li>
+            <li><a href="#🎈joint-scene-and-object-tracking-for-cost-effective-augmented-reality-assisted-patient-positioning-in-radiation-therapy">Joint Scene and Object Tracking for Cost-Effective Augmented Reality Assisted Patient Positioning in Radiation Therapy</a></li>
+            <li><a href="#🎈3dgs-reloc-3d-gaussian-splatting-for-map-representation-and-visual-relocalization">3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization</a></li>
+            <li><a href="#🎈how-nerfs-and-3d-gaussian-splatting-are-reshaping-slam-a-survey">How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey</a></li>
+            <li><a href="#🎈gaussian-splatting-slam">Gaussian Splatting SLAM</a></li>
+            <li><a href="#🎈splatam-splat-track--map-3d-gaussians-for-dense-rgb-d-slam">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</a></li>
+            <li><a href="#🎈GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction">GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction</a></li>
+            <li><a href="#🎈MotionGS  Compact Gaussian Splatting SLAM by Motion Filter">MotionGS  Compact Gaussian Splatting SLAM by Motion Filter</a></li>
+            <li><a href="#🎈Multi-modal 3D Gaussian Splatting for SLAM">Multi-modal 3D Gaussian Splatting for SLAM</a></li>
+            <li><a href="#🎈NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap">NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap</a></li>
+            <li><a href="#🎈Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting">Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈RTG-SLAM Real-time 3D Reconstruction at Scale Using Gaussian">RTG-SLAM Real-time 3D Reconstruction at Scale Using Gaussian</a></li>
+            <li><a href="#🎈6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model">6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model</a></li>
+            <li><a href="#🎈Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting">Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting</a></li>
           </ul>
         </li>
       </ul>
     </li>
   </ul>
 </details>
+
 
 ### Extensions of 3D Gaussian Splatting
 
@@ -225,48 +257,54 @@
       <ul>
         <li>Multi-view Videos
           <ul>
-            <li><a href="#swags-sampling-windows-adaptively-for-dynamic-3d-gaussian-splatting">SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting</a></li>
-            <li><a href="#dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
-            <li><a href="#3dgstream-on-the-fly-training-of-3d-gaussians-for-efficient-streaming-of-photo-realistic-free-viewpoint-videos">3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos</a></li>
-            <li><a href="#bridging-3d-gaussian-and-mesh-for-freeview-video-rendering">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
+            <li><a href="#🎈swags-sampling-windows-adaptively-for-dynamic-3d-gaussian-splatting">SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
+            <li><a href="#🎈3dgstream-on-the-fly-training-of-3d-gaussians-for-efficient-streaming-of-photo-realistic-free-viewpoint-videos">3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos</a></li>
+            <li><a href="#🎈bridging-3d-gaussian-and-mesh-for-freeview-video-rendering">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
           </ul>
         </li>
         <li>Monocular Video
           <ul>
-            <li><a href="#deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction">Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction</a></li>
-            <li><a href="#4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
-            <li><a href="#real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting-1">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
-            <li><a href="#gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis">GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis</a></li>
-            <li><a href="#sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes">SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes</a></li>
-            <li><a href="#dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-1">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
-            <li><a href="#dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
-            <li><a href="#md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
-            <li><a href="#motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-1">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
-            <li><a href="#an-efficient-3d-gaussian-representation-for-monocularmulti-view-dynamic-scenes">An efficient 3d gaussian representation for monocular/multi-view dynamic scenes</a></li>
-            <li><a href="#gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
-            <li><a href="#4d-gaussian-splatting-for-real-time-dynamic-scene-rendering">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
-            <li><a href="#spacetime-gaussian-feature-splatting-for-real-time-dynamic-view-synthesis">Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis</a></li>
+            <li><a href="#🎈deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction">Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction</a></li>
+            <li><a href="#🎈4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
+            <li><a href="#🎈real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting-1">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
+            <li><a href="#🎈gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis">GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis</a></li>
+            <li><a href="#🎈sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes">SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes</a></li>
+            <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-1">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
+            <li><a href="#🎈dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
+            <li><a href="#🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-1">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
+            <li><a href="#🎈an-efficient-3d-gaussian-representation-for-monocularmulti-view-dynamic-scenes">An efficient 3d gaussian representation for monocular/multi-view dynamic scenes</a></li>
+            <li><a href="#🎈gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
+            <li><a href="#🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
+            <li><a href="#🎈spacetime-gaussian-feature-splatting-for-real-time-dynamic-view-synthesis">Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Surface Representation
       <ul>
-        <li><a href="#scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-2">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+        <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-2">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+        <li><a href="#🎈Direct Learning of Mesh and Appearance via 3D Gaussian Splatting">Direct Learning of Mesh and Appearance via 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING">GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING</a></li>
+        <li><a href="#🎈GaussianRoom Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction">GaussianRoom Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction</a></li>
+        <li><a href="#🎈OMEGAS Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation">OMEGAS Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation</a></li>
+        <li><a href="#🎈Trim 3D Gaussian Splatting for Accurate Geometry Representation">Trim 3D Gaussian Splatting for Accurate Geometry Representation</a></li>
         <li><a>Segmenting 3D Gaussians with Dual Feature Fusion </a></li>
           </ul>
         </li>
         <li>Physics Simulation
           <ul>
-            <li><a href="#4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-1">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
-            <li><a href="#dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-2">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
-            <li><a href="#physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics">PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics</a></li>
+            <li><a href="#🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-1">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
+            <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-2">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
+            <li><a href="#🎈physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics">PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics</a></li>
           </ul>
         </li>
       </ul>
     </li>
   </ul>
 </details>
+
 
 ## 3️⃣ Technical Classification
 
@@ -275,148 +313,148 @@
   <ul>
     <li>Initialization
       <ul>
-        <li><a href="#relaxing-accurate-initialization-constraint-for-3d-gaussian-splatting">Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting</a></li>
-        <li><a href="#neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-1">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
-        <li><a href="#text-to-3d-using-gaussian-splatting-1">Text-to-3D using Gaussian Splatting</a></li>
-        <li><a href="#agg-amortized-generative-3d-gaussians-for-single-image-to-3d-1">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
-        <li><a href="#gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting-1">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
+        <li><a href="#🎈relaxing-accurate-initialization-constraint-for-3d-gaussian-splatting">Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-1">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
+        <li><a href="#🎈text-to-3d-using-gaussian-splatting-1">Text-to-3D using Gaussian Splatting</a></li>
+        <li><a href="#🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d-1">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
+        <li><a href="#🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting-1">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
       </ul>
     </li>
     <li>Attribute Expansion
       <ul>
-        <li><a href="#neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-2">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
-        <li><a href="#language-embedded-3d-gaussians-for-open-vocabulary-scene-understanding-1">Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding</a></li>
-        <li><a href="#md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-1">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
-        <li><a href="#ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering-1">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
-        <li><a href="#cogs-controllable-gaussian-splatting-1">CoGS: Controllable Gaussian Splatting</a></li>
-        <li><a href="#compact-3d-gaussian-representation-for-radiance-field-1">Compact 3D Gaussian Representation for Radiance Field</a></li>
-        <li><a href="#4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes-1">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
-        <li><a href="#photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras-1">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
-        <li><a href="#gart-gaussian-articulated-template-models-1">GART: Gaussian Articulated Template Models</a></li>
-        <li><a href="#gaussian-grouping-segment-and-edit-anything-in-3d-scenes-1">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
-        <li><a href="#compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis-1">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
-        <li><a href="#pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction-1">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
-        <li><a href="#gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise-1">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
-        <li><a href="#dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting-1">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
-        <li><a href="#splatter-image-ultra-fast-single-view-3d-reconstruction-1">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
-        <li><a href="#motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-2">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
-        <li><a href="#multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering-1">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
-        <li><a href="#pointn-move-interactive-scene-object-manipulation-on-gaussian-splatting-radiance-fields-1">Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields</a></li>
+        <li><a href="#🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-2">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
+        <li><a href="#🎈language-embedded-3d-gaussians-for-open-vocabulary-scene-understanding-1">Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding</a></li>
+        <li><a href="#🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-1">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
+        <li><a href="#🎈ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering-1">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
+        <li><a href="#🎈cogs-controllable-gaussian-splatting-1">CoGS: Controllable Gaussian Splatting</a></li>
+        <li><a href="#🎈compact-3d-gaussian-representation-for-radiance-field-1">Compact 3D Gaussian Representation for Radiance Field</a></li>
+        <li><a href="#🎈4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes-1">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
+        <li><a href="#🎈photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras-1">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
+        <li><a href="#🎈gart-gaussian-articulated-template-models-1">GART: Gaussian Articulated Template Models</a></li>
+        <li><a href="#🎈gaussian-grouping-segment-and-edit-anything-in-3d-scenes-1">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
+        <li><a href="#🎈compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis-1">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
+        <li><a href="#🎈pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction-1">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
+        <li><a href="#🎈gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise-1">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
+        <li><a href="#🎈dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting-1">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈splatter-image-ultra-fast-single-view-3d-reconstruction-1">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
+        <li><a href="#🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-2">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
+        <li><a href="#🎈multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering-1">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
+        <li><a href="#🎈pointn-move-interactive-scene-object-manipulation-on-gaussian-splatting-radiance-fields-1">Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields</a></li>
       </ul>
     </li>
     <li>Splatting
       <ul>
-        <li><a href="#adop-approximate-differentiable-one-pixel-point-rendering">ADOP: Approximate Differentiable One-Pixel Point Rendering</a></li>
-        <li><a href="#gs-error-analyzing-and-optimal-gaussian-splatting">GS++: Error Analyzing and Optimal Gaussian Splatting</a></li>
-        <li><a href="#trips-trilinear-point-splatting-for-real-time-radiance-field-rendering">TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering</a></li>
-        <li><a href="#3d-gaussian-splatting-for-real-time-radiance-field-rendering-1">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
+        <li><a href="#🎈adop-approximate-differentiable-one-pixel-point-rendering">ADOP: Approximate Differentiable One-Pixel Point Rendering</a></li>
+        <li><a href="#🎈gs-error-analyzing-and-optimal-gaussian-splatting">GS++: Error Analyzing and Optimal Gaussian Splatting</a></li>
+        <li><a href="#🎈trips-trilinear-point-splatting-for-real-time-radiance-field-rendering">TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering</a></li>
+        <li><a href="#🎈3d-gaussian-splatting-for-real-time-radiance-field-rendering-1">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
       </ul>
     </li>
     <li>Regularization
       <ul>
         <li>3D Regularization
           <ul>
-            <li><a href="#cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting-1">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
-            <li><a href="#dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization-1">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
-            <li><a href="#md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-2">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
-            <li><a href="#depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-1">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
-            <li><a href="#geogaussian-geometry-aware-gaussian-splatting-for-scene-rendering">GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering</a></li>
-            <li><a href="#bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors-2">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
-            <li><a href="#neusg-neural-implicit-surface-reconstruction-with-3d-gaussian-splatting-guidance-1" >NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance</a></li>
-            <li><a href="#gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces-1">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
-            <li><a href="#gaussian-grouping-segment-and-edit-anything-in-3d-scenes-2">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
-            <li><a href="#gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-1">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
-            <li><a href="#high-quality-surface-reconstruction-using-gaussian-surfels-1">High-quality Surface Reconstruction using Gaussian Surfels</a></li>
+            <li><a href="#🎈cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting-1">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
+            <li><a href="#🎈dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization-1">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
+            <li><a href="#🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-2">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
+            <li><a href="#🎈depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-1">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
+            <li><a href="#🎈geogaussian-geometry-aware-gaussian-splatting-for-scene-rendering">GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering</a></li>
+            <li><a href="#🎈bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors-2">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
+            <li><a href="#🎈neusg-neural-implicit-surface-reconstruction-with-3d-gaussian-splatting-guidance-1" >NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance</a></li>
+            <li><a href="#🎈gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces-1">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
+            <li><a href="#🎈gaussian-grouping-segment-and-edit-anything-in-3d-scenes-2">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
+            <li><a href="#🎈gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-1">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
+            <li><a href="#🎈high-quality-surface-reconstruction-using-gaussian-surfels-1">High-quality Surface Reconstruction using Gaussian Surfels</a></li>
           </ul>
         </li>
         <li>2D Regularization
           <ul>
-            <li><a href="#high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization-1">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
-            <li><a href="#re-imagine-the-negative-prompt-algorithm-transform-2d-diffusion-into-3d-alleviate-janus-problem-and-beyond">Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond</a></li>
-            <li><a href="#fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting-1">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
-            <li><a href="#learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting-1">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
-            <li><a href="#align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models-1">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
-            <li><a href="#fregs-3d-gaussian-splatting-with-progressive-frequency-regularization-1">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
-            <li><a href="#humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-1">uman Generation with Gaussian Splatting</a></li>
-            <li><a href="#gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
+            <li><a href="#🎈high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization-1">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
+            <li><a href="#🎈re-imagine-the-negative-prompt-algorithm-transform-2d-diffusion-into-3d-alleviate-janus-problem-and-beyond">Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond</a></li>
+            <li><a href="#🎈fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting-1">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
+            <li><a href="#🎈learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting-1">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models-1">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
+            <li><a href="#🎈fregs-3d-gaussian-splatting-with-progressive-frequency-regularization-1">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
+            <li><a href="#🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-1">uman Generation with Gaussian Splatting</a></li>
+            <li><a href="#🎈gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
           </ul>
         </li>
         <li>Pruning
           <ul>
-            <li><a href="#lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps-3">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
-            <li><a href="#gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-1">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
-            <li><a href="#gaussian-splatting-slam-1">Gaussian Splatting SLAM</a></li>
-            <li><a href="#gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-1">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
-            <li><a href="#gs-slam-dense-visual-slam-with-3d-gaussian-splatting-1">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
-            <li><a href="#neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting-1">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
-            <li><a href="#compact-3d-gaussian-representation-for-radiance-field-2">Compact 3D Gaussian Representation for Radiance Field</a></li>
+            <li><a href="#🎈lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps-3">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
+            <li><a href="#🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-1">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
+            <li><a href="#🎈gaussian-splatting-slam-1">Gaussian Splatting SLAM</a></li>
+            <li><a href="#🎈gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-1">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
+            <li><a href="#🎈gs-slam-dense-visual-slam-with-3d-gaussian-splatting-1">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting-1">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈compact-3d-gaussian-representation-for-radiance-field-2">Compact 3D Gaussian Representation for Radiance Field</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Post-Processing
       <ul>
-        <li><a href="#lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-1">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
-        <li><a href="#ggrt-towards-generalizable-3d-gaussians-without-pose-priors-in-real-time">GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time</a></li>
-        <li><a href="#sugar-surface-aligned-gaussian-splatting-for-efficient-3d-mesh-reconstruction-and-high-quality-mesh-rendering-1">SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering</a></li>
-        <li><a href="#identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting-1">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
-        <li><a href="#delicate-textured-mesh-recovery-from-nerf-via-adaptive-surface-refinement">Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement</a></li>
-        <li><a href="#sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing-1">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
-        <li><a href="#augmented-reality-for-depth-cues-in-monocular-minimally-invasive-surgery">Augmented Reality for Depth Cues in Monocular Minimally Invasive Surgery</a></li>
-        <li><a href="#gaussian-opacity-fields-efficient-and-compact-surface-reconstruction-in-unbounded-scenes-1">Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes</a></li>
+        <li><a href="#🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-1">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
+        <li><a href="#🎈ggrt-towards-generalizable-3d-gaussians-without-pose-priors-in-real-time">GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time</a></li>
+        <li><a href="#🎈sugar-surface-aligned-gaussian-splatting-for-efficient-3d-mesh-reconstruction-and-high-quality-mesh-rendering-1">SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering</a></li>
+        <li><a href="#🎈identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting-1">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈delicate-textured-mesh-recovery-from-nerf-via-adaptive-surface-refinement">Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement</a></li>
+        <li><a href="#🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing-1">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
+        <li><a href="#🎈augmented-reality-for-depth-cues-in-monocular-minimally-invasive-surgery">Augmented Reality for Depth Cues in Monocular Minimally Invasive Surgery</a></li>
+        <li><a href="#🎈gaussian-opacity-fields-efficient-and-compact-surface-reconstruction-in-unbounded-scenes-1">Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes</a></li>
       </ul>
     </li>
     <li>Integration with Other Representations
       <ul>
         <li>Point Clouds
           <ul>
-            <li><a href="#gaussnav-gaussian-splatting-for-visual-navigation-2">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
+            <li><a href="#🎈gaussnav-gaussian-splatting-for-visual-navigation-2">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
           </ul>
         </li>
         <li>Mesh
           <ul>
-            <li><a href="#bridging-3d-gaussian-and-mesh-for-freeview-video-rendering-1">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
-            <li><a href="#lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-2">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
+            <li><a href="#🎈bridging-3d-gaussian-and-mesh-for-freeview-video-rendering-1">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
+            <li><a href="#🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-2">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
           </ul>
         </li>
         <li>Triplane
           <ul>
-            <li><a href="#triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers-1">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
-            <li><a href="#control4d-dynamic-portrait-editing-by-learning-4d-gan-from-2d-diffusion-based-editor">Control4d: Dynamic portrait editing by learning 4D GAN from 2D diffusion-based editor</a></li>
+            <li><a href="#🎈triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers-1">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
+            <li><a href="#🎈control4d-dynamic-portrait-editing-by-learning-4d-gan-from-2d-diffusion-based-editor">Control4d: Dynamic portrait editing by learning 4D GAN from 2D diffusion-based editor</a></li>
           </ul>
         </li>
         <li>Grid
           <ul>
-            <li><a href="#compact-3d-scene-representation-via-self-organizing-gaussian-grids-1">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
+            <li><a href="#🎈compact-3d-scene-representation-via-self-organizing-gaussian-grids-1">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
           </ul>
         </li>
         <li>Implicit Representation
           <ul>
-            <li><a href="#3dgsr-implicit-surface-reconstruction-with-3d-gaussian-splatting-1">3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting</a></li>
-            <li><a href="#gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-2">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
-            <li><a href="#gaussian-splatting-with-nerf-based-color-and-opacity">Gaussian Splatting with NeRF-based Color and Opacity</a></li>
+            <li><a href="#🎈3dgsr-implicit-surface-reconstruction-with-3d-gaussian-splatting-1">3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting</a></li>
+            <li><a href="#🎈gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-2">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
+            <li><a href="#🎈gaussian-splatting-with-nerf-based-color-and-opacity">Gaussian Splatting with NeRF-based Color and Opacity</a></li>
           </ul>
         </li>
         <li>Gaussian Volumes
           <ul>
-            <li><a href="#gvgen-text-to-3d-generation-with-volumetric-representation-2">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
+            <li><a href="#🎈gvgen-text-to-3d-generation-with-volumetric-representation-2">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Guidance by Additional Prior
       <ul>
-        <li><a href="#human-gaussian-splatting-real-time-rendering-of-animatable-avatars-1">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
-        <li><a href="#hugs-human-gaussian-splats-1">HUGS: Human Gaussian Splats</a></li>
-        <li><a href="#3d-menagerie-modeling-the-3d-shape-and-pose-of-animals">3D Menagerie: Modeling the 3D shape and pose of animals</a></li>
-        <li><a href="#3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting-1">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
-        <li><a href="#touch-gs-visual-tactile-supervised-3d-gaussian-splatting-1">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
-        <li><a href="#gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-2">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
-        <li><a href="#humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-3">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
-        <li><a href="#gaussian-shell-maps-for-efficient-3d-human-generation-2">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
-        <li><a href="#gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting-1">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
-        <li><a href="#gaussian-shell-maps-for-efficient-3d-human-generation-3">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
-        <li><a href="#hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting-1">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
+        <li><a href="#🎈human-gaussian-splatting-real-time-rendering-of-animatable-avatars-1">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
+        <li><a href="#🎈hugs-human-gaussian-splats-1">HUGS: Human Gaussian Splats</a></li>
+        <li><a href="#🎈3d-menagerie-modeling-the-3d-shape-and-pose-of-animals">3D Menagerie: Modeling the 3D shape and pose of animals</a></li>
+        <li><a href="#🎈3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting-1">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈touch-gs-visual-tactile-supervised-3d-gaussian-splatting-1">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
+        <li><a href="#🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-2">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
+        <li><a href="#🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-3">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
+        <li><a href="#🎈gaussian-shell-maps-for-efficient-3d-human-generation-2">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
+        <li><a href="#🎈gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting-1">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
+        <li><a href="#🎈gaussian-shell-maps-for-efficient-3d-human-generation-3">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
+        <li><a href="#🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting-1">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
 </ul>
 </li>
 
@@ -437,7 +475,7 @@ Radiance Field methods have recently revolutionized novel-view synthesis of scen
 ## Efficiency
 ### Storage Efficiency
 
-### Improving efficient Gaussian representations
+#### Improving efficient Gaussian representations
 
 ##### 🎈Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
 
@@ -458,10 +496,9 @@ Neural rendering methods have significantly advanced photo-realistic 3D scene re
 <summary><b>Abstract</b></summary>
 Advancements in 3D Gaussian Splatting have significantly accelerated 3D reconstruction and generation. However, it may require a large number of Gaussians, which creates a substantial memory footprint. This paper introduces GES (Generalized Exponential Splatting), a novel representation that employs Generalized Exponential Function (GEF) to model 3D scenes, requiring far fewer particles to represent a scene and thus significantly outperforming Gaussian Splatting methods in efficiency with a plug-and-play replacement ability for Gaussian-based utilities. GES is validated theoretically and empirically in both principled 1D setup and realistic 3D scenes. It is shown to represent signals with sharp edges more accurately, which are typically challenging for Gaussians due to their inherent low-pass characteristics. Our empirical analysis demonstrates that GEF outperforms Gaussians in fitting natural-occurring signals (e.g. squares, triangles, and parabolic signals), thereby reducing the need for extensive splitting operations that increase the memory footprint of Gaussian Splatting. With the aid of a frequency-modulated loss, GES achieves competitive performance in novel-view synthesis benchmarks while requiring less than half the memory storage of Gaussian Splatting and increasing the rendering speed by up to 39%. The code is available on the project website https://abdullahamdi.com/ges .
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2402.10128v2.pdf)
 
-####  Developing pruning strategies or compressing SH parameters
+#### Developing pruning strategies or compressing SH parameters
 
 ##### 🎈LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
 
@@ -482,8 +519,18 @@ Recent advancements in real-time neural rendering using point-based techniques h
 <summary><b>Abstract</b></summary>
 3D Gaussian Splatting has recently emerged as a highly promising technique for modeling of static 3D scenes. In contrast to Neural Radiance Fields, it utilizes efficient rasterization allowing for very fast rendering at high-quality. However, the storage size is significantly higher, which hinders practical deployment, e.g. on resource constrained devices. In this paper, we introduce a compact scene representation organizing the parameters of 3D Gaussian Splatting (3DGS) into a 2D grid with local homogeneity, ensuring a drastic reduction in storage requirements without compromising visual quality during rendering. Central to our idea is the explicit exploitation of perceptual redundancies present in natural scenes. In essence, the inherent nature of a scene allows for numerous permutations of Gaussian parameters to equivalently represent it. To this end, we propose a novel highly parallel algorithm that regularly arranges the high-dimensional Gaussian parameters into a 2D grid while preserving their neighborhood structure. During training, we further enforce local smoothness between the sorted parameters in the grid. The uncompressed Gaussians use the same structure as 3DGS, ensuring a seamless integration with established renderers. Our method achieves a reduction factor of 17x to 42x in size for complex scenes with no increase in training time, marking a substantial leap forward in the domain of 3D scene distribution and consumption. Additional information can be found on our project page: https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2312.13299v2.pdf)
+
+##### 🎈ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model
+
+**Authors**: [Yufei Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Zhihao Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Z), [Lanqing Guo](https://arxiv.org/search/cs?searchtype=author&query=Guo,+L), [Wenhan Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+W), [Alex C. Kot](https://arxiv.org/search/cs?searchtype=author&query=Kot,+A+C), [Bihan Wen](https://arxiv.org/search/cs?searchtype=author&query=Wen,+B)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recently, 3D Gaussian Splatting (3DGS) has become a promising framework for novel view synthesis, offering fast rendering speeds and high fidelity. However, the large number of Gaussians and their associated attributes require effective compression techniques. Existing methods primarily compress neural Gaussians individually and independently, i.e., coding all the neural Gaussians at the same time, with little design for their interactions and spatial dependence. Inspired by the effectiveness of the context model in image compression, we propose the first autoregressive model at the anchor level for 3DGS compression in this work. We divide anchors into different levels and the anchors that are not coded yet can be predicted based on the already coded ones in all the coarser levels, leading to more accurate modeling and higher coding efficiency. To further improve the efficiency of entropy coding, e.g., to code the coarsest level with no already coded anchors, we propose to introduce a low-dimensional quantized feature as the hyperprior for each anchor, which can be effectively compressed. Our work pioneers the context model in the anchor level for 3DGS representation, yielding an impressive size reduction of over 100 times compared to vanilla 3DGS and 15 times compared to the most recent state-of-the-art work Scaffold-GS, while achieving comparable or even higher rendering quality.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.20721)
 
 ##### 🎈Compact 3D Gaussian Representation for Radiance Field
 
@@ -493,10 +540,20 @@ Recent advancements in real-time neural rendering using point-based techniques h
 <summary><b>Abstract</b></summary>
 Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturing complex 3D scenes with high fidelity. However, one persistent challenge that hinders the widespread adoption of NeRFs is the computational bottleneck due to the volumetric rendering. On the other hand, 3D Gaussian splatting (3DGS) has recently emerged as an alternative representation that leverages a 3D Gaussisan-based representation and adopts the rasterization pipeline to render the images rather than volumetric rendering, achieving very fast rendering speed and promising image quality. However, a significant drawback arises as 3DGS entails a substantial number of 3D Gaussians to maintain the high fidelity of the rendered images, which requires a large amount of memory and storage. To address this critical issue, we place a specific emphasis on two key objectives: reducing the number of Gaussian points without sacrificing performance and compressing the Gaussian attributes, such as view-dependent color and covariance. To this end, we propose a learnable mask strategy that significantly reduces the number of Gaussians while preserving high performance. In addition, we propose a compact but effective representation of view-dependent color by employing a grid-based neural field rather than relying on spherical harmonics. Finally, we learn codebooks to compactly represent the geometric attributes of Gaussian by vector quantization. With model compression techniques such as quantization and entropy coding, we consistently show over 25$\times$ reduced storage and enhanced rendering speed, while maintaining the quality of the scene representation, compared to 3DGS. Our work provides a comprehensive framework for 3D scene representation, achieving high performance, fast training, compactness, and real-time rendering. Our project page is available at https://maincold2.github.io/c3dgs/.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
 
-####  Applying Vector Quantization(VQ) techniques
+##### 🎈F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting
+
+**Authors**: [Xiangyu Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+X), [Joo Chan Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+J+C), [Daniel Rho](https://arxiv.org/search/cs?searchtype=author&query=Rho,+D), [Jong Hwan Ko](https://arxiv.org/search/cs?searchtype=author&query=Ko,+J+H), [Usman Ali](https://arxiv.org/search/cs?searchtype=author&query=Ali,+U), [Eunbyung Park](https://arxiv.org/search/cs?searchtype=author&query=Park,+E)
+
+<details>
+<summary><b>Abstract</b></summary>
+The neural radiance field (NeRF) has made significant strides in representing 3D scenes and synthesizing novel views. Despite its advancements, the high computational costs of NeRF have posed challenges for its deployment in resource-constrained environments and real-time applications. As an alternative to NeRF-like neural rendering methods, 3D Gaussian Splatting (3DGS) offers rapid rendering speeds while maintaining excellent image quality. However, as it represents objects and scenes using a myriad of Gaussians, it requires substantial storage to achieve high-quality representation. To mitigate the storage overhead, we propose Factorized 3D Gaussian Splatting (F-3DGS), a novel approach that drastically reduces storage requirements while preserving image quality. Inspired by classical matrix and tensor factorization techniques, our method represents and approximates dense clusters of Gaussians with significantly fewer Gaussians through efficient factorization. We aim to efficiently represent dense 3D Gaussians by approximating them with a limited amount of information for each axis and their combinations. This method allows us to encode a substantially large number of Gaussians along with their essential attributes -- such as color, scale, and rotation -- necessary for rendering using a relatively small number of elements. Extensive experimental results demonstrate that F-3DGS achieves a significant reduction in storage costs while maintaining comparable quality in rendered images.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.17083v1)
+
+#### Applying Vector Quantization(VQ) techniques
 
 ##### 🎈Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
 
@@ -509,7 +566,7 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 
 [📄 Paper](https://arxiv.org/pdf/2401.02436v2.pdf)
 
-#### 🎈Compact3d: Compressing gaussian splat radiance field models with vector quantization
+##### 🎈Compact3d: Compressing gaussian splat radiance field models with vector quantization
 
 **Authors**: KL Navaneet, Kossar Pourahmadi Meibodi, Soroush Abbasi Koohpayegani, Hamed Pirsiavash
 
@@ -518,11 +575,35 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 <summary><b>Abstract</b></summary>
 3D Gaussian Splatting (3DGS) is a new method for modeling and rendering 3D radiance fields that achieves much faster learning and rendering time compared to SOTA NeRF methods. However, it comes with the drawback of a much larger storage demand compared to NeRF methods since it needs to store the parameters for millions of 3D Gaussians. We notice that large groups of Gaussians share similar parameters and introduce a simple vector quantization method based on K-means algorithm to quantize the Gaussian parameters. Then, we store the small codebook along with the index of the code for each Gaussian. We compress the indices further by sorting them and using a method similar to run-length encoding. Moreover, we use a simple regularizer that encourages zero opacity (invisible Gaussians) to reduce the number of Gaussians, thereby compressing the model and speeding up the rendering. We do extensive experiments on standard benchmarks as well as an existing 3D dataset that is an order of magnitude larger than the standard benchmarks used in this field. We show that our simple yet effective method can reduce the storage costs for 3DGS by 40 to 50x and rendering time by 2 to 3x with a very small drop in the quality of rendered images.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2311.18159)
 
+#### Will be categorized later
+
+##### 🎈Gaussian-Forest: Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling
+
+**Authors**: [Fengyi Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+F), [Tianjun Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+T), [Lin Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+L), [Helen Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+H), [Yadan Luo](https://arxiv.org/search/cs?searchtype=author&query=Luo,+Y)
+
+<details>
+<summary><b>Abstract</b></summary>
+The field of novel-view synthesis has recently witnessed the emergence of 3D Gaussian Splatting, which represents scenes in a point-based manner and renders through rasterization. This methodology, in contrast to Radiance Fields that rely on ray tracing, demonstrates superior rendering quality and speed. However, the explicit and unstructured nature of 3D Gaussians poses a significant storage challenge, impeding its broader application. To address this challenge, we introduce the Gaussian-Forest modeling framework, which hierarchically represents a scene as a forest of hybrid 3D Gaussians. Each hybrid Gaussian retains its unique explicit attributes while sharing implicit ones with its sibling Gaussians, thus optimizing parameterization with significantly fewer variables. Moreover, adaptive growth and pruning strategies are designed, ensuring detailed representation in complex regions and a notable reduction in the number of required Gaussians. Extensive experiments demonstrate that Gaussian-Forest not only maintains comparable speed and quality but also achieves a compression rate surpassing 10 times, marking a significant advancement in efficient scene modeling. Codes are available at this https URL.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2406.08759)
+
+##### 🎈Reducing the Memory Footprint of 3D Gaussian Splatting
+
+**Authors**: [Panagiotis Papantonakis](https://arxiv.org/search/cs?searchtype=author&query=Papantonakis,+P), [Georgios Kopanas](https://arxiv.org/search/cs?searchtype=author&query=Kopanas,+G), [Bernhard Kerbl](https://arxiv.org/search/cs?searchtype=author&query=Kerbl,+B), [Alexandre Lanvin](https://arxiv.org/search/cs?searchtype=author&query=Lanvin,+A), [George Drettakis](https://arxiv.org/search/cs?searchtype=author&query=Drettakis,+G)
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian splatting provides excellent visual quality for novel view synthesis, with fast training and real-time rendering; unfortunately, the memory requirements of this method for storing and transmission are unreasonably high. We first analyze the reasons for this, identifying three main areas where storage can be reduced: the number of 3D Gaussian primitives used to represent a scene, the number of coefficients for the spherical harmonics used to represent directional radiance, and the precision required to store Gaussian primitive attributes. We present a solution to each of these issues. First, we propose an efficient, resolution-aware primitive pruning approach, reducing the primitive count by half. Second, we introduce an adaptive adjustment method to choose the number of coefficients used to represent directional radiance for each Gaussian primitive, and finally a codebook-based quantization method, together with a half-float representation for further memory reduction. Taken together, these three components result in a 27 reduction in overall size on disk on the standard datasets we tested, along with a 1.7 speedup in rendering speed. We demonstrate our method on standard datasets and show how our solution results in significantly reduced download times when using the method on a mobile device.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2406.17074)
+
 ### Training Efficiency
-#### DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines
+
+##### 🎈DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines
 
 **Authors**: Nandita Vijaykumar, Pawan Kumar Sanjaya, Ruofan Liang, Fan Chen, Adrian Zhao, Sankeerth Durvasula
 
@@ -530,11 +611,21 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 <summary><b>Abstract</b></summary>
 Differentiable rendering is a technique used in an important emerging class of visual computing applications that involves representing a 3D scene as a model that is trained from 2D images using gradient descent. Recent works (e.g. 3D Gaussian Splatting) use a rasterization pipeline to enable rendering high quality photo-realistic imagery at high speeds from these learned 3D models. These methods have been demonstrated to be very promising, providing state-of-art quality for many important tasks. However, training a model to represent a scene is still a time-consuming task even when using powerful GPUs. In this work, we observe that the gradient computation phase during training is a significant bottleneck on GPUs due to the large number of atomic operations that need to be processed. These atomic operations overwhelm atomic units in the L2 partitions causing stalls. To address this challenge, we leverage the observations that during the gradient computation: (1) for most warps, all threads atomically update the same memory locations; and (2) warps generate varying amounts of atomic traffic (since some threads may be inactive). We propose DISTWAR, a software-approach to accelerate atomic operations based on two key ideas: First, we enable warp-level reduction of threads at the SM sub-cores using registers to leverage the locality in intra-warp atomic updates. Second, we distribute the atomic computation between the warp-level reduction at the SM and the L2 atomic units to increase the throughput of atomic computation. Warps with many threads performing atomic updates to the same memory locations are scheduled at the SM, and the rest using L2 atomic units. We implement DISTWAR using existing warp-level primitives. We evaluate DISTWAR on widely used raster-based differentiable rendering workloads. We demonstrate significant speedups of 2.44x on average (up to 5.7x).
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2401.05345v1.pdf)
 
+##### 🎈I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions
+
+**Authors**: [Jinwei Lin](https://arxiv.org/search/cs?searchtype=author&query=Lin,+J)
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting is a novel method for 3D view synthesis, which can gain an implicit neural learning rendering result than the traditional neural rendering technology but keep the more high-definition fast rendering speed. But it is still difficult to achieve a fast enough efficiency on 3D Gaussian Splatting for the practical applications. To Address this issue, we propose the I3DS, a synthetic model performance improvement evaluation solution and experiments test. From multiple and important levels or dimensions of the original 3D Gaussian Splatting, we made more than two thousand various kinds of experiments to test how the selected different items and components can make an impact on the training efficiency of the 3D Gaussian Splatting model. In this paper, we will share abundant and meaningful experiences and methods about how to improve the training, performance and the impacts caused by different items of the model. A special but normal Integer compression in base 95 and a floating-point compression in base 94 with ASCII encoding and decoding mechanism is presented. Many real and effective experiments and test results or phenomena will be recorded. After a series of reasonable fine-tuning, I3DS can gain excellent performance improvements than the previous one. The project code is available as open source.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.06408)
+
 ### Rendering Efficiency
-#### Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting
+##### 🎈Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting
 
 **Authors**: Jongsun Park, Hyeongwon Kim, Joongho Jo
 
@@ -545,8 +636,8 @@ Differentiable rendering is a technique used in an important emerging class of v
 
 [📄 Paper](https://arxiv.org/pdf/2402.13827v1.pdf)
 
-#### GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting
- 
+##### 🎈GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting
+
  **Authors**: Abdullah Hamdi, Luke Melas-Kyriazi, Jinjie Mai, Guocheng Qian, Ruoshi Liu, Carl Vondrick, Bernard Ghanem, Andrea Vedaldi
 
 <details>
@@ -559,7 +650,7 @@ It is shown to represent signals with sharp edges more accurately, which are typ
 
 ## Photorealism
 
-#### Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting
+##### 🎈Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting
 
 **Authors**: Siwei Ma, Jian Zhang, Shuzhou Yang, Qiankun Gao, Yanmin Wu, Haijie Li, Jiarui Meng
 
@@ -570,7 +661,7 @@ It is shown to represent signals with sharp edges more accurately, which are typ
 
 [📄 Paper](https://arxiv.org/pdf/2404.01168v1.pdf)
 
-#### Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
+##### 🎈Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
 
 **Authors**: Bo Dai, Dahua Lin, LiMin Wang, Yuanbo Xiangli, Linning Xu, Mulin Yu, Tao Lu
 
@@ -578,10 +669,9 @@ It is shown to represent signals with sharp edges more accurately, which are typ
 <summary><b>Abstract</b></summary>
 Neural rendering methods have significantly advanced photo-realistic 3D scene rendering in various academic and industrial applications. The recent 3D Gaussian Splatting method has achieved the state-of-the-art rendering quality and speed combining the benefits of both primitive-based representations and volumetric representations. However, it often leads to heavily redundant Gaussians that try to fit every training view, neglecting the underlying scene geometry. Consequently, the resulting model becomes less robust to significant view changes, texture-less area and lighting effects. We introduce Scaffold-GS, which uses anchor points to distribute local 3D Gaussians, and predicts their attributes on-the-fly based on viewing direction and distance within the view frustum. Anchor growing and pruning strategies are developed based on the importance of neural Gaussians to reliably improve the scene coverage. We show that our method effectively reduces redundant Gaussians while delivering high-quality rendering. We also demonstrates an enhanced capability to accommodate scenes with varying levels-of-detail and view-dependent observations, without sacrificing the rendering speed.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2312.00109v1.pdf)
 
-#### Mip-Splatting: Alias-free 3D Gaussian Splatting
+##### 🎈Mip-Splatting: Alias-free 3D Gaussian Splatting
 
 **Authors**: Andreas Geiger, Torsten Sattler, Binbin Huang, Anpei Chen, Zehao Yu
 
@@ -592,7 +682,7 @@ Recently, 3D Gaussian Splatting has demonstrated impressive novel view synthesis
 
 [📄 Paper](https://arxiv.org/pdf/2311.16493v1.pdf)
 
-#### Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing
+##### 🎈Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing
 
 **Authors**: Yao Yao, Li Zhang, Xun Cao, Hao Zhu, Youtian Lin, Chun Gu, Jian Gao
 
@@ -603,7 +693,7 @@ We present a novel differentiable point-based rendering framework for material a
 
 [📄 Paper](https://arxiv.org/pdf/2311.16043v1.pdf)
 
-#### GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces
+##### 🎈GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces
 
 **Authors**: Yuexin Ma, Wenping Wang, Xiaoxiao Long, Xifeng Gao, YuAn Liu, Jiadong Tu, Yingwenqi Jiang
 
@@ -614,7 +704,7 @@ The advent of neural 3D Gaussians has recently brought about a revolution in the
 
 [📄 Paper](https://arxiv.org/pdf/2311.17977v1.pdf)
 
-#### Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering
+##### 🎈Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering
 
 **Authors**: Gim Hee Lee, Yu Chen, Weng Fei Low, Zhiwen Yan
 
@@ -625,7 +715,7 @@ The advent of neural 3D Gaussians has recently brought about a revolution in the
 
 [📄 Paper](https://arxiv.org/pdf/2311.17089v2.pdf)
 
-#### Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting
+##### 🎈Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting
 
 **Authors**: Xiaogang Jin, Xiaojuan Qi, Shaohui Jiao, Wen Zhou, Xiaoyang Lyu, Yihua Huang, Yangtian Sun, Xinyu Gao, ZiYi Yang
 
@@ -633,10 +723,9 @@ The advent of neural 3D Gaussians has recently brought about a revolution in the
 <summary><b>Abstract</b></summary>
 The recent advancements in 3D Gaussian splatting (3D-GS) have not only facilitated real-time rendering through modern GPU rasterization pipelines but have also attained state-of-the-art rendering quality. Nevertheless, despite its exceptional rendering quality and performance on standard datasets, 3D-GS frequently encounters difficulties in accurately modeling specular and anisotropic components. This issue stems from the limited ability of spherical harmonics (SH) to represent high-frequency information. To overcome this challenge, we introduce Spec-Gaussian, an approach that utilizes an anisotropic spherical Gaussian (ASG) appearance field instead of SH for modeling the view-dependent appearance of each 3D Gaussian. Additionally, we have developed a coarse-to-fine training strategy to improve learning efficiency and eliminate floaters caused by overfitting in real-world scenes. Our experimental results demonstrate that our method surpasses existing approaches in terms of rendering quality. Thanks to ASG, we have significantly improved the ability of 3D-GS to model scenes with specular and anisotropic components without increasing the number of 3D Gaussians. This improvement extends the applicability of 3D GS to handle intricate scenarios with specular and anisotropic surfaces.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2402.15870v1.pdf)
 
-#### FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization
+##### 🎈FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization
 
 **Authors**: Eric Xing, Shijian Lu, Muyu Xu, Fangneng Zhan, Jiahui Zhang
 
@@ -647,7 +736,7 @@ The recent advancements in 3D Gaussian splatting (3D-GS) have not only facilitat
 
 [📄 Paper](https://arxiv.org/pdf/2403.06908v2.pdf)
 
-#### DeblurGS: Gaussian Splatting for Camera Motion Blur
+##### 🎈DeblurGS: Gaussian Splatting for Camera Motion Blur
 
 **Authors**: Kyoung Mu Lee, Dongwoo Lee, JaeYoung Chung, Jeongtaek Oh
 
@@ -658,7 +747,7 @@ Although significant progress has been made in reconstructing sharp 3D scenes fr
 
 [📄 Paper](https://arxiv.org/pdf/2404.11358v2.pdf)
 
-#### GaussianPro: 3D Gaussian Splatting with Progressive Propagation
+##### 🎈GaussianPro: 3D Gaussian Splatting with Progressive Propagation
 
 **Authors**: Xuejin Chen, Wenping Wang, Yuexin Ma, Wei Yin, Yao Yao, Kaizhi Yang, Xiaoxiao Long, Kai Cheng
 
@@ -669,7 +758,7 @@ The advent of 3D Gaussian Splatting (3DGS) has recently brought about a revoluti
 
 [📄 Paper](https://arxiv.org/pdf/2402.14650v1.pdf)
 
-#### SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing
+##### 🎈SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing
 
 **Authors**: Hao Zhao, Weihao Gu, Xiang He, Jingwei Zhao, Huan-ang Gao, Shiran Yuan, Jv Zheng, Xiaowei Song
 
@@ -677,12 +766,11 @@ The advent of 3D Gaussian Splatting (3DGS) has recently brought about a revoluti
 <summary><b>Abstract</b></summary>
 In this paper, we present a Scale-adaptive method for Anti-aliasing Gaussian Splatting (SA-GS). While the state-of-the-art method Mip-Splatting needs modifying the training procedure of Gaussian splatting, our method functions at test-time and is training-free. Specifically, SA-GS can be applied to any pretrained Gaussian splatting field as a plugin to significantly improve the field's anti-alising performance. The core technique is to apply 2D scale-adaptive filters to each Gaussian during test time. As pointed out by Mip-Splatting, observing Gaussians at different frequencies leads to mismatches between the Gaussian scales during training and testing. Mip-Splatting resolves this issue using 3D smoothing and 2D Mip filters, which are unfortunately not aware of testing frequency. In this work, we show that a 2D scale-adaptive filter that is informed of testing frequency can effectively match the Gaussian scale, thus making the Gaussian primitive distribution remain consistent across different testing frequencies. When scale inconsistency is eliminated, sampling rates smaller than the scene frequency result in conventional jaggedness, and we propose to integrate the projected 2D Gaussian within each pixel during testing. This integration is actually a limiting case of super-sampling, which significantly improves anti-aliasing performance over vanilla Gaussian Splatting. Through extensive experiments using various settings and both bounded and unbounded scenes, we show SA-GS performs comparably with or better than Mip-Splatting. Note that super-sampling and integration are only effective when our scale-adaptive filtering is activated. Our codes, data and models are available at https://github.com/zsy1987/SA-GS.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2403.19615v1.pdf)
 
 ## Generalization and Sparse Views
 ### Generalizable 3D Gaussian Splatting
-#### AGG: Amortized Generative 3D Gaussians for Single Image to 3D
+##### 🎈AGG: Amortized Generative 3D Gaussians for Single Image to 3D
 
 **Authors**: Arash Vahdat, Zhangyang Wang, Jiaming Song, Sifei Liu, Morteza Mardani, Ye Yuan, Dejia Xu
 
@@ -693,7 +781,7 @@ Given the growing need for automatic 3D content creation pipelines, various 3D r
 
 [📄 Paper](https://arxiv.org/pdf/2401.04099v1.pdf)
 
-#### Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
+##### 🎈Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
 
 **Authors**: Song-Hai Zhang, Yan-Pei Cao, Ding Liang, Yangguang Li, Yuan-Chen Guo, Zhipeng Yu, Zi-Xin Zou
 
@@ -704,7 +792,7 @@ Recent advancements in 3D reconstruction from single images have been driven by 
 
 [📄 Paper](https://arxiv.org/pdf/2312.09147v2.pdf)
 
-#### Splatter Image: Ultra-Fast Single-View 3D Reconstruction
+##### 🎈Splatter Image: Ultra-Fast Single-View 3D Reconstruction
 
 **Authors**: Andrea Vedaldi, Christian Rupprecht, Stanislaw Szymanowicz
 
@@ -715,7 +803,7 @@ We introduce the \method, an ultra-efficient approach for monocular 3D object re
 
 [📄 Paper](https://arxiv.org/pdf/2312.13150v2.pdf)
 
-#### MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo
+##### 🎈MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo
 
 **Authors**: Hao Su, Jingyi Yu, Fanbo Xiang, Xiaoshuai Zhang, Fuqiang Zhao, Zexiang Xu, Anpei Chen
 
@@ -726,7 +814,7 @@ We present MVSNeRF, a novel neural rendering approach that can efficiently recon
 
 [📄 Paper](https://arxiv.org/pdf/2103.15595v2.pdf)
 
-#### pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction
+##### 🎈pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction
 
 **Authors**: Vincent Sitzmann, Andrea Tagliasacchi, Sizhe Li, David Charatan
 
@@ -737,7 +825,7 @@ We introduce pixelSplat, a feed-forward model that learns to reconstruct 3D radi
 
 [📄 Paper](https://arxiv.org/pdf/2312.12337v4.pdf)
 
-#### MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images
+##### 🎈MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images
 
 **Authors**: Jianfei Cai, Tat-Jen Cham, Andreas Geiger, Marc Pollefeys, Bohan Zhuang, Chuanxia Zheng, Haofei Xu, Yuedong Chen
 
@@ -745,11 +833,23 @@ We introduce pixelSplat, a feed-forward model that learns to reconstruct 3D radi
 <summary><b>Abstract</b></summary>
 We introduce MVSplat, an efficient model that, given sparse multi-view images as input, predicts clean feed-forward 3D Gaussians. To accurately localize the Gaussian centers, we build a cost volume representation via plane sweeping, where the cross-view feature similarities stored in the cost volume can provide valuable geometry cues to the estimation of depth. We also learn other Gaussian primitives' parameters jointly with the Gaussian centers while only relying on photometric supervision. We demonstrate the importance of the cost volume representation in learning feed-forward Gaussians via extensive experimental evaluations. On the large-scale RealEstate10K and ACID benchmarks, MVSplat achieves state-of-the-art performance with the fastest feed-forward inference speed (22~fps). More impressively, compared to the latest state-of-the-art method pixelSplat, MVSplat uses $10\times$ fewer parameters and infers more than $2\times$ faster while providing higher appearance and geometry quality as well as better cross-dataset generalization.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2403.14627v2.pdf)
 
+FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes
+
+##### 🎈FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes
+
+**Authors**: [Yunsong Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Tianxin Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+T), [Hanlin Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+H), [Gim Hee Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+G+H)
+
+<details>
+<summary><b>Abstract</b></summary>
+Empowering 3D Gaussian Splatting with generalization ability is appealing. However, existing generalizable 3D Gaussian Splatting methods are largely confined to narrow-range interpolation between stereo images due to their heavy backbones, thus lacking the ability to accurately localize 3D Gaussian and support free-view synthesis across wide view range. In this paper, we present a novel framework FreeSplat that is capable of reconstructing geometrically consistent 3D scenes from long sequence input towards free-view synthesis.Specifically, we firstly introduce Low-cost Cross-View Aggregation achieved by constructing adaptive cost volumes among nearby views and aggregating features using a multi-scale structure. Subsequently, we present the Pixel-wise Triplet Fusion to eliminate redundancy of 3D Gaussians in overlapping view regions and to aggregate features observed across multiple views. Additionally, we propose a simple but effective free-view training strategy that ensures robust view synthesis across broader view range regardless of the number of views. Our empirical results demonstrate state-of-the-art novel view synthesis peformances in both novel view rendered color maps quality and depth maps accuracy across different numbers of input views. We also show that FreeSplat performs inference more efficiently and can effectively reduce redundant Gaussians, offering the possibility of feed-forward large scene reconstruction without depth priors.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.17958)
+
 ### Sparse Views Setting
-#### Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting
+##### 🎈Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting
 
 **Authors**: Monroe Kennedy III, Mac Schwager, Gadiel Sznaier Camps, Won Kyung Do, Matthew Strong, Aiden Swann
 
@@ -760,7 +860,7 @@ In this work, we propose a novel method to supervise 3D Gaussian Splatting (3DGS
 
 [📄 Paper](https://arxiv.org/pdf/2403.09875v2.pdf)
 
-#### DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization
+##### 🎈DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization
 
 **Authors**: Lin Gu, Jun Zhou, Xin Ning, Jin Zheng, Xiao Bai, Jiawei Zhang, Jiahe Li
 
@@ -770,7 +870,7 @@ Radiance fields have demonstrated impressive performance in synthesizing novel v
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.06912v3.pdf)
 
-#### GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting
+##### 🎈GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting
 
 **Authors**: Qi Tian, Wei Shen, Xiaopeng Zhang, Lingxi Xie, Ruofan Liang, Jiemin Fang, Sikuang Li, Chen Yang
 
@@ -781,7 +881,7 @@ Reconstructing and rendering 3D objects from highly sparse views is of critical 
 
 [📄 Paper](https://arxiv.org/pdf/2402.10259v2.pdf)
 
-#### Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images
+##### 🎈Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images
 
 **Authors**: Kyoung Mu Lee, Jeongtaek Oh, JaeYoung Chung
 
@@ -792,7 +892,7 @@ In this paper, we present a method to optimize Gaussian splatting with a limited
 
 [📄 Paper](https://arxiv.org/pdf/2311.13398v3.pdf)
 
-#### FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting
+##### 🎈FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting
 
 **Authors**: Zhangyang Wang, Yifan Jiang, Zhiwen Fan, Zehao Zhu
 
@@ -800,13 +900,59 @@ In this paper, we present a method to optimize Gaussian splatting with a limited
 <summary><b>Abstract</b></summary>
 Novel view synthesis from limited observations remains an important and persistent task. However, high efficiency in existing NeRF-based few-shot view synthesis is often compromised to obtain an accurate 3D representation. To address this challenge, we propose a few-shot view synthesis framework based on 3D Gaussian Splatting that enables real-time and photo-realistic view synthesis with as few as three training views. The proposed method, dubbed FSGS, handles the extremely sparse initialized SfM points with a thoughtfully designed Gaussian Unpooling process. Our method iteratively distributes new Gaussians around the most representative locations, subsequently infilling local details in vacant areas. We also integrate a large-scale pre-trained monocular depth estimator within the Gaussians optimization process, leveraging online augmented views to guide the geometric optimization towards an optimal solution. Starting from sparse points observed from limited input viewpoints, our FSGS can accurately grow into unseen regions, comprehensively covering the scene and boosting the rendering quality of novel views. Overall, FSGS achieves state-of-the-art performance in both accuracy and rendering efficiency across diverse datasets, including LLFF, Mip-NeRF360, and Blender. Project website: https://zehaozhu.github.io/FSGS/.
 </details>
+[📄 Paper](https://arxiv.org/pdf/2312.00451v2.pdf)
+
+##### 🎈CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization
+
+**Authors**: [Jiawei Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J), [Jiahe Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J), [Xiaohan Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+X), [Lei Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+L), [Lin Gu](https://arxiv.org/search/cs?searchtype=author&query=Gu,+L), [Jin Zheng](https://arxiv.org/search/cs?searchtype=author&query=Zheng,+J), [Xiao Bai](https://arxiv.org/search/cs?searchtype=author&query=Bai,+X)
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting (3DGS) creates a radiance field consisting of 3D Gaussians to represent a scene. With sparse training views, 3DGS easily suffers from overfitting, negatively impacting rendering. This paper introduces a new co-regularization perspective for improving sparse-view 3DGS. When training two 3D Gaussian radiance fields, we observe that the two radiance fields exhibit point disagreement and rendering disagreement that can unsupervisedly predict reconstruction quality, stemming from the randomness of densification implementation. We further quantify the two disagreements and demonstrate the negative correlation between them and accurate reconstruction, which allows us to identify inaccurate reconstruction without accessing ground-truth information. Based on the study, we propose CoR-GS, which identifies and suppresses inaccurate reconstruction based on the two disagreements: (1) Co-pruning considers Gaussians that exhibit high point disagreement in inaccurate positions and prunes them. (2) Pseudo-view co-regularization considers pixels that exhibit high rendering disagreement are inaccurate and suppress the disagreement. Results on LLFF, Mip-NeRF360, DTU, and Blender demonstrate that CoR-GS effectively regularizes the scene geometry, reconstructs the compact representations, and achieves state-of-the-art novel view synthesis quality under sparse training views.
+</details>
 
 [📄 Paper](https://arxiv.org/pdf/2312.00451v2.pdf)
+
+##### 🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data
+
+**Authors**: [Seibt, Simon](https://diglib.eg.org/browse/author?startsWith=Seibt, Simon)
+[Chang, Thomas Vincent Siu-Lung](https://diglib.eg.org/browse/author?startsWith=Chang, Thomas Vincent Siu-Lung)
+[von Rymon Lipinski, Bartosz](https://diglib.eg.org/browse/author?startsWith=von Rymon Lipinski, Bartosz )
+[Latoschik, Marc Erich](https://diglib.eg.org/browse/author?startsWith=Latoschik, Marc Erich)
+
+<details>
+<summary><b>Abstract</b></summary>
+This paper presents advancements in novel-view synthesis with 3D Gaussian Splatting (3DGS) using a dense and accurate SfM point cloud initialization approach. We address the challenge of achieving photorealistic renderings from sparse image data, where basic 3DGS training may result in suboptimal convergence, thus leading to visual artifacts. The proposed method enhances precision and density of initially reconstructed point clouds by refining 3D positions and extrapolating additional points, even for difficult image regions, e.g. with repeating patterns and suboptimal visual coverage. Our contributions focus on improving ''Dense Feature Matching for Structure-from-Motion'' (DFM4SfM) based on a homographic decomposition of the image space to support 3DGS training: First, a grid-based feature detection method is introduced for DFM4SfM to ensure a welldistributed 3D Gaussian initialization uniformly over all depth planes. Second, the SfM feature matching is complemented by a geometric plausibility check, priming the homography estimation and thereby improving the initial placement of 3D Gaussians. Experimental results on the NeRF-LLFF dataset demonstrate that this approach achieves superior qualitative and quantitative results, even for fewer views, and the potential for a significantly accelerated 3DGS training with faster convergence.
+</details>
+
+[📄 Paper](https://diglib.eg.org/items/777dca56-b620-412c-86a9-fd5163a90c92)
+
+##### 🎈DIG3D: Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction
+
+**Authors**: [Jiamin Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+J), [Kenkun Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+K), [Han Gao](https://arxiv.org/search/cs?searchtype=author&query=Gao,+H), [Xiaoke Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+X), [Lei Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+L)
+
+<details>
+<summary><b>Abstract</b></summary>
+In this paper, we study the problem of 3D reconstruction from a single-view RGB image and propose a novel approach called DIG3D for 3D object reconstruction and novel view synthesis. Our method utilizes an encoder-decoder framework which generates 3D Gaussians in decoder with the guidance of depth-aware image features from encoder. In particular, we introduce the use of deformable transformer, allowing efficient and effective decoding through 3D reference point and multi-layer refinement adaptations. By harnessing the benefits of 3D Gaussians, our approach offers an efficient and accurate solution for 3D reconstruction from single-view images. We evaluate our method on the ShapeNet SRN dataset, getting PSNR of 24.21 and 24.98 in car and chair dataset, respectively. The result outperforming the recent method by around 2.25%, demonstrating the effectiveness of our method in achieving superior results.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.16323)
+
+##### 🎈Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views
+
+**Authors**: Kin-Chung Chan, [Jun Xiao](https://openreview.net/profile?id=~Jun_Xiao5), [Hana Lebeta Goshu](https://openreview.net/profile?id=~Hana_Lebeta_Goshu1), [Kin-man Lam](https://openreview.net/profile?id=~Kin-man_Lam1)
+
+<details>
+<summary><b>Abstract</b></summary>
+The technique of 3D Gaussian splatting (3DGS) has demonstrated its effectiveness and efficiency in rendering photo-realistic images for novel view synthesis. However, 3DGS requires a high density of camera coverage, and its performance inevitably degrades with sparse training views, which significantly restricts its applications in real-world products. In recent years, many researchers have tried to use depth information to alleviate this problem, but the performance of their methods is sensitive to the accuracy of depth estimation. To this end, we propose an efficient method to enhance the performance of 3DGS with sparse training views. Specifically, instead of applying depth maps for regularization, we propose a densification method that generates high-quality point clouds for improved initialization of 3D Gaussians. Furthermore, we propose Systematically Angle of View Sampling (SAOVS), which employs Spherical Linear Interpolation (SLERP) and linear interpolation for side view sampling, to determine unseen views outside the training data for semantic pseudo-label regularization. Experiments show that our proposed method significantly outperforms other promising 3D rendering models on the ScanNet dataset and the LLFF dataset. In particular, compared with the conventional 3DGS method, the PSNR and SSIM performance gains achieved by our method are up to 1.71dB and 0.07, respectively. In addition, the novel view synthesis obtained by our method demonstrates the highest visual quality with fewer distortions.
+</details>
+
+[📄 Paper](https://openreview.net/forum?id=vW5070FoXi&noteId=wmfIKrNmtV)
 
 # Applications of 3D Gaussian Splatting
 ## Human Reconstruction
 ### Body Reconstruction
-#### ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering
+##### 🎈ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering
 
 **Authors**: Marc Habermann, Christian Theobalt, Adam Kortylewski, Heming Zhu, Haokai Pang
 
@@ -817,7 +963,7 @@ Real-time rendering of photorealistic and controllable human avatars stands as a
 
 [📄 Paper](https://arxiv.org/pdf/2312.05941v2.pdf)
 
-#### Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling
+##### 🎈Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling
 
 **Authors**: Yebin Liu, Lizhen Wang, Zerong Zheng, Zhe Li
 
@@ -828,7 +974,7 @@ Real-time rendering of photorealistic and controllable human avatars stands as a
 
 [📄 Paper](http://openaccess.thecvf.com//content/CVPR2024/papers/Li_Animatable_Gaussians_Learning_Pose-dependent_Gaussian_Maps_for_High-fidelity_Human_Avatar_CVPR_2024_paper.pdf)
 
-#### GauHuman: Articulated Gaussian Splatting from Monocular Human Videos
+##### 🎈GauHuman: Articulated Gaussian Splatting from Monocular Human Videos
 
 **Authors**: Ziwei Liu, Shoukang Hu
 
@@ -839,7 +985,7 @@ We present, GauHuman, a 3D human model with Gaussian Splatting for both fast tra
 
 [📄 Paper](https://arxiv.org/pdf/2312.02973v1.pdf)
 
-#### GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians
+##### 🎈GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians
 
 **Authors**: Liqiang Nie, Shengping Zhang, Boning Liu, Boyao Zhou, Yuxiang Zhang, Hongwen Zhang, Liangxiao Hu
 
@@ -850,7 +996,7 @@ We present GaussianAvatar, an efficient approach to creating realistic human ava
 
 [📄 Paper](https://arxiv.org/pdf/2312.02134v3.pdf)
 
-#### 3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting
+##### 🎈3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting
 
 **Authors**: Siyu Tang, Andreas Geiger, Marko Mihajlovic, Shaofei Wang, Zhiyin Qian
 
@@ -861,7 +1007,7 @@ We introduce an approach that creates animatable human avatars from monocular vi
 
 [📄 Paper](https://arxiv.org/pdf/2312.09228v3.pdf)
 
-#### Human Gaussian Splatting: Real-time Rendering of Animatable Avatars
+##### 🎈Human Gaussian Splatting: Real-time Rendering of Animatable Avatars
 
 **Authors**: Eduardo Pérez-Pellitero, Yiren Zhou, Richard Shaw, Helisa Dhamo, Jifei Song, Arthur Moreau
 
@@ -872,7 +1018,7 @@ This work addresses the problem of real-time rendering of photorealistic human b
 
 [📄 Paper](https://arxiv.org/pdf/2311.17113v2.pdf)
 
-#### HUGS: Human Gaussian Splats
+##### 🎈HUGS: Human Gaussian Splats
 
 **Authors**: Anurag Ranjan, Oncel Tuzel, James Gabriel, Jen-Hao Rick Chang, Muhammed Kocabas
 
@@ -884,7 +1030,7 @@ Recent advances in neural rendering have improved both training and rendering ti
 [📄 Paper](https://arxiv.org/pdf/2311.17910v1.pdf)
 
 ### Head Reconstruction
-#### GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians
+##### 🎈GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians
 
 **Authors**: Matthias Nießner, Simon Giebenhain, Davide Davoli, Liam Schoneveld, Tobias Kirschstein, Shenhan Qian
 
@@ -895,7 +1041,7 @@ We introduce GaussianAvatars, a new method to create photorealistic head avatars
 
 [📄 Paper](https://arxiv.org/pdf/2312.02069v2.pdf)
 
-#### Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians
+##### 🎈Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians
 
 **Authors**: Yebin Liu, Zerong Zheng, Lizhen Wang, Hongwen Zhang, Zhe Li, Benwang Chen, Yuelang Xu
 
@@ -903,11 +1049,65 @@ We introduce GaussianAvatars, a new method to create photorealistic head avatars
 <summary><b>Abstract</b></summary>
 Creating high-fidelity 3D head avatars has always been a research hotspot, but there remains a great challenge under lightweight sparse view setups. In this paper, we propose Gaussian Head Avatar represented by controllable 3D Gaussians for high-fidelity head avatar modeling. We optimize the neutral 3D Gaussians and a fully learned MLP-based deformation field to capture complex expressions. The two parts benefit each other, thereby our method can model fine-grained dynamic details while ensuring expression accuracy. Furthermore, we devise a well-designed geometry-guided initialization strategy based on implicit SDF and Deep Marching Tetrahedra for the stability and convergence of the training procedure. Experiments show our approach outperforms other state-of-the-art sparse-view methods, achieving ultra high-fidelity rendering quality at 2K resolution even under exaggerated expressions.
 </details>
+[📄 Paper](https://arxiv.org/pdf/2312.03029v2.pdf)
+
+##### 🎈Fast 3D Stylized Gaussian Portrait Generation From a Single Image With Style Aligned Sampling Loss
+
+**Authors**: [Shangming Jiang](https://ieeexplore.ieee.org/author/828942262346562); [Xinyou Yu](https://ieeexplore.ieee.org/author/991696908508641); [Weijun Guo](https://ieeexplore.ieee.org/author/37088919118); [Junling Huang](https://ieeexplore.ieee.org/author/37089806643)
+
+<details>
+<summary><b>Abstract</b></summary>
+Creating stylized 3D avatars and portraits from just a single image input is an emerging challenge in augmented and virtual reality. While prior work has explored 2D stylization or 3D avatar generation, achieving high-fidelity 3D stylized portraits with text control remains an open problem. In this paper, we present an efficient approach for generating high-quality 3D stylized portraits directly from a single input image. Our core representations are based on 3D Gaussian Splatting for efficient rendering, along with a surface-guided splitting and cloning strategy to reduce noise. To achieve high-fidelity stylized results, we introduce a Stylized Generation Module with a Style-Aligned Sampling Loss that injects the input image’s identity information into the diffusion model while stabilizing the stylization process. Furthermore, we incorporate a multi-view diffusion model to enforce 3D consistency by generating multiple viewpoints. Extensive experimentation demonstrates that our approach outperforms existing methods in terms of stylization quality, 3D consistency, and user preference ratings. Our framework enables casual users to easily generate stylized 3D portraits through simple image or text inputs, facilitating engaging experiences in AR/VR applications.
+</details>
+
+[📄 Paper](https://ieeexplore.ieee.org/document/10506926/authors#authors)
+
+##### 🎈GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting
+
+**Authors**: [Kyusun Cho](https://arxiv.org/search/cs?searchtype=author&query=Cho,+K), [Joungbin Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+J), [Heeji Yoon](https://arxiv.org/search/cs?searchtype=author&query=Yoon,+H), [Yeobin Hong](https://arxiv.org/search/cs?searchtype=author&query=Hong,+Y), [Jaehoon Ko](https://arxiv.org/search/cs?searchtype=author&query=Ko,+J), [Sangjun Ahn](https://arxiv.org/search/cs?searchtype=author&query=Ahn,+S), [Seungryong Kim](https://arxiv.org/search/cs?searchtype=author&query=Kim,+S)
+
+<details>
+<summary><b>Abstract</b></summary>
+We propose GaussianTalker, a novel framework for real-time generation of pose-controllable talking heads. It leverages the fast rendering capabilities of 3D Gaussian Splatting (3DGS) while addressing the challenges of directly controlling 3DGS with speech audio. GaussianTalker constructs a canonical 3DGS representation of the head and deforms it in sync with the audio. A key insight is to encode the 3D Gaussian attributes into a shared implicit feature representation, where it is merged with audio features to manipulate each Gaussian attribute. This design exploits the spatial-aware features and enforces interactions between neighboring points. The feature embeddings are then fed to a spatial-audio attention module, which predicts frame-wise offsets for the attributes of each Gaussian. It is more stable than previous concatenation or multiplication approaches for manipulating the numerous Gaussians and their intricate parameters. Experimental results showcase GaussianTalker's superiority in facial fidelity, lip synchronization accuracy, and rendering speed compared to previous methods. Specifically, GaussianTalker achieves a remarkable rendering speed up to 120 FPS, surpassing previous benchmarks. Our code is made available at this https URL .
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.16012)
+
+##### 🎈GaussianTalker: Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting
+
+**Authors**: [Hongyun Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+H), [Zhan Qu](https://arxiv.org/search/cs?searchtype=author&query=Qu,+Z), [Qihang Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+Q), [Jianchuan Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+J), [Zhonghua Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Z), [Zhiwen Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+Z), [Shengyu Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+S), [Jimin Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+J), [Fei Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+F), [Chengfei Lv](https://arxiv.org/search/cs?searchtype=author&query=Lv,+C), [Gang Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+G)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent works on audio-driven talking head synthesis using Neural Radiance Fields (NeRF) have achieved impressive results. However, due to inadequate pose and expression control caused by NeRF implicit representation, these methods still have some limitations, such as unsynchronized or unnatural lip movements, and visual jitter and artifacts. In this paper, we propose GaussianTalker, a novel method for audio-driven talking head synthesis based on 3D Gaussian Splatting. With the explicit representation property of 3D Gaussians, intuitive control of the facial motion is achieved by binding Gaussians to 3D facial models. GaussianTalker consists of two modules, Speaker-specific Motion Translator and Dynamic Gaussian Renderer. Speaker-specific Motion Translator achieves accurate lip movements specific to the target speaker through universalized audio feature extraction and customized lip motion generation. Dynamic Gaussian Renderer introduces Speaker-specific BlendShapes to enhance facial detail representation via a latent pose, delivering stable and realistic rendered videos. Extensive experimental results suggest that GaussianTalker outperforms existing state-of-the-art methods in talking head synthesis, delivering precise lip synchronization and exceptional visual quality. Our method achieves rendering speeds of 130 FPS on NVIDIA RTX4090 GPU, significantly exceeding the threshold for real-time rendering performance, and can potentially be deployed on other hardware platforms.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.14037)
+
+##### 🎈Learn2Talk: 3D Talking Face Learns from 2D Talking Face
+
+**Authors**: [Yixiang Zhuang](https://arxiv.org/search/cs?searchtype=author&query=Zhuang,+Y), [Baoping Cheng](https://arxiv.org/search/cs?searchtype=author&query=Cheng,+B), [Yao Cheng](https://arxiv.org/search/cs?searchtype=author&query=Cheng,+Y), [Yuntao Jin](https://arxiv.org/search/cs?searchtype=author&query=Jin,+Y), [Renshuai Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+R), [Chengyang Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+C), [Xuan Cheng](https://arxiv.org/search/cs?searchtype=author&query=Cheng,+X), [Jing Liao](https://arxiv.org/search/cs?searchtype=author&query=Liao,+J), [Juncong Lin](https://arxiv.org/search/cs?searchtype=author&query=Lin,+J)
+
+<details>
+<summary><b>Abstract</b></summary>
+Speech-driven facial animation methods usually contain two main classes, 3D and 2D talking face, both of which attract considerable research attention in recent years. However, to the best of our knowledge, the research on 3D talking face does not go deeper as 2D talking face, in the aspect of lip-synchronization (lip-sync) and speech perception. To mind the gap between the two sub-fields, we propose a learning framework named Learn2Talk, which can construct a better 3D talking face network by exploiting two expertise points from the field of 2D talking face. Firstly, inspired by the audio-video sync network, a 3D sync-lip expert model is devised for the pursuit of lip-sync between audio and 3D facial motion. Secondly, a teacher model selected from 2D talking face methods is used to guide the training of the audio-to-3D motions regression network to yield more 3D vertex accuracy. Extensive experiments show the advantages of the proposed framework in terms of lip-sync, vertex accuracy and speech perception, compared with state-of-the-arts. Finally, we show two applications of the proposed framework: audio-visual speech recognition and speech-driven 3D Gaussian Splatting based avatar animation.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.12888)
+
+##### 🎈TalkingGaussian: Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting
+
+**Authors**: [Jiahe Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J), [Jiawei Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J), [Xiao Bai](https://arxiv.org/search/cs?searchtype=author&query=Bai,+X), [Jin Zheng](https://arxiv.org/search/cs?searchtype=author&query=Zheng,+J), [Xin Ning](https://arxiv.org/search/cs?searchtype=author&query=Ning,+X), [Jun Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+J), [Lin Gu](https://arxiv.org/search/cs?searchtype=author&query=Gu,+L)
+
+<details>
+<summary><b>Abstract</b></summary>
+Radiance fields have demonstrated impressive performance in synthesizing lifelike 3D talking heads. However, due to the difficulty in fitting steep appearance changes, the prevailing paradigm that presents facial motions by directly modifying point appearance may lead to distortions in dynamic regions. To tackle this challenge, we introduce TalkingGaussian, a deformation-based radiance fields framework for high-fidelity talking head synthesis. Leveraging the point-based Gaussian Splatting, facial motions can be represented in our method by applying smooth and continuous deformations to persistent Gaussian primitives, without requiring to learn the difficult appearance change like previous methods. Due to this simplification, precise facial motions can be synthesized while keeping a highly intact facial feature. Under such a deformation paradigm, we further identify a face-mouth motion inconsistency that would affect the learning of detailed speaking motions. To address this conflict, we decompose the model into two branches separately for the face and inside mouth areas, therefore simplifying the learning tasks to help reconstruct more accurate motion and structure of the mouth region. Extensive experiments demonstrate that our method renders high-quality lip-synchronized talking head videos, with better facial fidelity and higher efficiency compared with previous methods.
+</details>
 
 [📄 Paper](https://arxiv.org/pdf/2312.03029v2.pdf)
 
 ### Others
-#### GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians
+##### 🎈GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians
 
 **Authors**: Jingyi Yu, Lan Xu, Wei Yang, Qixuan Zhang, Longwen Zhang, Suyi Jiang, Zijun Zhao, Min Ouyang, Haimin Luo
 
@@ -915,11 +1115,10 @@ Creating high-fidelity 3D head avatars has always been a research hotspot, but t
 <summary><b>Abstract</b></summary>
 Hairstyle reflects culture and ethnicity at first glance. In the digital era, various realistic human hairstyles are also critical to high-fidelity digital human assets for beauty and inclusivity. Yet, realistic hair modeling and real-time rendering for animation is a formidable challenge due to its sheer number of strands, complicated structures of geometry, and sophisticated interaction with light. This paper presents GaussianHair, a novel explicit hair representation. It enables comprehensive modeling of hair geometry and appearance from images, fostering innovative illumination effects and dynamic animation capabilities. At the heart of GaussianHair is the novel concept of representing each hair strand as a sequence of connected cylindrical 3D Gaussian primitives. This approach not only retains the hair's geometric structure and appearance but also allows for efficient rasterization onto a 2D image plane, facilitating differentiable volumetric rendering. We further enhance this model with the "GaussianHair Scattering Model", adept at recreating the slender structure of hair strands and accurately capturing their local diffuse color in uniform lighting. Through extensive experiments, we substantiate that GaussianHair achieves breakthroughs in both geometric and appearance fidelity, transcending the limitations encountered in state-of-the-art methods for hair reconstruction. Beyond representation, GaussianHair extends to support editing, relighting, and dynamic rendering of hair, offering seamless integration with conventional CG pipeline workflows. Complementing these advancements, we have compiled an extensive dataset of real human hair, each with meticulously detailed strand geometry, to propel further research in this field.
 </details>
-
-[📄 Paper](https://arxiv.org/pdf/2402.10483v1.pdf)
+[📄 Paper](https://arxiv.org/abs/2404.15264)
 
 ## Non-Rigid Object Reconstruction
-#### GART: Gaussian Articulated Template Models
+##### 🎈GART: Gaussian Articulated Template Models
 
 **Authors**: Kostas Daniilidis, Lingjie Liu, Georgios Pavlakos, Yufu Wang, Jiahui Lei
 
@@ -930,7 +1129,7 @@ We introduce Gaussian Articulated Template Model GART, an explicit, efficient, a
 
 [📄 Paper](https://arxiv.org/pdf/2311.16099v1.pdf)
 
-#### Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
+##### 🎈Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
 
 **Authors**: Jan Eric Lenssen, Eddy Ilg, Raza Yunus, Christopher Wewer, Devikalyan Das
 
@@ -943,7 +1142,7 @@ Reconstructing dynamic objects from monocular videos is a severely underconstrai
 
 ## Artificial Intelligence-Generated Content (AIGC)
 ### Text to 3D Objects
-#### Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph
+##### 🎈Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph
 
 **Authors**: Yue Gao, Xun Yang, Wei Chen, Zhou Xue, Chaofan Luo, Jiahui Yang, Donglin Di
 
@@ -953,7 +1152,7 @@ Text-to-3D generation represents an exciting field that has seen rapid advanceme
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.09236v1.pdf)
 
-#### Text-to-3D using Gaussian Splatting
+##### 🎈Text-to-3D using Gaussian Splatting
 
 **Authors**: Huaping Liu, Yikai Wang, Feng Wang, Zilong Chen
 
@@ -963,7 +1162,7 @@ Automatic text-to-3D generation that combines Score Distillation Sampling (SDS) 
 </details>
 [📄 Paper](https://arxiv.org/pdf/2309.16585v4.pdf)
 
-#### GVGEN: Text-to-3D Generation with Volumetric Representation
+##### 🎈GVGEN: Text-to-3D Generation with Volumetric Representation
 
 **Authors**: Tong He, Wanli Ouyang, Chun Yuan, Xiaoshui Huang, Yangguang Li, Di Huang, Sida Peng, Junyi Chen, Xianglong He
 
@@ -974,7 +1173,7 @@ In recent years, 3D Gaussian splatting has emerged as a powerful technique for 3
 
 [📄 Paper](https://arxiv.org/pdf/2403.12957v2.pdf)
 
-#### BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis
+##### 🎈BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis
 
 **Authors**: Lin Wang, Lutao Jiang
 
@@ -985,7 +1184,7 @@ Text-to-3D synthesis has recently seen intriguing advances by combining the text
 
 [📄 Paper](https://arxiv.org/pdf/2403.11273v1.pdf)
 
-#### Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting
+##### 🎈Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting
 
 **Authors**: Guosheng Lin, Fayao Liu, Xulei Yang, Yi Xu, Chi Zhang, Cheng Chen, YiWen Chen, Xiaofeng Yang
 
@@ -996,7 +1195,7 @@ We propose a unified framework aimed at enhancing the diffusion priors for 3D ge
 
 [📄 Paper](https://arxiv.org/pdf/2312.04820v1.pdf)
 
-#### IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation
+##### 🎈IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation
 
 **Authors**: Filippos Kokkinos, Oran Gafni, Andrea Vedaldi, Natalia Neverova, Christian Rupprecht, Iro Laina, Luke Melas-Kyriazi
 
@@ -1007,7 +1206,7 @@ Most text-to-3D generators build upon off-the-shelf text-to-image models trained
 
 [📄 Paper](https://arxiv.org/pdf/2402.08682v1.pdf)
 
-#### HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
+##### 🎈HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
 
 **Authors**: Ziwei Liu, Xihui Liu, Dahua Lin, Gang Zeng, Ying Shan, Jiaxiang Tang, Xiaohang Zhan, Xian Liu
 
@@ -1018,7 +1217,7 @@ Realistic 3D human generation from text prompts is a desirable yet challenging t
 
 [📄 Paper](https://arxiv.org/pdf/2311.17061v2.pdf)
 
-#### GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise
+##### 🎈GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise
 
 **Authors**: Kuo-Kun Tseng, Huaibin Wang, Xinhai Li
 
@@ -1029,7 +1228,7 @@ Text-to-3D, known for its efficient generation methods and expansive creative po
 
 [📄 Paper](https://arxiv.org/pdf/2311.11221v1.pdf)
 
-#### Gaussian Shell Maps for Efficient 3D Human Generation
+##### 🎈Gaussian Shell Maps for Efficient 3D Human Generation
 
 **Authors**: Gordon Wetzstein, Dit-yan Yeung, Qifeng Chen, Zhengfei Kuang, Ryan Po, Yinghao Xu, Zifan Shi, Wang Yifan, Rameen Abdal
 
@@ -1040,7 +1239,7 @@ Efficient generation of 3D digital humans is important in several industries, in
 
 [📄 Paper](https://arxiv.org/pdf/2311.17857v1.pdf)
 
-#### GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models
+##### 🎈GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models
 
 **Authors**: Lingxi Xie, Junjie Wang, Xinggang Wang, Qi Tian, Wenyu Liu, Xiaopeng Zhang, Guanjun Wu, Jiemin Fang, Taoran Yi
 
@@ -1051,7 +1250,7 @@ In recent times, the generation of 3D assets from text prompts has shown impress
 
 [📄 Paper](https://arxiv.org/pdf/2310.08529v3.pdf)
 
-#### LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
+##### 🎈LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
 
 **Authors**: Ziwei Liu, Gang Zeng, Tengfei Wang, Xiaokang Chen, Zhaoxi Chen, Jiaxiang Tang
 
@@ -1062,7 +1261,7 @@ In recent times, the generation of 3D assets from text prompts has shown impress
 
 [📄 Paper](https://arxiv.org/pdf/2402.05054v1.pdf)
 
-#### Gaussian Shell Maps for Efficient 3D Human Generation
+##### 🎈Gaussian Shell Maps for Efficient 3D Human Generation
 
 **Authors**: Gordon Wetzstein, Dit-yan Yeung, Qifeng Chen, Zhengfei Kuang, Ryan Po, Yinghao Xu, Zifan Shi, Wang Yifan, Rameen Abdal
 
@@ -1073,7 +1272,7 @@ Efficient generation of 3D digital humans is important in several industries, in
 
 [📄 Paper](https://arxiv.org/pdf/2311.17857v1.pdf)
 
-#### DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
+##### 🎈DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 
 **Authors**: Gang Zeng, Ziwei Liu, Hang Zhou, Jiawei Ren, Jiaxiang Tang
 
@@ -1083,7 +1282,7 @@ Recent advances in 3D content creation mostly leverage optimization-based 3D gen
 </details>
 [📄 Paper](https://arxiv.org/pdf/2309.16653v2.pdf)
 
-#### ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation
+##### 🎈ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation
 
 **Authors**: Jun Zhu, Hang Su, Chongxuan Li, Fan Bao, Yikai Wang, Cheng Lu, Zhengyi Wang
 
@@ -1094,7 +1293,7 @@ Score distillation sampling (SDS) has shown great promise in text-to-3D generati
 
 [📄 Paper](https://arxiv.org/pdf/2305.16213v2.pdf)
 
-#### LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
+##### 🎈LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
 
 **Authors**: Yingcong Chen, Xiaogang Xu, Haodong Li, Jiantao Lin, Xin Yang, Yixun Liang
 
@@ -1107,7 +1306,7 @@ The recent advancements in text-to-3D generation mark a significant milestone in
 
 ### Image to 3D Object
 
-#### DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
+##### 🎈DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 
 **Authors**: Gang Zeng, Ziwei Liu, Hang Zhou, Jiawei Ren, Jiaxiang Tang
 
@@ -1118,7 +1317,7 @@ Recent advances in 3D content creation mostly leverage optimization-based 3D gen
 
 [📄 Paper](https://arxiv.org/pdf/2309.16653v2.pdf)
 
-#### FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model
+##### 🎈FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model
 
 **Authors**: Yu-Gang Jiang, Zuxuan Wu, Zhen Xing, Qijun Feng
 
@@ -1126,14 +1325,32 @@ Recent advances in 3D content creation mostly leverage optimization-based 3D gen
 <summary><b>Abstract</b></summary>
 Reconstructing detailed 3D objects from single-view images remains a challenging task due to the limited information available. In this paper, we introduce FDGaussian, a novel two-stage framework for single-image 3D reconstruction. Recent methods typically utilize pre-trained 2D diffusion models to generate plausible novel views from the input image, yet they encounter issues with either multi-view inconsistency or lack of geometric fidelity. To overcome these challenges, we propose an orthogonal plane decomposition mechanism to extract 3D geometric features from the 2D input, enabling the generation of consistent multi-view images. Moreover, we further accelerate the state-of-the-art Gaussian Splatting incorporating epipolar attention to fuse images from different viewpoints. We demonstrate that FDGaussian generates images with high consistency across different views and reconstructs high-quality 3D objects, both qualitatively and quantitatively. More examples can be found at our website https://qjfeng.net/FDGaussian/.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2403.10242v1.pdf)
 
+##### 🎈GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting
 
-[📄 Paper](https://arxiv.org/pdf/2312.13271v3.pdf)
+**Authors**: [Kai Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+K), [Sai Bi](https://arxiv.org/search/cs?searchtype=author&query=Bi,+S), [Hao Tan](https://arxiv.org/search/cs?searchtype=author&query=Tan,+H), [Yuanbo Xiangli](https://arxiv.org/search/cs?searchtype=author&query=Xiangli,+Y), [Nanxuan Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+N), [Kalyan Sunkavalli](https://arxiv.org/search/cs?searchtype=author&query=Sunkavalli,+K), [Zexiang Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+Z)
+
+<details>
+<summary><b>Abstract</b></summary>
+We propose GS-LRM, a scalable large reconstruction model that can predict high-quality 3D Gaussian primitives from 2-4 posed sparse images in 0.23 seconds on single A100 GPU. Our model features a very simple transformer-based architecture; we patchify input posed images, pass the concatenated multi-view image tokens through a sequence of transformer blocks, and decode final per-pixel Gaussian parameters directly from these tokens for differentiable rendering. In contrast to previous LRMs that can only reconstruct objects, by predicting per-pixel Gaussians, GS-LRM naturally handles scenes with large variations in scale and complexity. We show that our model can work on both object and scene captures by training it on Objaverse and RealEstate10K respectively. In both scenarios, the models outperform state-of-the-art baselines by a wide margin. We also demonstrate applications of our model in downstream 3D generation tasks. Our project webpage is available at: this https URL .
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.19702)
+
+##### 🎈GSD: View-Guided Gaussian Splatting Diffusion for 3D Reconstruction
+
+**Authors**: [Yuxuan Mu](https://arxiv.org/search/cs?searchtype=author&query=Mu,+Y), [Xinxin Zuo](https://arxiv.org/search/cs?searchtype=author&query=Zuo,+X), [Chuan Guo](https://arxiv.org/search/cs?searchtype=author&query=Guo,+C), [Yilin Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Juwei Lu](https://arxiv.org/search/cs?searchtype=author&query=Lu,+J), [Xiaofeng Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+X), [Songcen Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+S), [Peng Dai](https://arxiv.org/search/cs?searchtype=author&query=Dai,+P), [Youliang Yan](https://arxiv.org/search/cs?searchtype=author&query=Yan,+Y), [Li Cheng](https://arxiv.org/search/cs?searchtype=author&query=Cheng,+L)
+
+<details>
+<summary><b>Abstract</b></summary>
+We present GSD, a diffusion model approach based on Gaussian Splatting (GS) representation for 3D object reconstruction from a single view. Prior works suffer from inconsistent 3D geometry or mediocre rendering quality due to improper representations. We take a step towards resolving these shortcomings by utilizing the recent state-of-the-art 3D explicit representation, Gaussian Splatting, and an unconditional diffusion model. This model learns to generate 3D objects represented by sets of GS ellipsoids. With these strong generative 3D priors, though learning unconditionally, the diffusion model is ready for view-guided reconstruction without further model fine-tuning. This is achieved by propagating fine-grained 2D features through the efficient yet flexible splatting function and the guided denoising sampling process. In addition, a 2D diffusion model is further employed to enhance rendering fidelity, and improve reconstructed GS quality by polishing and re-using the rendered images. The final reconstructed objects explicitly come with high-quality 3D structure and texture, and can be efficiently rendered in arbitrary views. Experiments on the challenging real-world CO3D dataset demonstrate the superiority of our approach. Project page: this https URL
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2407.04237)
 
 ### Multi-Object and Scene Generation
-#### CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting
+##### 🎈CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting
 
 **Authors**: Achuta Kadambi, Pradyumna Chari, Alexander Vilesov
 
@@ -1144,7 +1361,7 @@ With the onset of diffusion-based generative models and their ability to generat
 
 [📄 Paper](https://arxiv.org/pdf/2311.17907v1.pdf)
 
-#### GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting
+##### 🎈GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting
 
 **Authors**: Ming-Hsuan Yang, Deqing Sun, Yongtao Wang, Zhiwei Lin, Jinlin He, Yajiao Xiong, Xingjian Ran, Xiaoyu Zhou
 
@@ -1155,7 +1372,7 @@ We present GALA3D, generative 3D GAussians with LAyout-guided control, for effec
 
 [📄 Paper](https://arxiv.org/pdf/2402.07207v2.pdf)
 
-#### RePaint: Inpainting using Denoising Diffusion Probabilistic Models
+##### 🎈RePaint: Inpainting using Denoising Diffusion Probabilistic Models
 
 **Authors**: Luc van Gool, Radu Timofte, Fisher Yu, Andres Romero, Martin Danelljan, Andreas Lugmayr
 
@@ -1166,7 +1383,7 @@ Free-form inpainting is the task of adding new content to an image in the region
 
 [📄 Paper](https://arxiv.org/pdf/2201.09865v4.pdf)
 
-#### Text2Immersion: Generative Immersive Scene with 3D Gaussians
+##### 🎈Text2Immersion: Generative Immersive Scene with 3D Gaussians
 
 **Authors**: Tiancheng Sun, Stephen Lombardi, Kathryn Heal, Hao Ouyang
 
@@ -1177,7 +1394,7 @@ We introduce Text2Immersion, an elegant method for producing high-quality 3D imm
 
 [📄 Paper](https://arxiv.org/pdf/2312.09242v1.pdf)
 
-#### LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes
+##### 🎈LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes
 
 **Authors**: Kyoung Mu Lee, Jaerin Lee, Hyeongjin Nam, Suyoung Lee, JaeYoung Chung
 
@@ -1185,11 +1402,43 @@ We introduce Text2Immersion, an elegant method for producing high-quality 3D imm
 <summary><b>Abstract</b></summary>
 With the widespread usage of VR devices and contents, demands for 3D scene generation techniques become more popular. Existing 3D scene generation models, however, limit the target scene to specific domain, primarily due to their training strategies using 3D scan dataset that is far from the real-world. To address such limitation, we propose LucidDreamer, a domain-free scene generation pipeline by fully leveraging the power of existing large-scale diffusion-based generative model. Our LucidDreamer has two alternate steps: Dreaming and Alignment. First, to generate multi-view consistent images from inputs, we set the point cloud as a geometrical guideline for each image generation. Specifically, we project a portion of point cloud to the desired view and provide the projection as a guidance for inpainting using the generative model. The inpainted images are lifted to 3D space with estimated depth maps, composing a new points. Second, to aggregate the new points into the 3D scene, we propose an aligning algorithm which harmoniously integrates the portions of newly generated 3D scenes. The finally obtained 3D scene serves as initial points for optimizing Gaussian splats. LucidDreamer produces Gaussian splats that are highly-detailed compared to the previous 3D scene generation methods, with no constraint on domain of the target scene. Project page: https://luciddreamer-cvlab.github.io/
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2311.13384v2.pdf)
 
+##### 🎈ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation
+
+**Authors**: [Pengzhi Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+P), [Chengshuai Tang](https://arxiv.org/search/cs?searchtype=author&query=Tang,+C), [Qinxuan Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+Q), [Zhiheng Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Z)
+
+<details>
+<summary><b>Abstract</b></summary>
+In this paper, we explore the existing challenges in 3D artistic scene generation by introducing ART3D, a novel framework that combines diffusion models and 3D Gaussian splatting techniques. Our method effectively bridges the gap between artistic and realistic images through an innovative image semantic transfer algorithm. By leveraging depth information and an initial artistic image, we generate a point cloud map, addressing domain differences. Additionally, we propose a depth consistency module to enhance 3D scene consistency. Finally, the 3D scene serves as initial points for optimizing Gaussian splats. Experimental results demonstrate ART3D's superior performance in both content and structural consistency metrics when compared to existing methods. ART3D significantly advances the field of AI in art creation by providing an innovative solution for generating high-quality 3D artistic scenes.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.10508)
+
+##### 🎈RealmDreamer: Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion
+
+**Authors**: [Jaidev Shriram](https://arxiv.org/search/cs?searchtype=author&query=Shriram,+J), [Alex Trevithick](https://arxiv.org/search/cs?searchtype=author&query=Trevithick,+A), [Lingjie Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+L), [Ravi Ramamoorthi](https://arxiv.org/search/cs?searchtype=author&query=Ramamoorthi,+R)
+
+<details>
+<summary><b>Abstract</b></summary>
+We introduce RealmDreamer, a technique for generation of general forward-facing 3D scenes from text descriptions. Our technique optimizes a 3D Gaussian Splatting representation to match complex text prompts. We initialize these splats by utilizing the state-of-the-art text-to-image generators, lifting their samples into 3D, and computing the occlusion volume. We then optimize this representation across multiple views as a 3D inpainting task with image-conditional diffusion models. To learn correct geometric structure, we incorporate a depth diffusion model by conditioning on the samples from the inpainting model, giving rich geometric structure. Finally, we finetune the model using sharpened samples from image generators. Notably, our technique does not require video or multi-view data and can synthesize a variety of high-quality 3D scenes in different styles, consisting of multiple objects. Its generality additionally allows 3D synthesis from a single image.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.07199)
+
+##### 🎈DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting
+
+**Authors**: [Shijie Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+S), [Zhiwen Fan](https://arxiv.org/search/cs?searchtype=author&query=Fan,+Z), [Dejia Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+D), [Haoran Chang](https://arxiv.org/search/cs?searchtype=author&query=Chang,+H), [Pradyumna Chari](https://arxiv.org/search/cs?searchtype=author&query=Chari,+P), [Tejas Bharadwaj](https://arxiv.org/search/cs?searchtype=author&query=Bharadwaj,+T), [Suya You](https://arxiv.org/search/cs?searchtype=author&query=You,+S), [Zhangyang Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Z), [Achuta Kadambi](https://arxiv.org/search/cs?searchtype=author&query=Kadambi,+A)
+
+<details>
+<summary><b>Abstract</b></summary>
+The increasing demand for virtual reality applications has highlighted the significance of crafting immersive 3D assets. We present a text-to-3D 360∘ scene generation pipeline that facilitates the creation of comprehensive 360∘ scenes for in-the-wild environments in a matter of minutes. Our approach utilizes the generative power of a 2D diffusion model and prompt self-refinement to create a high-quality and globally coherent panoramic image. This image acts as a preliminary "flat" (2D) scene representation. Subsequently, it is lifted into 3D Gaussians, employing splatting techniques to enable real-time exploration. To produce consistent 3D geometry, our pipeline constructs a spatially coherent structure by aligning the 2D monocular depth into a globally optimized point cloud. This point cloud serves as the initial state for the centroids of 3D Gaussians. In order to address invisible issues inherent in single-view inputs, we impose semantic and geometric constraints on both synthesized and input camera views as regularizations. These guide the optimization of Gaussians, aiding in the reconstruction of unseen regions. In summary, our method offers a globally consistent 3D scene within a 360∘ perspective, providing an enhanced immersive experience over existing techniques. Project website at: this http URL
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.06903)
+
 ### 4D Generation
-#### GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation
+##### 🎈GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation
 
 **Authors**: Ulrich Neumann, Danhang Tang, Le Chen, Wenchao Ma, Ben Mildenhall, Zhe Cao, Qiangeng Xu, Quankai Gao
 
@@ -1200,7 +1449,7 @@ Creating 4D fields of Gaussian Splatting from images or videos is a challenging 
 
 [📄 Paper](https://arxiv.org/pdf/2403.12365v2.pdf)
 
-#### MVDream: Multi-view Diffusion for 3D Generation
+##### 🎈MVDream: Multi-view Diffusion for 3D Generation
 
 **Authors**: Xiao Yang, Kejie Li, Mai Long, Jianglong Ye, Peng Wang, Yichun Shi
 
@@ -1211,7 +1460,7 @@ We introduce MVDream, a diffusion model that is able to generate consistent mult
 
 [📄 Paper](https://arxiv.org/pdf/2308.16512v4.pdf)
 
-#### BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
+##### 🎈BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
 
 **Authors**: Baoquan Chen, Libin Liu, Weiyu Li, Qingzhe Gao, Tingyang Zhang
 
@@ -1222,7 +1471,7 @@ Animatable 3D reconstruction has significant applications across various fields,
 
 [📄 Paper](https://arxiv.org/pdf/2403.11427v1.pdf)
 
-#### 4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency
+##### 🎈4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency
 
 **Authors**: Yunchao Wei, Yao Zhao, Zhangyang Wang, Dejia Xu, Yuyang Yin
 
@@ -1233,7 +1482,7 @@ Aided by text-to-image and text-to-video diffusion models, existing 4D content c
 
 [📄 Paper](https://arxiv.org/pdf/2312.17225v2.pdf)
 
-#### DreamGaussian4D: Generative 4D Gaussian Splatting
+##### 🎈DreamGaussian4D: Generative 4D Gaussian Splatting
 
 **Authors**: Ziwei Liu, Gang Zeng, Ang Cao, Chi Zhang, Jiaxiang Tang, Liang Pan, Jiawei Ren
 
@@ -1244,7 +1493,7 @@ Aided by text-to-image and text-to-video diffusion models, existing 4D content c
 
 [📄 Paper](https://arxiv.org/pdf/2312.17142v3.pdf)
 
-#### DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
+##### 🎈DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 
 **Authors**: Gang Zeng, Ziwei Liu, Hang Zhou, Jiawei Ren, Jiaxiang Tang
 
@@ -1255,7 +1504,7 @@ Recent advances in 3D content creation mostly leverage optimization-based 3D gen
 
 [📄 Paper](https://arxiv.org/pdf/2309.16653v2.pdf)
 
-#### Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
+##### 🎈Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
 
 **Authors**: Houqiang Li, Min Wang, Li Li, Wengang Zhou, Zhiyang Guo
 
@@ -1266,7 +1515,7 @@ Recent advances in 3D content creation mostly leverage optimization-based 3D gen
 
 [📄 Paper](https://arxiv.org/pdf/2403.11447v1.pdf)
 
-#### Fast Dynamic 3D Object Generation from a Single-view Video
+##### 🎈Fast Dynamic 3D Object Generation from a Single-view Video
 
 **Authors**: Li Zhang, Xiatian Zhu, Zeyu Yang, Zijie Pan
 
@@ -1277,7 +1526,7 @@ Generating dynamic 3D object from a single-view video is challenging due to the 
 
 [📄 Paper](https://arxiv.org/pdf/2401.08742v2.pdf)
 
-#### Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models
+##### 🎈Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models
 
 **Authors**: Karsten Kreis, Sanja Fidler, Antonio Torralba, Seung Wook Kim, Huan Ling
 
@@ -1288,7 +1537,7 @@ Text-guided diffusion models have revolutionized image and video generation and 
 
 [📄 Paper](https://arxiv.org/pdf/2312.13763v2.pdf)
 
-#### Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
+##### 🎈Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
 
 **Authors**: Li Zhang, Zijie Pan, Hongye Yang, Zeyu Yang
 
@@ -1301,7 +1550,7 @@ Reconstructing dynamic 3D scenes from 2D images and generating diverse views ove
 
 ## Autonomous Driving
 ### Autonomous Driving Scene Reconstruction
-#### Street gaussians for modeling dynamic urban scenes
+##### 🎈Street gaussians for modeling dynamic urban scenes
 
 **Authors**: Yunzhi Yan, Haotong Lin, Chenxu Zhou, Weijie Wang, Haiyang Sun, Kun Zhan, Xianpeng Lang, Xiaowei Zhou, Sida Peng
 
@@ -1312,7 +1561,7 @@ This paper aims to tackle the problem of modeling dynamic urban streets for auto
 
 [📄 Paper](https://arxiv.org/pdf/2401.01339)
 
-#### HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting
+##### 🎈HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting
 
 **Authors**: Yiyi Liao, Andreas Geiger, Yue Wang, Bingbing Liu, Weichao Qiu, Dongfeng Bai, Lu Xu, Jiahao Shao, HongYu Zhou
 
@@ -1323,7 +1572,7 @@ Holistic understanding of urban scenes based on RGB images is a challenging yet 
 
 [📄 Paper](https://arxiv.org/pdf/2403.12722v1.pdf)
 
-#### 3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration
+##### 🎈3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration
 
 **Authors**: Cédric Demonceaux, Pascal Vasseur, Cyrille Migniot, Dzmitry Tsishkou, Luis Roldao, Nathan Piasco, Arthur Moreau, Moussab Bennehar, Quentin Herau
 
@@ -1334,7 +1583,7 @@ Reliable multimodal sensor fusion algorithms re- quire accurate spatiotemporal c
 
 [📄 Paper](https://arxiv.org/pdf/2403.11577v1.pdf)
 
-#### DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes
+##### 🎈DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes
 
 **Authors**: Ming-Hsuan Yang, Deqing Sun, Yongtao Wang, Xiaojun Shan, Zhiwei Lin, Xiaoyu Zhou
 
@@ -1346,7 +1595,7 @@ We present DrivingGaussian, an efficient and effective framework for surrounding
 [📄 Paper](https://arxiv.org/pdf/2312.07920v3.pdf)
 
 ### Simultaneous Localization and Mapping (SLAM)
-#### High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization
+##### 🎈High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization
 
 **Authors**: Martin Magnusson, Achim J. Lilienthal, Malcolm Mielle, Shuo Sun
 
@@ -1356,7 +1605,7 @@ We propose a dense RGBD SLAM system based on 3D Gaussian Splatting that provides
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.12535v1.pdf)
 
-#### GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting
+##### 🎈GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting
 
 **Authors**: Dong Wang, Bin Zhao, Xuelong Li, Zhigang Wang, Dan Xu, Delin Qu, Chi Yan
 
@@ -1367,7 +1616,7 @@ In this paper, we introduce \textbf{GS-SLAM} that first utilizes 3D Gaussian rep
 
 [📄 Paper](https://arxiv.org/pdf/2311.11700v4.pdf)
 
-#### Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras
+##### 🎈Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras
 
 **Authors**: Sai-Kit Yeung, Hui Cheng, Longwei Li, Huajian Huang
 
@@ -1378,7 +1627,7 @@ The integration of neural rendering and the SLAM system recently showed promisin
 
 [📄 Paper](https://arxiv.org/pdf/2311.16728v2.pdf)
 
-#### SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM
+##### 🎈SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM
 
 **Authors**: Tianchen Deng, Hongyu Wang, Na Cheng, Guohao Zhu, Heng Zhou, Shuhong Liu, Mingrui Li
 
@@ -1389,7 +1638,7 @@ We present SGS-SLAM, the first semantic visual SLAM system based on Gaussian Spl
 
 [📄 Paper](https://arxiv.org/pdf/2402.03246v5.pdf)
 
-#### NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting
+##### 🎈NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting
 
 **Authors**: Zongwu Xie, Boyu Ma, Guanghu Xie, Yang Liu, Yiming Ji
 
@@ -1400,7 +1649,7 @@ We propose NEDS-SLAM, an Explicit Dense semantic SLAM system based on 3D Gaussia
 
 [📄 Paper](https://arxiv.org/pdf/2403.11679v2.pdf)
 
-#### Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
+##### 🎈Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
 
 **Authors**: Hengshuang Zhao, Jiashi Feng, Xiaogang Xu, Zilong Huang, Bingyi Kang, Lihe Yang
 
@@ -1411,7 +1660,7 @@ This work presents Depth Anything, a highly practical solution for robust monocu
 
 [📄 Paper](https://arxiv.org/pdf/2401.10891v2.pdf)
 
-#### DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras
+##### 🎈DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras
 
 **Authors**: Jia Deng, Zachary Teed
 
@@ -1422,7 +1671,7 @@ We introduce DROID-SLAM, a new deep learning based SLAM system. DROID-SLAM consi
 
 [📄 Paper](https://arxiv.org/pdf/2108.10869v2.pdf)
 
-#### SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM
+##### 🎈SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM
 
 **Authors**: Hesheng Wang, Jiuming Liu, Guangming Wang, Renjie Qin, Siting Zhu
 
@@ -1433,7 +1682,7 @@ We propose SemGauss-SLAM, a dense semantic SLAM system utilizing 3D Gaussian rep
 
 [📄 Paper](https://arxiv.org/pdf/2403.07494v3.pdf)
 
-#### Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting
+##### 🎈Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting
 
 **Authors**: Martin R. Oswald, Theo Gevers, Yue Li, Vladimir Yugay
 
@@ -1444,7 +1693,7 @@ We present a dense simultaneous localization and mapping (SLAM) method that uses
 
 [📄 Paper](https://arxiv.org/pdf/2312.10070v2.pdf)
 
-#### GaussNav: Gaussian Splatting for Visual Navigation
+##### 🎈GaussNav: Gaussian Splatting for Visual Navigation
 
 **Authors**: Houqiang Li, Wengang Zhou, Min Wang, Xiaohan Lei
 
@@ -1455,7 +1704,7 @@ In embodied vision, Instance ImageGoal Navigation (IIN) requires an agent to loc
 
 [📄 Paper](https://arxiv.org/pdf/2403.11625v2.pdf)
 
-#### RGBD GS-ICP SLAM
+##### 🎈RGBD GS-ICP SLAM
 
 **Authors**: Hyeonwoo Yu, Jiung Yeon, Seongbo Ha
 
@@ -1466,7 +1715,7 @@ Simultaneous Localization and Mapping (SLAM) with dense representation plays a k
 
 [📄 Paper](https://arxiv.org/pdf/2403.12550v2.pdf)
 
-#### Joint Scene and Object Tracking for Cost-Effective Augmented Reality Assisted Patient Positioning in Radiation Therapy
+##### 🎈Joint Scene and Object Tracking for Cost-Effective Augmented Reality Assisted Patient Positioning in Radiation Therapy
 
 **Authors**: R. Medina-Carnicer, Antonio Luna, M. Álvaro Berbís, Rafael Muñoz-Salinas, Hamid Sarmadi
 
@@ -1477,7 +1726,7 @@ BACKGROUND AND OBJECTIVE: The research done in the field of Augmented Reality (A
 
 [📄 Paper](https://arxiv.org/pdf/2010.01895v2.pdf)
 
-#### 3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization
+##### 🎈3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization
 
 **Authors**: Srikanth Saripalli, Gaurav Pandey, Peng Jiang
 
@@ -1488,7 +1737,7 @@ This paper presents a novel system designed for 3D mapping and visual relocaliza
 
 [📄 Paper](https://arxiv.org/pdf/2403.11367v1.pdf)
 
-#### How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey
+##### 🎈How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey
 
 **Authors**: Matteo Poggi, Martin R. Oswald, Stefano Mattoccia, Erik Sandström, Ziren Gong, Youmin Zhang, Fabio Tosi
 
@@ -1499,7 +1748,7 @@ Over the past two decades, research in the field of Simultaneous Localization an
 
 [📄 Paper](https://arxiv.org/pdf/2402.13255v2.pdf)
 
-#### Gaussian Splatting SLAM
+##### 🎈Gaussian Splatting SLAM
 
 **Authors**: Andrew J. Davison, Paul H. J. Kelly, Riku Murai, Hidenobu Matsuki
 
@@ -1510,7 +1759,7 @@ We present the first application of 3D Gaussian Splatting in monocular SLAM, the
 
 [📄 Paper](https://arxiv.org/pdf/2312.06741v2.pdf)
 
-#### SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
+##### 🎈SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
 
 **Authors**: Jonathon Luiten, Deva Ramanan, Sebastian Scherer, Gengshan Yang, Krishna Murthy Jatavallabhula, Jay Karhade, Nikhil Keetha
 
@@ -1518,13 +1767,100 @@ We present the first application of 3D Gaussian Splatting in monocular SLAM, the
 <summary><b>Abstract</b></summary>
 Dense simultaneous localization and mapping (SLAM) is crucial for robotics and augmented reality applications. However, current methods are often hampered by the non-volumetric or implicit way they represent a scene. This work introduces SplaTAM, an approach that, for the first time, leverages explicit volumetric representations, i.e., 3D Gaussians, to enable high-fidelity reconstruction from a single unposed RGB-D camera, surpassing the capabilities of existing methods. SplaTAM employs a simple online tracking and mapping system tailored to the underlying Gaussian representation. It utilizes a silhouette mask to elegantly capture the presence of scene density. This combination enables several benefits over prior representations, including fast rendering and dense optimization, quickly determining if areas have been previously mapped, and structured map expansion by adding more Gaussians. Extensive experiments show that SplaTAM achieves up to 2x superior performance in camera pose estimation, map construction, and novel-view synthesis over existing methods, paving the way for more immersive high-fidelity SLAM applications.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2312.02126v3.pdf)
+
+##### 🎈GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction
+
+**Authors**: [Rui Jin](https://arxiv.org/search/cs?searchtype=author&query=Jin,+R), [Yuman Gao](https://arxiv.org/search/cs?searchtype=author&query=Gao,+Y), [Yingjian Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Haojian Lu](https://arxiv.org/search/cs?searchtype=author&query=Lu,+H), [Fei Gao](https://arxiv.org/search/cs?searchtype=author&query=Gao,+F)
+
+<details>
+<summary><b>Abstract</b></summary>
+Active reconstruction technique enables robots to autonomously collect scene data for full coverage, relieving users from tedious and time-consuming data capturing process. However, designed based on unsuitable scene representations, existing methods show unrealistic reconstruction results or the inability of online quality evaluation. Due to the recent advancements in explicit radiance field technology, online active high-fidelity reconstruction has become achievable. In this paper, we propose GS-Planner, a planning framework for active high-fidelity reconstruction using 3D Gaussian Splatting. With improvement on 3DGS to recognize unobserved regions, we evaluate the reconstruction quality and completeness of 3DGS map online to guide the robot. Then we design a sampling-based active reconstruction strategy to explore the unobserved areas and improve the reconstruction geometric and textural quality. To establish a complete robot active reconstruction system, we choose quadrotor as the robotic platform for its high agility. Then we devise a safety constraint with 3DGS to generate executable trajectories for quadrotor navigation in the 3DGS map. To validate the effectiveness of our method, we conduct extensive experiments and ablation studies in highly realistic simulation scenes.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.10142)
+
+##### 🎈MotionGS : Compact Gaussian Splatting SLAM by Motion Filter
+
+**Authors**: [Xinli Guo](https://arxiv.org/search/cs?searchtype=author&query=Guo,+X), [Peng Han](https://arxiv.org/search/cs?searchtype=author&query=Han,+P), [Weidong Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+W), [Hongtian Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+H)
+
+<details>
+<summary><b>Abstract</b></summary>
+With their high-fidelity scene representation capability, the attention of SLAM field is deeply attracted by the Neural Radiation Field (NeRF) and 3D Gaussian Splatting (3DGS). Recently, there has been a Surge in NeRF-based SLAM, while 3DGS-based SLAM is sparse. A novel 3DGS-based SLAM approach with a fusion of deep visual feature, dual keyframe selection and 3DGS is presented in this paper. Compared with the existing methods, the proposed selectively tracking is achieved by feature extraction and motion filter on each frame. The joint optimization of pose and 3D Gaussian runs through the entire mapping process. Additionally, the coarse-to-fine pose estimation and compact Gaussian scene representation are implemented by dual keyfeature selection and novel loss functions. Experimental results demonstrate that the proposed algorithm not only outperforms the existing methods in tracking and mapping, but also has less memory usage.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.11129v1)
+
+##### 🎈MM3DGS SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements
+
+**Authors**: [Lisong C. Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+L+C), [Neel P. Bhatt](https://arxiv.org/search/cs?searchtype=author&query=Bhatt,+N+P), [Jonathan C. Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+J+C), [Zhiwen Fan](https://arxiv.org/search/cs?searchtype=author&query=Fan,+Z), [Zhangyang Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Z), [Todd E. Humphreys](https://arxiv.org/search/cs?searchtype=author&query=Humphreys,+T+E), [Ufuk Topcu](https://arxiv.org/search/cs?searchtype=author&query=Topcu,+U)
+
+<details>
+<summary><b>Abstract</b></summary>
+Simultaneous localization and mapping is essential for position tracking and scene understanding. 3D Gaussian-based map representations enable photorealistic reconstruction and real-time rendering of scenes using multiple posed cameras. We show for the first time that using 3D Gaussians for map representation with unposed camera images and inertial measurements can enable accurate SLAM. Our method, MM3DGS, addresses the limitations of prior neural radiance field-based representations by enabling faster rendering, scale awareness, and improved trajectory tracking. Our framework enables keyframe-based mapping and tracking utilizing loss functions that incorporate relative pose transformations from pre-integrated inertial measurements, depth estimates, and measures of photometric rendering quality. We also release a multi-modal dataset, UT-MM, collected from a mobile robot equipped with a camera and an inertial measurement unit. Experimental evaluation on several scenes from the dataset shows that MM3DGS achieves 3x improvement in tracking and 5% improvement in photometric rendering quality compared to the current 3DGS SLAM state-of-the-art, while allowing real-time rendering of a high-resolution dense 3D map. Project Webpage: this https URL
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.00923v1)
+
+##### 🎈NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap
+
+**Authors**: [Mingrui Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+M), [Jingwei Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+J), [Lei Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+L), [Aaron Xuxiang Tian](https://arxiv.org/search/cs?searchtype=author&query=Tian,+A+X), [Tianchen Deng](https://arxiv.org/search/cs?searchtype=author&query=Deng,+T), [Hongyu Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H)
+
+<details>
+<summary><b>Abstract</b></summary>
+SLAM systems based on Gaussian Splatting have garnered attention due to their capabilities for rapid real-time rendering and high-fidelity mapping. However, current Gaussian Splatting SLAM systems usually struggle with large scene representation and lack effective loop closure detection. To address these issues, we introduce NGM-SLAM, the first 3DGS based SLAM system that utilizes neural radiance field submaps for progressive scene expression, effectively integrating the strengths of neural radiance fields and 3D Gaussian Splatting. We utilize neural radiance field submaps as supervision and achieve high-quality scene expression and online loop closure adjustments through Gaussian rendering of fused submaps. Our results on multiple real-world scenes and large-scale scene datasets demonstrate that our method can achieve accurate hole filling and high-quality scene expression, supporting monocular, stereo, and RGB-D inputs, and achieving state-of-the-art scene reconstruction and tracking performance.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.05702)
+
+##### 🎈Gaussian-LIC: Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting
+
+**Authors**: [Xiaolei Lang](https://arxiv.org/search/cs?searchtype=author&query=Lang,+X), [Laijian Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+L), [Hang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+H), [Feng Xiong](https://arxiv.org/search/cs?searchtype=author&query=Xiong,+F), [Mu Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+M), [Yong Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Y), [Xingxing Zuo](https://arxiv.org/search/cs?searchtype=author&query=Zuo,+X), [Jiajun Lv](https://arxiv.org/search/cs?searchtype=author&query=Lv,+J)
+
+<details>
+<summary><b>Abstract</b></summary>
+We present a real-time LiDAR-Inertial-Camera SLAM system with 3D Gaussian Splatting as the mapping backend. Leveraging robust pose estimates from our LiDAR-Inertial-Camera odometry, Coco-LIC, an incremental photo-realistic mapping system is proposed in this paper. We initialize 3D Gaussians from colorized LiDAR points and optimize them using differentiable rendering powered by 3D Gaussian Splatting. Meticulously designed strategies are employed to incrementally expand the Gaussian map and adaptively control its density, ensuring high-quality mapping with real-time capability. Experiments conducted in diverse scenarios demonstrate the superior performance of our method compared to existing radiance-field-based SLAM systems.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.06926)
+
+##### 🎈RTG-SLAM: Real-time 3D Reconstruction at Scale using Gaussian Splatting
+
+**Authors**: [Zhexi Peng](https://arxiv.org/search/cs?searchtype=author&query=Peng,+Z), [Tianjia Shao](https://arxiv.org/search/cs?searchtype=author&query=Shao,+T), [Yong Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Y), [Jingke Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+J), [Yin Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+Y), [Jingdong Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+J), [Kun Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+K)
+
+<details>
+<summary><b>Abstract</b></summary>
+We present Real-time Gaussian SLAM (RTG-SLAM), a real-time 3D reconstruction system with an RGBD camera for large-scale environments using Gaussian splatting. The system features a compact Gaussian representation and a highly efficient on-the-fly Gaussian optimization scheme. We force each Gaussian to be either opaque or nearly transparent, with the opaque ones fitting the surface and dominant colors, and transparent ones fitting residual colors. By rendering depth in a different way from color rendering, we let a single opaque Gaussian well fit a local surface region without the need of multiple overlapping Gaussians, hence largely reducing the memory and computation cost. For on-the-fly Gaussian optimization, we explicitly add Gaussians for three types of pixels per frame: newly observed, with large color errors, and with large depth errors. We also categorize all Gaussians into stable and unstable ones, where the stable Gaussians are expected to well fit previously observed RGBD images and otherwise unstable. We only optimize the unstable Gaussians and only render the pixels occupied by unstable Gaussians. In this way, both the number of Gaussians to be optimized and pixels to be rendered are largely reduced, and the optimization can be done in real time. We show real-time reconstructions of a variety of large scenes. Compared with the state-of-the-art NeRF-based RGBD SLAM, our system achieves comparable high-quality reconstruction but with around twice the speed and half the memory cost, and shows superior performance in the realism of novel view synthesis and camera tracking accuracy.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.19706)
+
+##### 🎈6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model
+
+**Authors**: [Matteo Bortolon](https://arxiv.org/search/cs?searchtype=author&query=Bortolon,+M), [Theodore Tsesmelis](https://arxiv.org/search/cs?searchtype=author&query=Tsesmelis,+T), [Stuart James](https://arxiv.org/search/cs?searchtype=author&query=James,+S), [Fabio Poiesi](https://arxiv.org/search/cs?searchtype=author&query=Poiesi,+F), [Alessio Del Bue](https://arxiv.org/search/cs?searchtype=author&query=Del+Bue,+A)
+
+<details>
+<summary><b>Abstract</b></summary>
+We propose 6DGS to estimate the camera pose of a target RGB image given a 3D Gaussian Splatting (3DGS) model representing the scene. 6DGS avoids the iterative process typical of analysis-by-synthesis methods (e.g. iNeRF) that also require an initialization of the camera pose in order to converge. Instead, our method estimates a 6DoF pose by inverting the 3DGS rendering process. Starting from the object surface, we define a radiant Ellicell that uniformly generates rays departing from each ellipsoid that parameterize the 3DGS model. Each Ellicell ray is associated with the rendering parameters of each ellipsoid, which in turn is used to obtain the best bindings between the target image pixels and the cast rays. These pixel-ray bindings are then ranked to select the best scoring bundle of rays, which their intersection provides the camera center and, in turn, the camera rotation. The proposed solution obviates the necessity of an "a priori" pose for initialization, and it solves 6DoF pose estimation in closed form, without the need for iterations. Moreover, compared to the existing Novel View Synthesis (NVS) baselines for pose estimation, 6DGS can improve the overall average rotational accuracy by 12% and translation accuracy by 22% on real scenes, despite not requiring any initialization pose. At the same time, our method operates near real-time, reaching 15fps on consumer hardware.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2407.15484)
+
+##### 🎈Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting
+
+**Authors**: [Jou-Min Liu](https://openreview.net/profile?id=~Jou-Min_Liu1), [Hsuan-Kung Yang](https://openreview.net/profile?id=~Hsuan-Kung_Yang1), [Tsung-Chih Chiang](https://openreview.net/profile?id=~Tsung-Chih_Chiang1), [Ting-Ru Liu](https://openreview.net/profile?id=~Ting-Ru_Liu1), [Chun-Wei Huang](https://openreview.net/profile?id=~Chun-Wei_Huang2), [Quan Kong](https://openreview.net/profile?id=~Quan_Kong2), [Norimasa Kobori](https://openreview.net/profile?id=~Norimasa_Kobori2), [Chun-Yi Lee](https://openreview.net/profile?id=~Chun-Yi_Lee1)
+
+<details>
+<summary><b>Abstract</b></summary>
+Scene coordinate regression is a visual localization method that directly regresses the 3D scene coordinate for a set of pixels. Although existing works have demonstrated the feasibility to learn 3D scene coordinates from RGB images with ground truth poses, their effectiveness is limited by the availability of training data, particularly due to the absence of 3D information. To address this limitation, we introduce a novel three-stage approach for SCR model learning from 2D data. Our method begins by employing 3D Gaussian Splatting for generating a dense reconstruction of the scene. Subsequently, the SCR model is initialized with pseudo scene coordinates derived from the reconstruction. Finally, the model is refined using a sparse set of real images to mitigate the domain gap between pseudo scene coordinates and real scene coordinates. Our approach is validated through comprehensive experiments, resulting in performance improvements on the DL3DV-10K and 7 Scenes datasets.
+</details>
+
+[📄 Paper](https://openreview.net/forum?id=QPJGhB1sLm)
 
 # Extensions of 3D Gaussian Splatting
 ## Dynamic 3D Gaussian Splatting
 ### Multi-view Videos
-#### SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting
+##### 🎈SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting
 
 **Authors**: Richard Shaw, Michal Nazarczuk, Jifei Song, Arthur Moreau, Sibi Catley-Chandar, Helisa Dhamo, Eduardo Perez-Pellitero
 
@@ -1535,7 +1871,7 @@ Novel view synthesis has shown rapid progress recently, with methods capable of 
 
 [📄 Paper](https://arxiv.org/pdf/2312.13308)
 
-#### Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
+##### 🎈Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
 
 **Authors**: Deva Ramanan, Bastian Leibe, Georgios Kopanas, Jonathon Luiten
 
@@ -1546,7 +1882,7 @@ We present a method that simultaneously addresses the tasks of dynamic scene nov
 
 [📄 Paper](https://arxiv.org/pdf/2308.09713v1.pdf)
 
-#### 3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos
+##### 🎈3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos
 
 **Authors**: Wei Xing, Lei Zhao, Zhanjie Zhang, Guangyuan Li, Han Jiao, Jiakai Sun
 
@@ -1557,7 +1893,7 @@ Constructing photo-realistic Free-Viewpoint Videos (FVVs) of dynamic scenes from
 
 [📄 Paper](https://arxiv.org/pdf/2403.01444v4.pdf)
 
-#### Bridging 3D Gaussian and Mesh for Freeview Video Rendering
+##### 🎈Bridging 3D Gaussian and Mesh for Freeview Video Rendering
 
 **Authors**: Shenghua Gao, Yujun Shen, Minghui Yang, Nan Xue, Yanbo Fan, Hongrui Cai, Jiafei Li, Xuan Wang, Yuting Xiao
 
@@ -1569,7 +1905,7 @@ This is only a preview version of GauMesh. Recently, primitive-based rendering h
 [📄 Paper](https://arxiv.org/pdf/2403.11453v1.pdf)
 
 ### Monocular Video
-#### Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction
+##### 🎈Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction
 
 **Authors**: Xiaogang Jin, Yuqing Zhang, Shaohui Jiao, Wen Zhou, Xinyu Gao, ZiYi Yang
 
@@ -1580,7 +1916,7 @@ Implicit neural representation has paved the way for new approaches to dynamic s
 
 [📄 Paper](https://arxiv.org/pdf/2309.13101v2.pdf)
 
-#### 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
+##### 🎈4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
 
 **Authors**: Yuanxing Duan, Fangyin Wei, Qiyu Dai, Yuhang He, Wenzheng Chen, Baoquan Chen
 
@@ -1591,7 +1927,7 @@ We consider the problem of novel-view synthesis (NVS) for dynamic scenes. Recent
 
 [📄 Paper](https://arxiv.org/pdf/2402.03307)
 
-#### Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
+##### 🎈Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
 
 **Authors**: Li Zhang, Zijie Pan, Hongye Yang, Zeyu Yang
 
@@ -1602,7 +1938,7 @@ Reconstructing dynamic 3D scenes from 2D images and generating diverse views ove
 
 [📄 Paper](https://arxiv.org/pdf/2310.10642v3.pdf)
 
-#### GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis
+##### 🎈GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis
 
 **Authors**: Lei Xiao, James Tompkin, Douglas Lanman, Thu Nguyen-Phuoc, Zhengqin Li, Numair Khan, Yiqing Liang
 
@@ -1612,7 +1948,7 @@ We propose a method for dynamic scene reconstruction using deformable 3D Gaussia
 </details>
 [📄 Paper](https://arxiv.org/pdf/2312.11458v1.pdf)
 
-#### SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes
+##### 🎈SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes
 
 **Authors**: Xiaojuan Qi, Yan-Pei Cao, Xiaoyang Lyu, ZiYi Yang, Yang-tian Sun, Yi-Hua Huang
 
@@ -1623,7 +1959,7 @@ Novel view synthesis for dynamic scenes is still a challenging problem in comput
 
 [📄 Paper](https://arxiv.org/pdf/2312.14937v3.pdf)
 
-#### Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
+##### 🎈Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
 
 **Authors**: Deva Ramanan, Bastian Leibe, Georgios Kopanas, Jonathon Luiten
 
@@ -1633,7 +1969,7 @@ We present a method that simultaneously addresses the tasks of dynamic scene nov
 </details>
 [📄 Paper](https://arxiv.org/pdf/2308.09713v1.pdf)
 
-#### DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting
+##### 🎈DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting
 
 **Authors**: Kostas Daniilidis, Jiahui Lei, Agelos Kratimenos
 
@@ -1644,7 +1980,7 @@ Accurately and efficiently modeling dynamic scenes and motions is considered so 
 
 [📄 Paper](https://arxiv.org/pdf/2312.00112v1.pdf)
 
-#### MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes
+##### 🎈MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes
 
 **Authors**: Jeffrey Ichnowski, Shuran Song, Mike Zheng Shou, Jia-Wei Liu, Yunchao Yao, Zhao Mandi, Bardienus P. Duisterhof
 
@@ -1655,7 +1991,7 @@ Accurate 3D tracking in highly deformable scenes with occlusions and shadows can
 
 [📄 Paper](https://arxiv.org/pdf/2312.00583v1.pdf)
 
-#### Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
+##### 🎈Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
 
 **Authors**: Houqiang Li, Min Wang, Li Li, Wengang Zhou, Zhiyang Guo
 
@@ -1666,7 +2002,7 @@ Accurate 3D tracking in highly deformable scenes with occlusions and shadows can
 
 [📄 Paper](https://arxiv.org/pdf/2403.11447v1.pdf)
 
-#### A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis
+##### 🎈A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis
 
 **Authors**: Kai Katsumata, Duc Minh Vo, Hideki Nakayama
 
@@ -1677,7 +2013,7 @@ Accurate 3D tracking in highly deformable scenes with occlusions and shadows can
 
 [📄 Paper](https://arxiv.org/pdf/2311.12897)
 
-#### Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle
+##### 🎈Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle
 
 **Authors**: Yao Yao, Siyu Zhu, Zuozhuo Dai, Youtian Lin
 
@@ -1688,7 +2024,7 @@ We introduce Gaussian-Flow, a novel point-based approach for fast dynamic scene 
 
 [📄 Paper](https://arxiv.org/pdf/2312.03431v1.pdf)
 
-#### 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
+##### 🎈4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
 
 **Authors**: Xinggang Wang, Qi Tian, Wenyu Liu, Wei Wei, Xiaopeng Zhang, Lingxi Xie, Jiemin Fang, Taoran Yi, Guanjun Wu
 
@@ -1699,7 +2035,7 @@ Representing and rendering dynamic scenes has been an important but challenging 
 
 [📄 Paper](https://arxiv.org/pdf/2310.08528v3.pdf)
 
-#### Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis
+##### 🎈Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis
 
 **Authors**: Yi Xu, Zhong Li, Zhang Chen, Zhan Li
 
@@ -1711,7 +2047,7 @@ Novel view synthesis of dynamic scenes has been an intriguing yet challenging pr
 [📄 Paper](https://arxiv.org/pdf/2312.16812v2.pdf)
 
 ## Surface Representation
-#### Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
+##### 🎈Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
 
 **Authors**: Bo Dai, Dahua Lin, LiMin Wang, Yuanbo Xiangli, Linning Xu, Mulin Yu, Tao Lu
 
@@ -1722,7 +2058,7 @@ Neural rendering methods have significantly advanced photo-realistic 3D scene re
 
 [📄 Paper](https://arxiv.org/pdf/2312.00109v1.pdf)
 
-#### 2D Gaussian Splatting for Geometrically Accurate Radiance Fields
+##### 🎈2D Gaussian Splatting for Geometrically Accurate Radiance Fields
 
 **Authors**: Shenghua Gao, Andreas Geiger, Anpei Chen, Zehao Yu, Binbin Huang
 
@@ -1733,7 +2069,7 @@ Neural rendering methods have significantly advanced photo-realistic 3D scene re
 
 [📄 Paper](https://arxiv.org/pdf/2403.17888v2.pdf)
 
-#### SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering
+##### 🎈SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering
 
 **Authors**: Vincent Lepetit, Antoine Guédon
 
@@ -1744,7 +2080,7 @@ We propose a method to allow precise and extremely fast mesh extraction from 3D 
 
 [📄 Paper](https://arxiv.org/pdf/2311.12775v3.pdf)
 
-#### GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction
+##### 🎈GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction
 
 **Authors**: Bo Dai, Yuanbo Xiangli, Lihan Jiang, Linning Xu, Tao Lu, Mulin Yu
 
@@ -1755,7 +2091,7 @@ Presenting a 3D scene from multiview images remains a core and long-standing cha
 
 [📄 Paper](https://arxiv.org/pdf/2403.16964v1.pdf)
 
-#### 3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting
+##### 🎈3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting
 
 **Authors**: Xiaojuan Qi, Jiangmiao Pang, Yilun Chen, ZiYi Yang, Xiuzhe Wu, Yi-Hua Huang, Yang-tian Sun, Xiaoyang Lyu
 
@@ -1765,7 +2101,7 @@ In this paper, we present an implicit surface reconstruction method with 3D Gaus
 </details>
 [📄 Paper](https://arxiv.org/pdf/2404.00409v1.pdf)
 
-#### High-quality Surface Reconstruction using Gaussian Surfels
+##### 🎈High-quality Surface Reconstruction using Gaussian Surfels
 
 **Authors**: Weiwei Xu, Huamin Wang, Xinguo Liu, Wenxiang Xie, Jiamin Xu, Pinxuan Dai
 
@@ -1776,7 +2112,7 @@ We propose a novel point-based representation, Gaussian surfels, to combine the 
 
 [📄 Paper](https://arxiv.org/pdf/2404.17774v2.pdf)
 
-#### Implicit Geometric Regularization for Learning Shapes
+##### 🎈Implicit Geometric Regularization for Learning Shapes
 
 **Authors**: Niv Haim, Yaron Lipman, Matan Atzmon, Lior Yariv, Amos Gropp
 
@@ -1787,7 +2123,7 @@ Representing shapes as level sets of neural networks has been recently proved to
 
 [📄 Paper](https://arxiv.org/pdf/2002.10099v2.pdf)
 
-#### NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance
+##### 🎈NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance
 
 **Authors**: Gim Hee Lee, Chen Li, Hanlin Chen
 
@@ -1798,7 +2134,7 @@ Existing neural implicit surface reconstruction methods have achieved impressive
 
 [📄 Paper](https://arxiv.org/pdf/2312.00846v1.pdf)
 
-#### NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction
+##### 🎈NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction
 
 **Authors**: Wenping Wang, Taku Komura, Christian Theobalt, YuAn Liu, Lingjie Liu, Peng Wang
 
@@ -1809,7 +2145,7 @@ We present a novel neural surface reconstruction method, called NeuS, for recons
 
 [📄 Paper](https://arxiv.org/pdf/2106.10689v3.pdf)
 
-#### Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes
+##### 🎈Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes
 
 **Authors**: Andreas Geiger, Torsten Sattler, Zehao Yu
 
@@ -1817,12 +2153,66 @@ We present a novel neural surface reconstruction method, called NeuS, for recons
 <summary><b>Abstract</b></summary>
 Recently, 3D Gaussian Splatting (3DGS) has demonstrated impressive novel view synthesis results, while allowing the rendering of high-resolution images in real-time. However, leveraging 3D Gaussians for surface reconstruction poses significant challenges due to the explicit and disconnected nature of 3D Gaussians. In this work, we present Gaussian Opacity Fields (GOF), a novel approach for efficient, high-quality, and compact surface reconstruction in unbounded scenes. Our GOF is derived from ray-tracing-based volume rendering of 3D Gaussians, enabling direct geometry extraction from 3D Gaussians by identifying its levelset, without resorting to Poisson reconstruction or TSDF fusion as in previous work. We approximate the surface normal of Gaussians as the normal of the ray-Gaussian intersection plane, enabling the application of regularization that significantly enhances geometry. Furthermore, we develop an efficient geometry extraction method utilizing marching tetrahedra, where the tetrahedral grids are induced from 3D Gaussians and thus adapt to the scene's complexity. Our evaluations reveal that GOF surpasses existing 3DGS-based methods in surface reconstruction and novel view synthesis. Further, it compares favorably to, or even outperforms, neural implicit methods in both quality and speed.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2404.10772v1.pdf)
+
+##### 🎈Direct Learning of Mesh and Appearance via 3D Gaussian Splatting
+
+**Authors**: [Ancheng Lin](https://arxiv.org/search/cs?searchtype=author&query=Lin,+A), [Jun Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J)
+
+<details>
+<summary><b>Abstract</b></summary>
+Accurately reconstructing a 3D scene including explicit geometry information is both attractive and challenging. Geometry reconstruction can benefit from incorporating differentiable appearance models, such as Neural Radiance Fields and 3D Gaussian Splatting (3DGS). In this work, we propose a learnable scene model that incorporates 3DGS with an explicit geometry representation, namely a mesh. Our model learns the mesh and appearance in an end-to-end manner, where we bind 3D Gaussians to the mesh faces and perform differentiable rendering of 3DGS to obtain photometric supervision. The model creates an effective information pathway to supervise the learning of the scene, including the mesh. Experimental results demonstrate that the learned scene model not only achieves state-of-the-art rendering quality but also supports manipulation using the explicit mesh. In addition, our model has a unique advantage in adapting to scene updates, thanks to the end-to-end learning of both mesh and appearance.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.06945)
+
+##### 🎈GaussianRoom: Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction
+
+**Authors**: [Haodong Xiang](https://arxiv.org/search/cs?searchtype=author&query=Xiang,+H), [Xinghui Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+X), [Xiansong Lai](https://arxiv.org/search/cs?searchtype=author&query=Lai,+X), [Wanting Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+W), [Zhichao Liao](https://arxiv.org/search/cs?searchtype=author&query=Liao,+Z), [Kai Cheng](https://arxiv.org/search/cs?searchtype=author&query=Cheng,+K), [Xueping Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+X)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recently, 3D Gaussian Splatting(3DGS) has revolutionized neural rendering with its high-quality rendering and real-time speed. However, when it comes to indoor scenes with a significant number of textureless areas, 3DGS yields incomplete and noisy reconstruction results due to the poor initialization of the point cloud and under-constrained optimization. Inspired by the continuity of signed distance field (SDF), which naturally has advantages in modeling surfaces, we present a unified optimizing framework integrating neural SDF with 3DGS. This framework incorporates a learnable neural SDF field to guide the densification and pruning of Gaussians, enabling Gaussians to accurately model scenes even with poor initialized point clouds. At the same time, the geometry represented by Gaussians improves the efficiency of the SDF field by piloting its point sampling. Additionally, we regularize the optimization with normal and edge priors to eliminate geometry ambiguity in textureless areas and improve the details. Extensive experiments in ScanNet and ScanNet++ show that our method achieves state-of-the-art performance in both surface reconstruction and novel view synthesis.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.19671)
+
+##### 🎈GS-Octree: Octree-based 3D Gaussian Splatting for Robust Object-level 3D Reconstruction Under Strong Lighting
+
+**Authors**: [Jiaze Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J), [Zhengyu Wen](https://arxiv.org/search/cs?searchtype=author&query=Wen,+Z), [Luo Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+L), [Jiangbei Hu](https://arxiv.org/search/cs?searchtype=author&query=Hu,+J), [Fei Hou](https://arxiv.org/search/cs?searchtype=author&query=Hou,+F), [Zhebin Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Z), [Ying He](https://arxiv.org/search/cs?searchtype=author&query=He,+Y)
+
+<details>
+<summary><b>Abstract</b></summary>
+The 3D Gaussian Splatting technique has significantly advanced the construction of radiance fields from multi-view images, enabling real-time rendering. While point-based rasterization effectively reduces computational demands for rendering, it often struggles to accurately reconstruct the geometry of the target object, especially under strong lighting. To address this challenge, we introduce a novel approach that combines octree-based implicit surface representations with Gaussian splatting. Our method consists of four stages. Initially, it reconstructs a signed distance field (SDF) and a radiance field through volume rendering, encoding them in a low-resolution octree. The initial SDF represents the coarse geometry of the target object. Subsequently, it introduces 3D Gaussians as additional degrees of freedom, which are guided by the SDF. In the third stage, the optimized Gaussians further improve the accuracy of the SDF, allowing it to recover finer geometric details compared to the initial SDF obtained in the first stage. Finally, it adopts the refined SDF to further optimize the 3D Gaussians via splatting, eliminating those that contribute little to visual appearance. Experimental results show that our method, which leverages the distribution of 3D Gaussians with SDFs, reconstructs more accurate geometry, particularly in images with specular highlights caused by strong lighting.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2406.18199)
+
+##### 🎈OMEGAS: Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation
+
+**Authors**: [Lizhi Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+L), [Feng Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+F), [Jianqin Yin](https://arxiv.org/search/cs?searchtype=author&query=Yin,+J)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent advancements in 3D reconstruction technologies have paved the way for high-quality and real-time rendering of complex 3D scenes. Despite these achievements, a notable challenge persists: it is difficult to precisely reconstruct specific objects from large scenes. Current scene reconstruction techniques frequently result in the loss of object detail textures and are unable to reconstruct object portions that are occluded or unseen in views. To address this challenge, we delve into the meticulous 3D reconstruction of specific objects within large scenes and propose a framework termed OMEGAS: Object Mesh Extraction from Large Scenes Guided by GAussian Segmentation. OMEGAS employs a multi-step approach, grounded in several excellent off-the-shelf methodologies. Specifically, initially, we utilize the Segment Anything Model (SAM) to guide the segmentation of 3D Gaussian Splatting (3DGS), thereby creating a basic 3DGS model of the target object. Then, we leverage large-scale diffusion priors to further refine the details of the 3DGS model, especially aimed at addressing invisible or occluded object portions from the original scene views. Subsequently, by re-rendering the 3DGS model onto the scene views, we achieve accurate object segmentation and effectively remove the background. Finally, these target-only images are used to improve the 3DGS model further and extract the definitive 3D object mesh by the SuGaR model. In various scenarios, our experiments demonstrate that OMEGAS significantly surpasses existing scene reconstruction methods. Our project page is at: this https URL
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2312.00109v1.pdf)
+
+##### 🎈Trim 3D Gaussian Splatting for Accurate Geometry Representation
+
+**Authors**: [Lue Fan](https://arxiv.org/search/cs?searchtype=author&query=Fan,+L), [Yuxue Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+Y), [Minxing Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+M), [Hongsheng Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+H), [Zhaoxiang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Z)
+
+<details>
+<summary><b>Abstract</b></summary>
+Neural rendering methods have significantly advanced photo-realistic 3D scene rendering in In this paper, we introduce Trim 3D Gaussian Splatting (TrimGS) to reconstruct accurate 3D geometry from images. Previous arts for geometry reconstruction from 3D Gaussians mainly focus on exploring strong geometry regularization. Instead, from a fresh perspective, we propose to obtain accurate 3D geometry of a scene by Gaussian trimming, which selectively removes the inaccurate geometry while preserving accurate structures. To achieve this, we analyze the contributions of individual 3D Gaussians and propose a contribution-based trimming strategy to remove the redundant or inaccurate Gaussians. Furthermore, our experimental and theoretical analyses reveal that a relatively small Gaussian scale is a non-negligible factor in representing and optimizing the intricate details. Therefore the proposed TrimGS maintains relatively small Gaussian scales. In addition, TrimGS is also compatible with the effective geometry regularization strategies in previous arts. When combined with the original 3DGS and the state-of-the-art 2DGS, TrimGS consistently yields more accurate geometry and higher perceptual quality. Our project page is this https URL
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2406.07499)
 
 ## Editable 3D Gaussian Splatting
 ### Manipulation by Text
-#### GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting
+##### 🎈GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting
 
 **Authors**: Guosheng Lin, Huaping Liu, Lei Yang, Zhongang Cai, Yikai Wang, Xiaofeng Yang, Feng Wang, Chi Zhang, Zilong Chen, YiWen Chen
 
@@ -1832,7 +2222,7 @@ Recently, 3D Gaussian Splatting (3DGS) has demonstrated impressive novel view sy
 </details>
 [📄 Paper](https://arxiv.org/pdf/2311.14521v4.pdf)
 
-#### GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions
+##### 🎈GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions
 
 **Authors**: Qi Tian, Lingxi Xie, Xiaopeng Zhang, Junjie Wang, Jiemin Fang
 
@@ -1842,7 +2232,7 @@ Recently, impressive results have been achieved in 3D scene editing with text in
 </details>
 [📄 Paper](https://arxiv.org/pdf/2311.16037v1.pdf)
 
-#### DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
+##### 🎈DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 
 **Authors**: Gang Zeng, Ziwei Liu, Hang Zhou, Jiawei Ren, Jiaxiang Tang
 
@@ -1852,7 +2242,7 @@ Recent advances in 3D content creation mostly leverage optimization-based 3D gen
 </details>
 [📄 Paper](https://arxiv.org/pdf/2309.16653v2.pdf)
 
-#### GSEdit: Efficient Text-Guided Editing of 3D Objects via Gaussian Splatting
+##### 🎈GSEdit: Efficient Text-Guided Editing of 3D Objects via Gaussian Splatting
 
 **Authors**: Emanuele Rodolà, Daniele Baieri, Andrea Sanchietti, Francesco Palandra
 
@@ -1863,7 +2253,7 @@ We present GSEdit, a pipeline for text-guided 3D object editing based on Gaussia
 
 [📄 Paper](https://arxiv.org/pdf/2403.05154v2.pdf)
 
-#### View-Consistent 3D Editing with Gaussian Splatting
+##### 🎈View-Consistent 3D Editing with Gaussian Splatting
 
 **Authors**: Hanwang Zhang, Long Chen, Na Zhao, Zike Wu, Xuanyu Yi, Yuxuan Wang
 
@@ -1874,7 +2264,7 @@ The advent of 3D Gaussian Splatting (3DGS) has revolutionized 3D editing, offeri
 
 [📄 Paper](https://arxiv.org/pdf/2403.11868v6.pdf)
 
-#### GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing
+##### 🎈GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing
 
 **Authors**: Victor Adrian Prisacariu, Philip Torr, Ian Reid, Guangrun Wang, Xinghui Li, Jia-Wang Bian, Jing Wu
 
@@ -1885,7 +2275,7 @@ We propose GaussCtrl, a text-driven method to edit a 3D scene reconstructed by t
 [📄 Paper](https://arxiv.org/pdf/2403.08733v4.pdf)
 
 ### Manipulation by Other Conditions
-#### Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields
+##### 🎈Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields
 
 **Authors**: Hongchuan Yu, Jiajun Huang
 
@@ -1896,7 +2286,7 @@ We propose Point'n Move, a method that achieves interactive scene object manipul
 
 [📄 Paper](https://arxiv.org/pdf/2311.16737v1.pdf)
 
-#### TIP-Editor: An Accurate 3D Editor Following Both Text-Prompts And Image-Prompts
+##### 🎈TIP-Editor: An Accurate 3D Editor Following Both Text-Prompts And Image-Prompts
 
 **Authors**: Ying Shan, Liang Lin, Guanbin Li, Yan-Pei Cao, Di Kang, Jingyu Zhuang
 
@@ -1908,7 +2298,7 @@ Text-driven 3D scene editing has gained significant attention owing to its conve
 [📄 Paper](https://arxiv.org/pdf/2401.14828v3.pdf)
 
 ### Stylization
-#### Gaussian Splatting in Style
+##### 🎈Gaussian Splatting in Style
 
 **Authors**: Daniel Cremers, Tarun Yenamandra, Cecilia Curreli, Mariia Gladkova, Abhishek Saroha
 
@@ -1919,7 +2309,7 @@ Scene stylization extends the work of neural style transfer to three spatial dim
 [📄 Paper](https://arxiv.org/pdf/2403.08498v1.pdf)
 
 ### Animation
-#### CoGS: Controllable Gaussian Splatting
+##### 🎈CoGS: Controllable Gaussian Splatting
 
 **Authors**: László A. Jeni, Koichiro Niinuma, Zoltán Á. Milacski, Joel Julin, Heng Yu
 
@@ -1930,7 +2320,7 @@ Capturing and re-animating the 3D structure of articulated objects present signi
 
 [📄 Paper](https://arxiv.org/pdf/2312.05664v2.pdf)
 
-#### BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
+##### 🎈BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
 
 **Authors**: Baoquan Chen, Libin Liu, Weiyu Li, Qingzhe Gao, Tingyang Zhang
 
@@ -1941,7 +2331,7 @@ Animatable 3D reconstruction has significant applications across various fields,
 
 [📄 Paper](https://arxiv.org/pdf/2403.11427v1.pdf)
 
-#### SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes
+##### 🎈SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes
 
 **Authors**: Xiaojuan Qi, Yan-Pei Cao, Xiaoyang Lyu, ZiYi Yang, Yang-tian Sun, Yi-Hua Huang
 
@@ -1953,7 +2343,7 @@ Novel view synthesis for dynamic scenes is still a challenging problem in comput
 [📄 Paper](https://arxiv.org/pdf/2312.14937v3.pdf)
 
 ## Semantic Understanding
-#### Gaussian Grouping: Segment and Edit Anything in 3D Scenes
+##### 🎈Gaussian Grouping: Segment and Edit Anything in 3D Scenes
 
 **Authors**: Lei Ke, Fisher Yu, Martin Danelljan, Mingqiao Ye
 
@@ -1964,7 +2354,7 @@ The recent Gaussian Splatting achieves high-quality and real-time novel-view syn
 
 [📄 Paper](https://arxiv.org/pdf/2312.00732v2.pdf)
 
-#### Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding
+##### 🎈Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding
 
 **Authors**: Shao-Hua Guan, Hao-Bin Duan, Miao Wang, Jin-Chuan Shi
 
@@ -1974,7 +2364,7 @@ Open-vocabulary querying in 3D space is challenging but essential for scene unde
 </details>
 [📄 Paper](https://arxiv.org/pdf/2311.18482v1.pdf)
 
-#### FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding
+##### 🎈FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding
 
 **Authors**: Mingyang Li, Yan Di, Yunwen Zhou, Pouya Samangouei, Xingxing Zuo
 
@@ -1984,7 +2374,7 @@ Precisely perceiving the geometric and semantic properties of real-world 3D obje
 </details>
 [📄 Paper](https://arxiv.org/pdf/2401.01970v2.pdf)
 
-#### Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields
+##### 🎈Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields
 
 **Authors**: Achuta Kadambi, Zhangyang Wang, Suya You, Pradyumna Chari, Dejia Xu, Zehao Zhu, Zhiwen Fan, Sicheng Jiang, Haoran Chang, Shijie Zhou
 
@@ -1994,7 +2384,7 @@ Precisely perceiving the geometric and semantic properties of real-world 3D obje
 </details>
 [📄 Paper](https://arxiv.org/pdf/2312.03203v3.pdf)
 
-#### Emerging Properties in Self-Supervised Vision Transformers
+##### 🎈Emerging Properties in Self-Supervised Vision Transformers
 
 **Authors**: Armand Joulin, Piotr Bojanowski, Julien Mairal, Hervé Jégou, Ishan Misra, Hugo Touvron, Mathilde Caron
 
@@ -2005,7 +2395,7 @@ In this paper, we question if self-supervised learning provides new properties t
 
 [📄 Paper](https://arxiv.org/pdf/2104.14294v2.pdf)
 
-#### LangSplat: 3D Language Gaussian Splatting
+##### 🎈LangSplat: 3D Language Gaussian Splatting
 
 **Authors**: Hanspeter Pfister, Haoqian Wang, Jiawei Zhou, Wanhua Li, Minghan Qin
 
@@ -2016,7 +2406,7 @@ Humans live in a 3D world and commonly use natural language to interact with a 3
 
 [📄 Paper](https://arxiv.org/pdf/2312.16084v2.pdf)
 
-#### CoSSegGaussians: Compact and Swift Scene Segmenting 3D Gaussians with Dual Feature Fusion
+##### 🎈CoSSegGaussians: Compact and Swift Scene Segmenting 3D Gaussians with Dual Feature Fusion
 
 **Authors**: Zejian yuan, Zhaohui Wang, Yongjia Ma, Tianyu Zhang, Bin Dou
 
@@ -2027,7 +2417,7 @@ We propose Compact and Swift Segmenting 3D Gaussians(CoSSegGaussians), a method 
 
 [📄 Paper](https://arxiv.org/pdf/2401.05925v3.pdf)
 
-#### 2D-Guided 3D Gaussian Segmentation
+##### 🎈2D-Guided 3D Gaussian Segmentation
 
 **Authors**: Pengyuan Zhou, Lin Wang, Yong Liao, Wenjun Wu, Haolin Shi, Haoran Li, Kun Lan
 
@@ -2038,7 +2428,7 @@ Recently, 3D Gaussian, as an explicit 3D representation method, has demonstrated
 [📄 Paper](https://arxiv.org/pdf/2312.16047v1.pdf)
 
 ## Physics Simulation
-#### 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
+##### 🎈4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
 
 **Authors**: Xinggang Wang, Qi Tian, Wenyu Liu, Wei Wei, Xiaopeng Zhang, Lingxi Xie, Jiemin Fang, Taoran Yi, Guanjun Wu
 
@@ -2049,7 +2439,7 @@ Representing and rendering dynamic scenes has been an important but challenging 
 
 [📄 Paper](https://arxiv.org/pdf/2310.08528v3.pdf)
 
-#### Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
+##### 🎈Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis
 
 **Authors**: Deva Ramanan, Bastian Leibe, Georgios Kopanas, Jonathon Luiten
 
@@ -2059,7 +2449,7 @@ We present a method that simultaneously addresses the tasks of dynamic scene nov
 </details>
 [📄 Paper](https://arxiv.org/pdf/2308.09713v1.pdf)
 
-#### PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics
+##### 🎈PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics
 
 **Authors**: Yuxing Qiu, Chenfanfu Jiang, Yin Yang, Yutao Feng, Xuan Li, Zeshun Zong, Tianyi Xie
 
@@ -2072,7 +2462,7 @@ We introduce PhysGaussian, a new method that seamlessly integrates physically gr
 
 # Technical Classification
 ## Initialization
-#### Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting
+##### 🎈Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting
 
 **Authors**: Seungryong Kim, Seonghoon Park, Jiwon Kang, Honggyu An, Jisang Han, Jaewoo Jung
 
@@ -2083,7 +2473,7 @@ We introduce PhysGaussian, a new method that seamlessly integrates physically gr
 
 [📄 Paper](https://arxiv.org/pdf/2403.09413v2.pdf)
 
-#### Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
+##### 🎈Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
 
 **Authors**: Jan Eric Lenssen, Eddy Ilg, Raza Yunus, Christopher Wewer, Devikalyan Das
 
@@ -2094,7 +2484,7 @@ Reconstructing dynamic objects from monocular videos is a severely underconstrai
 
 [📄 Paper](https://arxiv.org/pdf/2312.01196v2.pdf)
 
-#### Text-to-3D using Gaussian Splatting
+##### 🎈Text-to-3D using Gaussian Splatting
 
 **Authors**: Huaping Liu, Yikai Wang, Feng Wang, Zilong Chen
 
@@ -2105,7 +2495,7 @@ Automatic text-to-3D generation that combines Score Distillation Sampling (SDS) 
 
 [📄 Paper](https://arxiv.org/pdf/2309.16585v4.pdf)
 
-#### AGG: Amortized Generative 3D Gaussians for Single Image to 3D
+##### 🎈AGG: Amortized Generative 3D Gaussians for Single Image to 3D
 
 **Authors**: Arash Vahdat, Zhangyang Wang, Jiaming Song, Sifei Liu, Morteza Mardani, Ye Yuan, Dejia Xu
 
@@ -2116,7 +2506,7 @@ Given the growing need for automatic 3D content creation pipelines, various 3D r
 
 [📄 Paper](https://arxiv.org/pdf/2401.04099v1.pdf)
 
-#### GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting
+##### 🎈GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting
 
 **Authors**: Qi Tian, Wei Shen, Xiaopeng Zhang, Lingxi Xie, Ruofan Liang, Jiemin Fang, Sikuang Li, Chen Yang
 
@@ -2128,7 +2518,7 @@ Reconstructing and rendering 3D objects from highly sparse views is of critical 
 [📄 Paper](https://arxiv.org/pdf/2402.10259v2.pdf)
 
 ## Attribute Expansion
-#### Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
+##### 🎈Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
 
 **Authors**: Jan Eric Lenssen, Eddy Ilg, Raza Yunus, Christopher Wewer, Devikalyan Das
 
@@ -2139,7 +2529,7 @@ Reconstructing dynamic objects from monocular videos is a severely underconstrai
 
 [📄 Paper](https://arxiv.org/pdf/2312.01196v2.pdf)
 
-#### Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding
+##### 🎈Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding
 
 **Authors**: Shao-Hua Guan, Hao-Bin Duan, Miao Wang, Jin-Chuan Shi
 
@@ -2150,7 +2540,7 @@ Open-vocabulary querying in 3D space is challenging but essential for scene unde
 
 [📄 Paper](https://arxiv.org/pdf/2311.18482v1.pdf)
 
-#### MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes
+##### 🎈MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes
 
 **Authors**: Jeffrey Ichnowski, Shuran Song, Mike Zheng Shou, Jia-Wei Liu, Yunchao Yao, Zhao Mandi, Bardienus P. Duisterhof
 
@@ -2161,7 +2551,7 @@ Accurate 3D tracking in highly deformable scenes with occlusions and shadows can
 
 [📄 Paper](https://arxiv.org/pdf/2312.00583v1.pdf)
 
-#### GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
+##### 🎈GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
 
 **Authors**: Guocheng Qian, Jinjie Mai, Andrea Vedaldi, Bernard Ghanem, Carl Vondrick, Ruoshi Liu, Luke Melas-Kyriazi, Abdullah Hamdi
 
@@ -2172,7 +2562,7 @@ Advancements in 3D Gaussian Splatting have significantly accelerated 3D reconstr
 
 [📄 Paper](https://arxiv.org/pdf/2402.10128v2.pdf)
 
-#### CoGS: Controllable Gaussian Splatting
+##### 🎈CoGS: Controllable Gaussian Splatting
 
 **Authors**: László A. Jeni, Koichiro Niinuma, Zoltán Á. Milacski, Joel Julin, Heng Yu
 
@@ -2183,7 +2573,7 @@ Capturing and re-animating the 3D structure of articulated objects present signi
 
 [📄 Paper](https://arxiv.org/pdf/2312.05664v2.pdf)
 
-#### Compact 3D Gaussian Representation for Radiance Field
+##### 🎈Compact 3D Gaussian Representation for Radiance Field
 
 **Authors**: Eunbyung Park, Jong Hwan Ko, Xiangyu Sun, Daniel Rho, Joo Chan Lee
 
@@ -2194,7 +2584,7 @@ Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturi
 
 [📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
 
-#### 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
+##### 🎈4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
 
 **Authors**: Yuanxing Duan, Fangyin Wei, Qiyu Dai, Yuhang He, Wenzheng Chen, Baoquan Chen
 
@@ -2205,7 +2595,7 @@ We consider the problem of novel-view synthesis (NVS) for dynamic scenes. Recent
 
 [📄 Paper](https://arxiv.org/pdf/2402.03307)
 
-#### Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras
+##### 🎈Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras
 
 **Authors**: Sai-Kit Yeung, Hui Cheng, Longwei Li, Huajian Huang
 
@@ -2216,7 +2606,7 @@ The integration of neural rendering and the SLAM system recently showed promisin
 
 [📄 Paper](https://arxiv.org/pdf/2311.16728v2.pdf)
 
-#### GART: Gaussian Articulated Template Models
+##### 🎈GART: Gaussian Articulated Template Models
 
 **Authors**: Kostas Daniilidis, Lingjie Liu, Georgios Pavlakos, Yufu Wang, Jiahui Lei
 
@@ -2227,7 +2617,7 @@ We introduce Gaussian Articulated Template Model GART, an explicit, efficient, a
 
 [📄 Paper](https://arxiv.org/pdf/2311.16099v1.pdf)
 
-#### Gaussian Grouping: Segment and Edit Anything in 3D Scenes
+##### 🎈Gaussian Grouping: Segment and Edit Anything in 3D Scenes
 
 **Authors**: Lei Ke, Fisher Yu, Martin Danelljan, Mingqiao Ye
 
@@ -2238,7 +2628,7 @@ The recent Gaussian Splatting achieves high-quality and real-time novel-view syn
 
 [📄 Paper](https://arxiv.org/pdf/2312.00732v2.pdf)
 
-#### Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
+##### 🎈Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
 
 **Authors**: Rüdiger Westermann, Josef Stumpfegger, Simon Niedermayr
 
@@ -2249,7 +2639,7 @@ Recently, high-fidelity scene reconstruction with an optimized 3D Gaussian splat
 
 [📄 Paper](https://arxiv.org/pdf/2401.02436v2.pdf)
 
-#### pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction
+##### 🎈pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction
 
 **Authors**: Vincent Sitzmann, Andrea Tagliasacchi, Sizhe Li, David Charatan
 
@@ -2260,7 +2650,7 @@ We introduce pixelSplat, a feed-forward model that learns to reconstruct 3D radi
 
 [📄 Paper](https://arxiv.org/pdf/2312.12337v4.pdf)
 
-#### GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise
+##### 🎈GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise
 
 **Authors**: Kuo-Kun Tseng, Huaibin Wang, Xinhai Li
 
@@ -2271,7 +2661,7 @@ Text-to-3D, known for its efficient generation methods and expansive creative po
 
 [📄 Paper](https://arxiv.org/pdf/2311.11221v1.pdf)
 
-#### DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting
+##### 🎈DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting
 
 **Authors**: Kostas Daniilidis, Jiahui Lei, Agelos Kratimenos
 
@@ -2282,7 +2672,7 @@ Accurately and efficiently modeling dynamic scenes and motions is considered so 
 
 [📄 Paper](https://arxiv.org/pdf/2312.00112v1.pdf)
 
-#### Splatter Image: Ultra-Fast Single-View 3D Reconstruction
+##### 🎈Splatter Image: Ultra-Fast Single-View 3D Reconstruction
 
 **Authors**: Andrea Vedaldi, Christian Rupprecht, Stanislaw Szymanowicz
 
@@ -2293,7 +2683,7 @@ We introduce the \method, an ultra-efficient approach for monocular 3D object re
 
 [📄 Paper](https://arxiv.org/pdf/2312.13150v2.pdf)
 
-#### Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
+##### 🎈Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
 
 **Authors**: Houqiang Li, Min Wang, Li Li, Wengang Zhou, Zhiyang Guo
 
@@ -2304,7 +2694,7 @@ We introduce the \method, an ultra-efficient approach for monocular 3D object re
 
 [📄 Paper](https://arxiv.org/pdf/2403.11447v1.pdf)
 
-#### Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering
+##### 🎈Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering
 
 **Authors**: Gim Hee Lee, Yu Chen, Weng Fei Low, Zhiwen Yan
 
@@ -2315,7 +2705,7 @@ We introduce the \method, an ultra-efficient approach for monocular 3D object re
 
 [📄 Paper](https://arxiv.org/pdf/2311.17089v2.pdf)
 
-#### Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields
+##### 🎈Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields
 
 **Authors**: Hongchuan Yu, Jiajun Huang
 
@@ -2327,7 +2717,7 @@ We propose Point'n Move, a method that achieves interactive scene object manipul
 [📄 Paper](https://arxiv.org/pdf/2311.16737v1.pdf)
 
 ## Splatting
-#### ADOP: Approximate Differentiable One-Pixel Point Rendering
+##### 🎈ADOP: Approximate Differentiable One-Pixel Point Rendering
 
 **Authors**: Marc Stamminger, Linus Franke, Darius Rückert
 
@@ -2338,7 +2728,7 @@ In this paper we present ADOP, a novel point-based, differentiable neural render
 
 [📄 Paper](https://arxiv.org/pdf/2110.06635v3.pdf)
 
-#### GS++: Error Analyzing and Optimal Gaussian Splatting
+##### 🎈GS++: Error Analyzing and Optimal Gaussian Splatting
 
 **Authors**: Letian Huang, Jiayang Bai, Jie Guo, Yanwen Guo
 
@@ -2349,7 +2739,7 @@ In this paper we present ADOP, a novel point-based, differentiable neural render
 
 [📄 Paper](https://arxiv.org/pdf/2402.00752v1)
 
-#### TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering
+##### 🎈TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering
 
 **Authors**: Marc Stamminger, Laura Fink, Darius Rückert, Linus Franke
 
@@ -2360,7 +2750,7 @@ Point-based radiance field rendering has demonstrated impressive results for nov
 
 [📄 Paper](https://arxiv.org/pdf/2401.06003v2.pdf)
 
-#### 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+##### 🎈3D Gaussian Splatting for Real-Time Radiance Field Rendering
 
 **Authors**: George Drettakis, Thomas Leimkühler, Georgios Kopanas, Bernhard Kerbl
 
@@ -2373,7 +2763,7 @@ Radiance Field methods have recently revolutionized novel-view synthesis of scen
 
 ## Regularization
 ### 3D Regularization
-#### CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting
+##### 🎈CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting
 
 **Authors**: Achuta Kadambi, Pradyumna Chari, Alexander Vilesov
 
@@ -2384,7 +2774,7 @@ With the onset of diffusion-based generative models and their ability to generat
 
 [📄 Paper](https://arxiv.org/pdf/2311.17907v1.pdf)
 
-#### DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization
+##### 🎈DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization
 
 **Authors**: Lin Gu, Jun Zhou, Xin Ning, Jin Zheng, Xiao Bai, Jiawei Zhang, Jiahe Li
 
@@ -2395,7 +2785,7 @@ Radiance fields have demonstrated impressive performance in synthesizing novel v
 
 [📄 Paper](https://arxiv.org/pdf/2403.06912v3.pdf)
 
-#### MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes
+##### 🎈MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes
 
 **Authors**: Jeffrey Ichnowski, Shuran Song, Mike Zheng Shou, Jia-Wei Liu, Yunchao Yao, Zhao Mandi, Bardienus P. Duisterhof
 
@@ -2406,7 +2796,7 @@ Accurate 3D tracking in highly deformable scenes with occlusions and shadows can
 
 [📄 Paper](https://arxiv.org/pdf/2312.00583v1.pdf)
 
-#### Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images
+##### 🎈Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images
 
 **Authors**: Kyoung Mu Lee, Jeongtaek Oh, JaeYoung Chung
 
@@ -2417,7 +2807,7 @@ In this paper, we present a method to optimize Gaussian splatting with a limited
 
 [📄 Paper](https://arxiv.org/pdf/2311.13398v3.pdf)
 
-#### GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering
+##### 🎈GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering
 
 **Authors**: Federico Tombari, Gim Hee Lee, Guangyao Zhai, Yan Di, Chenyu Lyu, Yanyan Li
 
@@ -2428,7 +2818,7 @@ During the Gaussian Splatting optimization process, the scene's geometry can gra
 
 [📄 Paper](https://arxiv.org/pdf/2403.11324v2.pdf)
 
-#### BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
+##### 🎈BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors
 
 **Authors**: Baoquan Chen, Libin Liu, Weiyu Li, Qingzhe Gao, Tingyang Zhang
 
@@ -2439,7 +2829,7 @@ Animatable 3D reconstruction has significant applications across various fields,
 
 [📄 Paper](https://arxiv.org/pdf/2403.11427v1.pdf)
 
-#### NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance
+##### 🎈NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance
 
 **Authors**: Gim Hee Lee, Chen Li, Hanlin Chen
 
@@ -2450,7 +2840,7 @@ Existing neural implicit surface reconstruction methods have achieved impressive
 
 [📄 Paper](https://arxiv.org/pdf/2312.00846v1.pdf)
 
-#### GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces
+##### 🎈GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces
 
 **Authors**: Yuexin Ma, Wenping Wang, Xiaoxiao Long, Xifeng Gao, YuAn Liu, Jiadong Tu, Yingwenqi Jiang
 
@@ -2461,7 +2851,7 @@ The advent of neural 3D Gaussians has recently brought about a revolution in the
 
 [📄 Paper](https://arxiv.org/pdf/2311.17977v1.pdf)
 
-#### Gaussian Grouping: Segment and Edit Anything in 3D Scenes
+##### 🎈Gaussian Grouping: Segment and Edit Anything in 3D Scenes
 
 **Authors**: Lei Ke, Fisher Yu, Martin Danelljan, Mingqiao Ye
 
@@ -2472,7 +2862,7 @@ The recent Gaussian Splatting achieves high-quality and real-time novel-view syn
 
 [📄 Paper](https://arxiv.org/pdf/2312.00732v2.pdf)
 
-#### Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle
+##### 🎈Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle
 
 **Authors**: Yao Yao, Siyu Zhu, Zuozhuo Dai, Youtian Lin
 
@@ -2482,7 +2872,7 @@ We introduce Gaussian-Flow, a novel point-based approach for fast dynamic scene 
 </details>
 [📄 Paper](https://arxiv.org/pdf/2312.03431v1.pdf)
 
-#### High-quality Surface Reconstruction using Gaussian Surfels
+##### 🎈High-quality Surface Reconstruction using Gaussian Surfels
 
 **Authors**: Weiwei Xu, Huamin Wang, Xinguo Liu, Wenxiang Xie, Jiamin Xu, Pinxuan Dai
 
@@ -2494,7 +2884,7 @@ We propose a novel point-based representation, Gaussian surfels, to combine the 
 [📄 Paper](https://arxiv.org/pdf/2404.17774v2.pdf)
 
 ### 2D Regularization
-#### High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization
+##### 🎈High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization
 
 **Authors**: Martin Magnusson, Achim J. Lilienthal, Malcolm Mielle, Shuo Sun
 
@@ -2504,7 +2894,7 @@ We propose a dense RGBD SLAM system based on 3D Gaussian Splatting that provides
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.12535v1.pdf)
 
-#### Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond
+##### 🎈Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond
 
 **Authors**: Mingyuan Zhou, Amir Sadeghian, Ali Sadeghian, Huangjie Zheng, Mohammadreza Armandpour
 
@@ -2515,7 +2905,7 @@ Although text-to-image diffusion models have made significant strides in generat
 
 [📄 Paper](https://arxiv.org/pdf/2304.04968v3.pdf)
 
-#### FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting
+##### 🎈FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting
 
 **Authors**: Zhangyang Wang, Yifan Jiang, Zhiwen Fan, Zehao Zhu
 
@@ -2525,7 +2915,7 @@ Novel view synthesis from limited observations remains an important and persiste
 </details>
 [📄 Paper](https://arxiv.org/pdf/2312.00451v2.pdf)
 
-#### Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting
+##### 🎈Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting
 
 **Authors**: Guosheng Lin, Fayao Liu, Xulei Yang, Yi Xu, Chi Zhang, Cheng Chen, YiWen Chen, Xiaofeng Yang
 
@@ -2536,7 +2926,7 @@ We propose a unified framework aimed at enhancing the diffusion priors for 3D ge
 
 [📄 Paper](https://arxiv.org/pdf/2312.04820v1.pdf)
 
-#### Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models
+##### 🎈Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models
 
 **Authors**: Karsten Kreis, Sanja Fidler, Antonio Torralba, Seung Wook Kim, Huan Ling
 
@@ -2547,7 +2937,7 @@ Text-guided diffusion models have revolutionized image and video generation and 
 
 [📄 Paper](https://arxiv.org/pdf/2312.13763v2.pdf)
 
-#### FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization
+##### 🎈FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization
 
 **Authors**: Eric Xing, Shijian Lu, Muyu Xu, Fangneng Zhan, Jiahui Zhang
 
@@ -2558,7 +2948,7 @@ Text-guided diffusion models have revolutionized image and video generation and 
 
 [📄 Paper](https://arxiv.org/pdf/2403.06908v2.pdf)
 
-#### HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
+##### 🎈HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
 
 **Authors**: Ziwei Liu, Xihui Liu, Dahua Lin, Gang Zeng, Ying Shan, Jiaxiang Tang, Xiaohang Zhan, Xian Liu
 
@@ -2569,7 +2959,7 @@ Realistic 3D human generation from text prompts is a desirable yet challenging t
 
 [📄 Paper](https://arxiv.org/pdf/2311.17061v2.pdf)
 
-#### Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting
+##### 🎈Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting
 
 **Authors**: Martin R. Oswald, Theo Gevers, Yue Li, Vladimir Yugay
 
@@ -2580,7 +2970,7 @@ We present a dense simultaneous localization and mapping (SLAM) method that uses
 
 [📄 Paper](https://arxiv.org/pdf/2312.10070v2.pdf)
 
-#### InstructPix2Pix: Learning to Follow Image Editing Instructions
+##### 🎈InstructPix2Pix: Learning to Follow Image Editing Instructions
 
 **Authors**: Alexei A. Efros, Aleksander Holynski, Tim Brooks
 
@@ -2591,7 +2981,7 @@ We propose a method for editing images from human instructions: given an input i
 
 [📄 Paper](https://arxiv.org/pdf/2211.09800v2.pdf)
 
-#### Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
+##### 🎈Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction
 
 **Authors**: Houqiang Li, Min Wang, Li Li, Wengang Zhou, Zhiyang Guo
 
@@ -2602,7 +2992,7 @@ We propose a method for editing images from human instructions: given an input i
 
 [📄 Paper](https://arxiv.org/pdf/2403.11447v1.pdf)
 
-#### GSEdit: Efficient Text-Guided Editing of 3D Objects via Gaussian Splatting
+##### 🎈GSEdit: Efficient Text-Guided Editing of 3D Objects via Gaussian Splatting
 
 **Authors**: Emanuele Rodolà, Daniele Baieri, Andrea Sanchietti, Francesco Palandra
 
@@ -2613,7 +3003,7 @@ We present GSEdit, a pipeline for text-guided 3D object editing based on Gaussia
 
 [📄 Paper](https://arxiv.org/pdf/2403.05154v2.pdf)
 
-#### LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
+##### 🎈LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching
 
 **Authors**: Yingcong Chen, Xiaogang Xu, Haodong Li, Jiantao Lin, Xin Yang, Yixun Liang
 
@@ -2626,7 +3016,7 @@ The recent advancements in text-to-3D generation mark a significant milestone in
 
 ## Training Strategy
 ### Multi-stage Training Strategy
-#### LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
+##### 🎈LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
 
 **Authors**: Zhangyang Wang, Dejia Xu, Zehao Zhu, Kairun Wen, Kevin Wang, Zhiwen Fan
 
@@ -2637,7 +3027,7 @@ Recent advancements in real-time neural rendering using point-based techniques h
 
 [📄 Paper](https://arxiv.org/pdf/2311.17245v5.pdf)
 
-#### View-Consistent 3D Editing with Gaussian Splatting
+##### 🎈View-Consistent 3D Editing with Gaussian Splatting
 
 **Authors**: Hanwang Zhang, Long Chen, Na Zhao, Zike Wu, Xuanyu Yi, Yuxuan Wang
 
@@ -2648,7 +3038,7 @@ The advent of 3D Gaussian Splatting (3DGS) has revolutionized 3D editing, offeri
 
 [📄 Paper](https://arxiv.org/pdf/2403.11868v6.pdf)
 
-#### Gaussian Splatting in Style
+##### 🎈Gaussian Splatting in Style
 
 **Authors**: Daniel Cremers, Tarun Yenamandra, Cecilia Curreli, Mariia Gladkova, Abhishek Saroha
 
@@ -2660,7 +3050,7 @@ Scene stylization extends the work of neural style transfer to three spatial dim
 [📄 Paper](https://arxiv.org/pdf/2403.08498v1.pdf)
 
 ### End-to-End Training Strategy
-#### LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
+##### 🎈LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
 
 **Authors**: Zhangyang Wang, Dejia Xu, Zehao Zhu, Kairun Wen, Kevin Wang, Zhiwen Fan
 
@@ -2671,7 +3061,7 @@ Recent advancements in real-time neural rendering using point-based techniques h
 
 [📄 Paper](https://arxiv.org/pdf/2311.17245v5.pdf)
 
-#### Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph
+##### 🎈Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph
 
 **Authors**: Yue Gao, Xun Yang, Wei Chen, Zhou Xue, Chaofan Luo, Jiahui Yang, Donglin Di
 
@@ -2682,7 +3072,7 @@ Text-to-3D generation represents an exciting field that has seen rapid advanceme
 
 [📄 Paper](https://arxiv.org/pdf/2403.09236v1.pdf)
 
-#### GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting
+##### 🎈GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting
 
 **Authors**: Guosheng Lin, Huaping Liu, Lei Yang, Zhongang Cai, Yikai Wang, Xiaofeng Yang, Feng Wang, Chi Zhang, Zilong Chen, YiWen Chen
 
@@ -2693,7 +3083,7 @@ Text-to-3D generation represents an exciting field that has seen rapid advanceme
 
 [📄 Paper](https://arxiv.org/pdf/2311.14521v4.pdf)
 
-#### GaussNav: Gaussian Splatting for Visual Navigation
+##### 🎈GaussNav: Gaussian Splatting for Visual Navigation
 
 **Authors**: Houqiang Li, Wengang Zhou, Min Wang, Xiaohan Lei
 
@@ -2704,7 +3094,7 @@ In embodied vision, Instance ImageGoal Navigation (IIN) requires an agent to loc
 
 [📄 Paper](https://arxiv.org/pdf/2403.11625v2.pdf)
 
-#### GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting
+##### 🎈GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting
 
 **Authors**: Qi Tian, Wei Shen, Xiaopeng Zhang, Lingxi Xie, Ruofan Liang, Jiemin Fang, Sikuang Li, Chen Yang
 
@@ -2715,7 +3105,7 @@ Reconstructing and rendering 3D objects from highly sparse views is of critical 
 
 [📄 Paper](https://arxiv.org/pdf/2402.10259v2.pdf)
 
-#### Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting
+##### 🎈Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting
 
 **Authors**: Xiaogang Jin, Xiaojuan Qi, Shaohui Jiao, Wen Zhou, Xiaoyang Lyu, Yihua Huang, Yangtian Sun, Xinyu Gao, ZiYi Yang
 
@@ -2726,7 +3116,7 @@ The recent advancements in 3D Gaussian splatting (3D-GS) have not only facilitat
 
 [📄 Paper](https://arxiv.org/pdf/2402.15870v1.pdf)
 
-#### GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering
+##### 🎈GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering
 
 **Authors**: Federico Tombari, Gim Hee Lee, Guangyao Zhai, Yan Di, Chenyu Lyu, Yanyan Li
 
@@ -2737,7 +3127,7 @@ During the Gaussian Splatting optimization process, the scene's geometry can gra
 
 [📄 Paper](https://arxiv.org/pdf/2403.11324v2.pdf)
 
-#### 3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration
+##### 🎈3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration
 
 **Authors**: Cédric Demonceaux, Pascal Vasseur, Cyrille Migniot, Dzmitry Tsishkou, Luis Roldao, Nathan Piasco, Arthur Moreau, Moussab Bennehar, Quentin Herau
 
@@ -2748,7 +3138,7 @@ Reliable multimodal sensor fusion algorithms re- quire accurate spatiotemporal c
 
 [📄 Paper](https://arxiv.org/pdf/2403.11577v1.pdf)
 
-#### DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes
+##### 🎈DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes
 
 **Authors**: Ming-Hsuan Yang, Deqing Sun, Yongtao Wang, Xiaojun Shan, Zhiwei Lin, Xiaoyu Zhou
 
@@ -2761,7 +3151,7 @@ We present DrivingGaussian, an efficient and effective framework for surrounding
 
 ## Adaptive Control
 ### Densification
-#### HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
+##### 🎈HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
 
 **Authors**: Ziwei Liu, Xihui Liu, Dahua Lin, Gang Zeng, Ying Shan, Jiaxiang Tang, Xiaohang Zhan, Xian Liu
 
@@ -2772,7 +3162,7 @@ Realistic 3D human generation from text prompts is a desirable yet challenging t
 
 [📄 Paper](https://arxiv.org/pdf/2311.17061v2.pdf)
 
-#### Pixel-GS: Density Control with Pixel-aware Gradient for 3D Gaussian Splatting
+##### 🎈Pixel-GS: Density Control with Pixel-aware Gradient for 3D Gaussian Splatting
 
 **Authors**: Hengshuang Zhao, Tong He, Yixing Lao, WenBo Hu, Zheng Zhang
 
@@ -2783,7 +3173,7 @@ Realistic 3D human generation from text prompts is a desirable yet challenging t
 
 [📄 Paper](https://arxiv.org/pdf/2403.15530v1.pdf)
 
-#### A New Split Algorithm for 3D Gaussian Splatting
+##### 🎈A New Split Algorithm for 3D Gaussian Splatting
 
 **Authors**: 
 
@@ -2794,7 +3184,7 @@ Realistic 3D human generation from text prompts is a desirable yet challenging t
 
 [📄 Paper](https://arxiv.org/pdf/2403.09143v1.pdf)
 
-#### 3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos
+##### 🎈3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos
 
 **Authors**: Wei Xing, Lei Zhao, Zhanjie Zhang, Guangyuan Li, Han Jiao, Jiakai Sun
 
@@ -2805,7 +3195,7 @@ Constructing photo-realistic Free-Viewpoint Videos (FVVs) of dynamic scenes from
 
 [📄 Paper](https://arxiv.org/pdf/2403.01444v4.pdf)
 
-#### DeblurGS: Gaussian Splatting for Camera Motion Blur
+##### 🎈DeblurGS: Gaussian Splatting for Camera Motion Blur
 
 **Authors**: Kyoung Mu Lee, Dongwoo Lee, JaeYoung Chung, Jeongtaek Oh
 
@@ -2816,7 +3206,7 @@ Although significant progress has been made in reconstructing sharp 3D scenes fr
 
 [📄 Paper](https://arxiv.org/pdf/2404.11358v2.pdf)
 
-#### FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model
+##### 🎈FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model
 
 **Authors**: Yu-Gang Jiang, Zuxuan Wu, Zhen Xing, Qijun Feng
 
@@ -2827,7 +3217,7 @@ Reconstructing detailed 3D objects from single-view images remains a challenging
 
 [📄 Paper](https://arxiv.org/pdf/2403.10242v1.pdf)
 
-#### FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting
+##### 🎈FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting
 
 **Authors**: Zhangyang Wang, Yifan Jiang, Zhiwen Fan, Zehao Zhu
 
@@ -2838,7 +3228,7 @@ Novel view synthesis from limited observations remains an important and persiste
 
 [📄 Paper](https://arxiv.org/pdf/2312.00451v2.pdf)
 
-#### GVGEN: Text-to-3D Generation with Volumetric Representation
+##### 🎈GVGEN: Text-to-3D Generation with Volumetric Representation
 
 **Authors**: Tong He, Wanli Ouyang, Chun Yuan, Xiaoshui Huang, Yangguang Li, Di Huang, Sida Peng, Junyi Chen, Xianglong He
 
@@ -2850,7 +3240,7 @@ In recent years, 3D Gaussian splatting has emerged as a powerful technique for 3
 [📄 Paper](https://arxiv.org/pdf/2403.12957v2.pdf)
 
 ### Pruning
-#### LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
+##### 🎈LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
 
 **Authors**: Zhangyang Wang, Dejia Xu, Zehao Zhu, Kairun Wen, Kevin Wang, Zhiwen Fan
 
@@ -2861,7 +3251,7 @@ Recent advancements in real-time neural rendering using point-based techniques h
 
 [📄 Paper](https://arxiv.org/pdf/2311.17245v5.pdf)
 
-#### GauHuman: Articulated Gaussian Splatting from Monocular Human Videos
+##### 🎈GauHuman: Articulated Gaussian Splatting from Monocular Human Videos
 
 **Authors**: Ziwei Liu, Shoukang Hu
 
@@ -2872,7 +3262,7 @@ We present, GauHuman, a 3D human model with Gaussian Splatting for both fast tra
 
 [📄 Paper](https://arxiv.org/pdf/2312.02973v1.pdf)
 
-#### Gaussian Splatting SLAM
+##### 🎈Gaussian Splatting SLAM
 
 **Authors**: Andrew J. Davison, Paul H. J. Kelly, Riku Murai, Hidenobu Matsuki
 
@@ -2883,7 +3273,7 @@ We present the first application of 3D Gaussian Splatting in monocular SLAM, the
 
 [📄 Paper](https://arxiv.org/pdf/2312.06741v2.pdf)
 
-#### GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction
+##### 🎈GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction
 
 **Authors**: Bo Dai, Yuanbo Xiangli, Lihan Jiang, Linning Xu, Tao Lu, Mulin Yu
 
@@ -2894,7 +3284,7 @@ Presenting a 3D scene from multiview images remains a core and long-standing cha
 
 [📄 Paper](https://arxiv.org/pdf/2403.16964v1.pdf)
 
-#### GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting
+##### 🎈GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting
 
 **Authors**: Dong Wang, Bin Zhao, Xuelong Li, Zhigang Wang, Dan Xu, Delin Qu, Chi Yan
 
@@ -2905,7 +3295,7 @@ In this paper, we introduce \textbf{GS-SLAM} that first utilizes 3D Gaussian rep
 
 [📄 Paper](https://arxiv.org/pdf/2311.11700v4.pdf)
 
-#### NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting
+##### 🎈NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting
 
 **Authors**: Zongwu Xie, Boyu Ma, Guanghu Xie, Yang Liu, Yiming Ji
 
@@ -2916,7 +3306,7 @@ We propose NEDS-SLAM, an Explicit Dense semantic SLAM system based on 3D Gaussia
 
 [📄 Paper](https://arxiv.org/pdf/2403.11679v2.pdf)
 
-#### Compact 3D Gaussian Representation for Radiance Field
+##### 🎈Compact 3D Gaussian Representation for Radiance Field
 
 **Authors**: Eunbyung Park, Jong Hwan Ko, Xiangyu Sun, Daniel Rho, Joo Chan Lee
 
@@ -2928,7 +3318,7 @@ Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturi
 [📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
 
 ## Post-Processing
-#### LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
+##### 🎈LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
 
 **Authors**: Ziwei Liu, Gang Zeng, Tengfei Wang, Xiaokang Chen, Zhaoxi Chen, Jiaxiang Tang
 
@@ -2939,7 +3329,7 @@ Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturi
 
 [📄 Paper](https://arxiv.org/pdf/2402.05054v1.pdf)
 
-#### GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time
+##### 🎈GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time
 
 **Authors**: Hao Li, Yuanyuan Gao, Chenming Wu, Dingwen Zhang, Yalun Dai, Chen Zhao, Haocheng Feng, Errui Ding, Jingdong Wang, Junwei Han
 
@@ -2950,7 +3340,7 @@ This paper presents GGRt, a novel approach to generalizable novel view synthesis
 
 [📄 Paper](https://arxiv.org/pdf/2403.10147)
 
-#### SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering
+##### 🎈SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering
 
 **Authors**: Vincent Lepetit, Antoine Guédon
 
@@ -2961,7 +3351,7 @@ We propose a method to allow precise and extremely fast mesh extraction from 3D 
 
 [📄 Paper](https://arxiv.org/pdf/2311.12775v3.pdf)
 
-#### Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting
+##### 🎈Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting
 
 **Authors**: Jongsun Park, Hyeongwon Kim, Joongho Jo
 
@@ -2972,7 +3362,7 @@ We propose a method to allow precise and extremely fast mesh extraction from 3D 
 
 [📄 Paper](https://arxiv.org/pdf/2402.13827v1.pdf)
 
-#### Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement
+##### 🎈Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement
 
 **Authors**: Gang Zeng, Jingdong Wang, Errui Ding, Tianshu Hu, Xiaokang Chen, Hang Zhou, Jiaxiang Tang
 
@@ -2983,7 +3373,7 @@ Neural Radiance Fields (NeRF) have constituted a remarkable breakthrough in imag
 
 [📄 Paper](https://arxiv.org/pdf/2303.02091v2.pdf)
 
-#### SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing
+##### 🎈SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing
 
 **Authors**: Hao Zhao, Weihao Gu, Xiang He, Jingwei Zhao, Huan-ang Gao, Shiran Yuan, Jv Zheng, Xiaowei Song
 
@@ -2994,7 +3384,7 @@ In this paper, we present a Scale-adaptive method for Anti-aliasing Gaussian Spl
 
 [📄 Paper](https://arxiv.org/pdf/2403.19615v1.pdf)
 
-#### Augmented Reality for Depth Cues in Monocular Minimally Invasive Surgery
+##### 🎈Augmented Reality for Depth Cues in Monocular Minimally Invasive Surgery
 
 **Authors**: Jian Jun Zhang, Long Chen, Wen Tang, Nigel W. John, Tao Ruan Wan
 
@@ -3025,7 +3415,7 @@ depth-corrected augmented reality in MIS with monocular endoscopes.
 
 [📄 Paper](http://arxiv.org/pdf/1703.01243v1.pdf)
 
-#### Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes
+##### 🎈Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes
 
 **Authors**: Andreas Geiger, Torsten Sattler, Zehao Yu
 
@@ -3038,7 +3428,7 @@ Recently, 3D Gaussian Splatting (3DGS) has demonstrated impressive novel view sy
 
 ## Integration with Other Representations
 ### Point Clouds
-#### GaussNav: Gaussian Splatting for Visual Navigation
+##### 🎈GaussNav: Gaussian Splatting for Visual Navigation
 
 **Authors**: Houqiang Li, Wengang Zhou, Min Wang, Xiaohan Lei
 
@@ -3050,7 +3440,7 @@ In embodied vision, Instance ImageGoal Navigation (IIN) requires an agent to loc
 [📄 Paper](https://arxiv.org/pdf/2403.11625v2.pdf)
 
 ### Mesh
-#### Bridging 3D Gaussian and Mesh for Freeview Video Rendering
+##### 🎈Bridging 3D Gaussian and Mesh for Freeview Video Rendering
 
 **Authors**: Shenghua Gao, Yujun Shen, Minghui Yang, Nan Xue, Yanbo Fan, Hongrui Cai, Jiafei Li, Xuan Wang, Yuting Xiao
 
@@ -3061,7 +3451,7 @@ This is only a preview version of GauMesh. Recently, primitive-based rendering h
 
 [📄 Paper](https://arxiv.org/pdf/2403.11453v1.pdf)
 
-#### LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
+##### 🎈LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
 
 **Authors**: Ziwei Liu, Gang Zeng, Tengfei Wang, Xiaokang Chen, Zhaoxi Chen, Jiaxiang Tang
 
@@ -3073,7 +3463,7 @@ This is only a preview version of GauMesh. Recently, primitive-based rendering h
 [📄 Paper](https://arxiv.org/pdf/2402.05054v1.pdf)
 
 ### Triplane
-#### Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
+##### 🎈Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
 
 **Authors**: Song-Hai Zhang, Yan-Pei Cao, Ding Liang, Yangguang Li, Yuan-Chen Guo, Zhipeng Yu, Zi-Xin Zou
 
@@ -3083,7 +3473,7 @@ Recent advancements in 3D reconstruction from single images have been driven by 
 </details>
 [📄 Paper](https://arxiv.org/pdf/2312.09147v2.pdf)
 
-#### Control4d: Dynamic portrait editing by learning 4d gan from 2d diffusion-based editor
+##### 🎈Control4d: Dynamic portrait editing by learning 4d gan from 2d diffusion-based editor
 
 **Authors**: Ruizhi Shao, Jingxiang Sun, Cheng Peng, Zerong Zheng, Boyao Zhou, Hongwen Zhang, Yebin Liu
 
@@ -3094,7 +3484,7 @@ We introduce Control4D, an innovative framework for editing dynamic 4D portraits
 [📄 Paper](https://arxiv.org/pdf/2312.09147v2.pdf)
 
 ### Grid
-#### Compact 3D Scene Representation via Self-Organizing Gaussian Grids
+##### 🎈Compact 3D Scene Representation via Self-Organizing Gaussian Grids
 
 **Authors**: Peter Eisert, Anna Hilsmann, Florian Barthel, Wieland Morgenstern
 
@@ -3106,7 +3496,7 @@ We introduce Control4D, an innovative framework for editing dynamic 4D portraits
 [📄 Paper](https://arxiv.org/pdf/2312.13299v2.pdf)
 
 ### Implicit Representation
-#### 3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting
+##### 🎈3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting
 
 **Authors**: Xiaojuan Qi, Jiangmiao Pang, Yilun Chen, ZiYi Yang, Xiuzhe Wu, Yi-Hua Huang, Yang-tian Sun, Xiaoyang Lyu
 
@@ -3117,7 +3507,7 @@ In this paper, we present an implicit surface reconstruction method with 3D Gaus
 
 [📄 Paper](https://arxiv.org/pdf/2404.00409v1.pdf)
 
-#### GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction
+##### 🎈GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction
 
 **Authors**: Bo Dai, Yuanbo Xiangli, Lihan Jiang, Linning Xu, Tao Lu, Mulin Yu
 
@@ -3128,7 +3518,7 @@ Presenting a 3D scene from multiview images remains a core and long-standing cha
 
 [📄 Paper](https://arxiv.org/pdf/2403.16964v1.pdf)
 
-#### Gaussian Splatting with NeRF-based Color and Opacity
+##### 🎈Gaussian Splatting with NeRF-based Color and Opacity
 
 **Authors**: Przemysław Spurek, Sławomir Tadeja, Jacek Tabor, Weronika Smolak, Dawid Malarz
 
@@ -3140,7 +3530,7 @@ Neural Radiance Fields (NeRFs) have demonstrated the remarkable potential of neu
 [📄 Paper](https://arxiv.org/pdf/2312.13729v5.pdf)
 
 ### GaussianVolumes
-#### GVGEN: Text-to-3D Generation with Volumetric Representation
+##### 🎈GVGEN: Text-to-3D Generation with Volumetric Representation
 
 **Authors**: Tong He, Wanli Ouyang, Chun Yuan, Xiaoshui Huang, Yangguang Li, Di Huang, Sida Peng, Junyi Chen, Xianglong He
 
@@ -3152,7 +3542,7 @@ In recent years, 3D Gaussian splatting has emerged as a powerful technique for 3
 [📄 Paper](https://arxiv.org/pdf/2403.12957v2.pdf)
 
 ## Guidance by Additional Prior
-#### Human Gaussian Splatting: Real-time Rendering of Animatable Avatars
+##### 🎈Human Gaussian Splatting: Real-time Rendering of Animatable Avatars
 
 **Authors**: Eduardo Pérez-Pellitero, Yiren Zhou, Richard Shaw, Helisa Dhamo, Jifei Song, Arthur Moreau
 
@@ -3163,7 +3553,7 @@ This work addresses the problem of real-time rendering of photorealistic human b
 
 [📄 Paper](https://arxiv.org/pdf/2311.17113v2.pdf)
 
-#### HUGS: Human Gaussian Splats
+##### 🎈HUGS: Human Gaussian Splats
 
 **Authors**: Anurag Ranjan, Oncel Tuzel, James Gabriel, Jen-Hao Rick Chang, Muhammed Kocabas
 
@@ -3174,7 +3564,7 @@ Recent advances in neural rendering have improved both training and rendering ti
 
 [📄 Paper](https://arxiv.org/pdf/2311.17910v1.pdf)
 
-#### 3D Menagerie: Modeling the 3D shape and pose of animals
+##### 🎈3D Menagerie: Modeling the 3D shape and pose of animals
 
 **Authors**: Michael J. Black, Silvia Zuffi, Angjoo Kanazawa, David Jacobs
 
@@ -3199,7 +3589,7 @@ to images of real animals including species not seen in training.
 
 [📄 Paper](http://arxiv.org/pdf/1611.07700v2.pdf)
 
-#### 3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting
+##### 🎈3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting
 
 **Authors**: Siyu Tang, Andreas Geiger, Marko Mihajlovic, Shaofei Wang, Zhiyin Qian
 
@@ -3209,7 +3599,7 @@ We introduce an approach that creates animatable human avatars from monocular vi
 </details>
 [📄 Paper](https://arxiv.org/pdf/2312.09228v3.pdf)
 
-#### Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting
+##### 🎈Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting
 
 **Authors**: Monroe Kennedy III, Mac Schwager, Gadiel Sznaier Camps, Won Kyung Do, Matthew Strong, Aiden Swann
 
@@ -3220,7 +3610,7 @@ In this work, we propose a novel method to supervise 3D Gaussian Splatting (3DGS
 
 [📄 Paper](https://arxiv.org/pdf/2403.09875v2.pdf)
 
-#### GauHuman: Articulated Gaussian Splatting from Monocular Human Videos
+##### 🎈GauHuman: Articulated Gaussian Splatting from Monocular Human Videos
 
 **Authors**: Ziwei Liu, Shoukang Hu
 
@@ -3231,7 +3621,7 @@ We present, GauHuman, a 3D human model with Gaussian Splatting for both fast tra
 
 [📄 Paper](https://arxiv.org/pdf/2312.02973v1.pdf)
 
-#### HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
+##### 🎈HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting
 
 **Authors**: Ziwei Liu, Xihui Liu, Dahua Lin, Gang Zeng, Ying Shan, Jiaxiang Tang, Xiaohang Zhan, Xian Liu
 
@@ -3242,7 +3632,7 @@ Realistic 3D human generation from text prompts is a desirable yet challenging t
 
 [📄 Paper](https://arxiv.org/pdf/2311.17061v2.pdf)
 
-#### Gaussian Shell Maps for Efficient 3D Human Generation
+##### 🎈Gaussian Shell Maps for Efficient 3D Human Generation
 
 **Authors**: Gordon Wetzstein, Dit-yan Yeung, Qifeng Chen, Zhengfei Kuang, Ryan Po, Yinghao Xu, Zifan Shi, Wang Yifan, Rameen Abdal
 
@@ -3253,7 +3643,7 @@ Efficient generation of 3D digital humans is important in several industries, in
 
 [📄 Paper](https://arxiv.org/pdf/2311.17857v1.pdf)
 
-#### GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting
+##### 🎈GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting
 
 **Authors**: Ming-Hsuan Yang, Deqing Sun, Yongtao Wang, Zhiwei Lin, Jinlin He, Yajiao Xiong, Xingjian Ran, Xiaoyu Zhou
 
@@ -3264,7 +3654,7 @@ We present GALA3D, generative 3D GAussians with LAyout-guided control, for effec
 
 [📄 Paper](https://arxiv.org/pdf/2402.07207v2.pdf)
 
-#### Gaussian Shell Maps for Efficient 3D Human Generation
+##### 🎈Gaussian Shell Maps for Efficient 3D Human Generation
 
 **Authors**: Gordon Wetzstein, Dit-yan Yeung, Qifeng Chen, Zhengfei Kuang, Ryan Po, Yinghao Xu, Zifan Shi, Wang Yifan, Rameen Abdal
 
@@ -3275,7 +3665,7 @@ Efficient generation of 3D digital humans is important in several industries, in
 
 [📄 Paper](https://arxiv.org/pdf/2311.17857v1.pdf)
 
-#### HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting
+##### 🎈HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting
 
 **Authors**: Yiyi Liao, Andreas Geiger, Yue Wang, Bingbing Liu, Weichao Qiu, Dongfeng Bai, Lu Xu, Jiahao Shao, HongYu Zhou
 
@@ -3285,7 +3675,7 @@ Holistic understanding of urban scenes based on RGB images is a challenging yet 
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.12722v1.pdf)
 
-            
+​            
 
 
 
