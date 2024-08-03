@@ -9,7 +9,7 @@
 <details>
   <summary>Click to expand</summary>
   <ul>
-    <li><a href="#🎈3d-gaussian-splatting-for-real-time-radiance-field-rendering">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
+    <li><a href="# 🎈3d-gaussian-splatting-for-real-time-radiance-field-rendering">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
   </ul>
 </details>
 
@@ -24,48 +24,48 @@
       <ul>
         <li>Storage Efficiency
           <ul>
-            <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
-            <li><a href="#🎈lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
-            <li><a href="#🎈compact-3d-scene-representation-via-self-organizing-gaussian-grids">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
-            <li><a href="#🎈compact-3d-gaussian-representation-for-radiance-field">Compact 3D Gaussian Representation for Radiance Field</a></li>
-            <li><a href="#🎈ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
-            <li><a href="#🎈compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
-            <li><a href="#🎈compact3d-compressing-gaussian-splat-radiance-field-models-with-vector-quantization">Compact3d: Compressing gaussian splat radiance field models with vector quantization</a></li>
-						<li><a href="#🎈ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model">ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model</a></li>
-						<li><a href="#🎈F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting">F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈Tangram-Splatting Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors">Tangram-Splatting Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors</a></li>
-            <li><a href="#🎈Gaussian-Forest Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling">Gaussian-Forest Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling</a></li>
-            <li><a href="#🎈Reducing the Memory Footprint of 3D Gaussian Splatting">Reducing the Memory Footprint of 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+            <li><a href="# 🎈lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
+            <li><a href="# 🎈compact-3d-scene-representation-via-self-organizing-gaussian-grids">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
+            <li><a href="# 🎈compact-3d-gaussian-representation-for-radiance-field">Compact 3D Gaussian Representation for Radiance Field</a></li>
+            <li><a href="# 🎈ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
+            <li><a href="# 🎈compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
+            <li><a href="# 🎈compact3d-compressing-gaussian-splat-radiance-field-models-with-vector-quantization">Compact3d: Compressing gaussian splat radiance field models with vector quantization</a></li>
+						<li><a href="# 🎈ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model">ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model</a></li>
+						<li><a href="# 🎈F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting">F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈Tangram-Splatting Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors">Tangram-Splatting Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors</a></li>
+            <li><a href="# 🎈Gaussian-Forest Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling">Gaussian-Forest Hierarchical-Hybrid 3D Gaussian Splatting for Compressed Scene Modeling</a></li>
+            <li><a href="# 🎈Reducing the Memory Footprint of 3D Gaussian Splatting">Reducing the Memory Footprint of 3D Gaussian Splatting</a></li>
           </ul>
         </li>
         <li>Training Efficiency
           <ul>
-            <li><a href="#🎈distwar-fast-differentiable-rendering-on-raster-based-rendering-pipelines">DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines</a></li>
-            <li><a href="#🎈I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions">I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions</a></li>
+            <li><a href="# 🎈distwar-fast-differentiable-rendering-on-raster-based-rendering-pipelines">DISTWAR: Fast Differentiable Rendering on Raster-based Rendering Pipelines</a></li>
+            <li><a href="# 🎈I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions">I3DGS Improve 3D Gaussian Splatting from Multiple Dimensions</a></li>
           </ul>
         </li>
         <li>Rendering Efficiency
           <ul>
-            <li><a href="#🎈identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈gscore-efficient-radiance-field-rendering-via-architectural-support-for-3d-gaussian-splatting">GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈gscore-efficient-radiance-field-rendering-via-architectural-support-for-3d-gaussian-splatting">GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Photorealism
       <ul>
-        <li><a href="#🎈microfacet-models-for-refraction-through-rough-surfaces">Microfacet models for refraction through rough surfaces</a></li>
-        <li><a href="#🎈mirror-3dgs-incorporating-mirror-reflections-into-3d-gaussian-splatting">Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-1">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
-        <li><a href="#🎈mip-splatting-alias-free-3d-gaussian-splatting">Mip-Splatting: Alias-free 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈relightable-3d-gaussian-real-time-point-cloud-relighting-with-brdf-decomposition-and-ray-tracing">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</a></li>
-        <li><a href="#🎈gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
-        <li><a href="#🎈multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
-        <li><a href="#🎈spec-gaussian-anisotropic-view-dependent-appearance-for-3d-gaussian-splatting">Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈fregs-3d-gaussian-splatting-with-progressive-frequency-regularization">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
-        <li><a href="#🎈deblurgs-gaussian-splatting-for-camera-motion-blur">DeblurGS: Gaussian Splatting for Camera Motion Blur</a></li>
-        <li><a href="#🎈gaussianpro-3d-gaussian-splatting-with-progressive-propagation">GaussianPro: 3D Gaussian Splatting with Progressive Propagation</a></li>
-        <li><a href="#🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
+        <li><a href="# 🎈microfacet-models-for-refraction-through-rough-surfaces">Microfacet models for refraction through rough surfaces</a></li>
+        <li><a href="# 🎈mirror-3dgs-incorporating-mirror-reflections-into-3d-gaussian-splatting">Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-1">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+        <li><a href="# 🎈mip-splatting-alias-free-3d-gaussian-splatting">Mip-Splatting: Alias-free 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈relightable-3d-gaussian-real-time-point-cloud-relighting-with-brdf-decomposition-and-ray-tracing">Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing</a></li>
+        <li><a href="# 🎈gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
+        <li><a href="# 🎈multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
+        <li><a href="# 🎈spec-gaussian-anisotropic-view-dependent-appearance-for-3d-gaussian-splatting">Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈fregs-3d-gaussian-splatting-with-progressive-frequency-regularization">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
+        <li><a href="# 🎈deblurgs-gaussian-splatting-for-camera-motion-blur">DeblurGS: Gaussian Splatting for Camera Motion Blur</a></li>
+        <li><a href="# 🎈gaussianpro-3d-gaussian-splatting-with-progressive-propagation">GaussianPro: 3D Gaussian Splatting with Progressive Propagation</a></li>
+        <li><a href="# 🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
       </ul>
     </li>
   </ul>
@@ -79,26 +79,26 @@
   <ul>
     <li>Generalizable 3D Gaussian Splatting
       <ul>
-        <li><a href="#🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
-        <li><a href="#🎈triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
-        <li><a href="#🎈splatter-image-ultra-fast-single-view-3d-reconstruction">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
-        <li><a href="#🎈mvsnerf-fast-generalizable-radiance-field-reconstruction-from-multi-view-stereo">MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo</a></li>
-        <li><a href="#🎈pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
-        <li><a href="#🎈mvsplat-efficient-3d-gaussian-splatting-from-sparse-multi-view-images">MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images</a></li>
-        <li><a href="#🎈FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes">FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes</a></li>
+        <li><a href="# 🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
+        <li><a href="# 🎈triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
+        <li><a href="# 🎈splatter-image-ultra-fast-single-view-3d-reconstruction">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
+        <li><a href="# 🎈mvsnerf-fast-generalizable-radiance-field-reconstruction-from-multi-view-stereo">MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo</a></li>
+        <li><a href="# 🎈pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
+        <li><a href="# 🎈mvsplat-efficient-3d-gaussian-splatting-from-sparse-multi-view-images">MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images</a></li>
+        <li><a href="# 🎈FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes">FreeSplat Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes</a></li>
       </ul>
     </li>
     <li>Sparse Views Setting
       <ul>
-        <li><a href="#🎈touch-gs-visual-tactile-supervised-3d-gaussian-splatting">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
-        <li><a href="#🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
-        <li><a href="#🎈depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
-        <li><a href="#🎈fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
-        <li><a href="#🎈CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization">CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization</a></li>
-				<li><a href="#🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data">Dense 3D Gaussian Splatting Initialization for Sparse Image Data</a></li>
-				<li><a href="#🎈DIG3D Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction">DIG3D: Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction</a></li>
-				<li><a href="#🎈Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views">Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views</a></li>
+        <li><a href="# 🎈touch-gs-visual-tactile-supervised-3d-gaussian-splatting">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
+        <li><a href="# 🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
+        <li><a href="# 🎈depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
+        <li><a href="# 🎈fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
+        <li><a href="# 🎈CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization">CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization</a></li>
+				<li><a href="# 🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data">Dense 3D Gaussian Splatting Initialization for Sparse Image Data</a></li>
+				<li><a href="# 🎈DIG3D Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction">DIG3D: Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction</a></li>
+				<li><a href="# 🎈Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views">Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views</a></li>
       </ul>
     </li>
   </ul>
@@ -114,92 +114,92 @@
       <ul>
         <li>Body Reconstruction
           <ul>
-            <li><a href="#🎈ash-animatable-gaussian-splats-for-efficient-and-photoreal-human-rendering">ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering</a></li>
-            <li><a href="#🎈animatable-gaussians-learning-pose-dependent-gaussian-maps-for-high-fidelity-human-avatar-modeling">Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling</a></li>
-            <li><a href="#🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
-            <li><a href="#🎈gaussianavatar-towards-realistic-human-avatar-modeling-from-a-single-video-via-animatable-3d-gaussians">GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians</a></li>
-            <li><a href="#🎈3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈human-gaussian-splatting-real-time-rendering-of-animatable-avatars">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
-            <li><a href="#🎈hugs-human-gaussian-splats">HUGS: Human Gaussian Splats</a></li>
+            <li><a href="# 🎈ash-animatable-gaussian-splats-for-efficient-and-photoreal-human-rendering">ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering</a></li>
+            <li><a href="# 🎈animatable-gaussians-learning-pose-dependent-gaussian-maps-for-high-fidelity-human-avatar-modeling">Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling</a></li>
+            <li><a href="# 🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
+            <li><a href="# 🎈gaussianavatar-towards-realistic-human-avatar-modeling-from-a-single-video-via-animatable-3d-gaussians">GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians</a></li>
+            <li><a href="# 🎈3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈human-gaussian-splatting-real-time-rendering-of-animatable-avatars">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
+            <li><a href="# 🎈hugs-human-gaussian-splats">HUGS: Human Gaussian Splats</a></li>
           </ul>
         </li>
         <li>Head Reconstruction
           <ul>
-            <li><a href="#🎈gaussianavatars-photorealistic-head-avatars-with-rigged-3d-gaussians">GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians</a></li>
-            <li><a href="#🎈gaussian-head-avatar-ultra-high-fidelity-head-avatar-via-dynamic-gaussians">Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians</a></li>
-            <li><a href="#🎈Fast 3D Stylized Gaussian Portrait Generation From a Single lmage With Style Aligned Sampling Loss">Fast 3D Stylized Gaussian Portrait Generation From a Single lmage With Style Aligned Sampling Loss</a></li>
-            <li><a href="#🎈GaussianTalker Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting">GaussianTalker Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈GaussianTalker Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting">GaussianTalker Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈Learn2Talk 3D Talking Face Learns from 2D Talking Face">Learn2Talk 3D Talking Face Learns from 2D Talking Face</a></li>
-            <li><a href="#🎈TalkingGaussian Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting">TalkingGaussian Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting</a></li>
+            <li><a href="# 🎈gaussianavatars-photorealistic-head-avatars-with-rigged-3d-gaussians">GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians</a></li>
+            <li><a href="# 🎈gaussian-head-avatar-ultra-high-fidelity-head-avatar-via-dynamic-gaussians">Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians</a></li>
+            <li><a href="# 🎈Fast 3D Stylized Gaussian Portrait Generation From a Single lmage With Style Aligned Sampling Loss">Fast 3D Stylized Gaussian Portrait Generation From a Single lmage With Style Aligned Sampling Loss</a></li>
+            <li><a href="# 🎈GaussianTalker Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting">GaussianTalker Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈GaussianTalker Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting">GaussianTalker Speaker-specific Talking Head Synthesis via 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈Learn2Talk 3D Talking Face Learns from 2D Talking Face">Learn2Talk 3D Talking Face Learns from 2D Talking Face</a></li>
+            <li><a href="# 🎈TalkingGaussian Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting">TalkingGaussian Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting</a></li>
           </ul>
         </li>
         <li>Others
           <ul>
-            <li><a href="#🎈gaussianhair-hair-modeling-and-rendering-with-light-aware-gaussians">GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</a></li>
+            <li><a href="# 🎈gaussianhair-hair-modeling-and-rendering-with-light-aware-gaussians">GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Non-Rigid Object Reconstruction
       <ul>
-        <li><a href="#🎈gart-gaussian-articulated-template-models">GART: Gaussian Articulated Template Models</a></li>
-        <li><a href="#🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
+        <li><a href="# 🎈gart-gaussian-articulated-template-models">GART: Gaussian Articulated Template Models</a></li>
+        <li><a href="# 🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
       </ul>
     </li>
     <li>Artificial Intelligence-Generated Content (AIGC)
       <ul>
         <li>Text to 3D Objects
           <ul>
-            <li><a href="#🎈hyper-3dg-text-to-3d-gaussian-generation-via-hypergraph">Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph</a></li>
-            <li><a href="#🎈text-to-3d-using-gaussian-splatting">Text-to-3D using Gaussian Splatting</a></li>
-            <li><a href="#🎈gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
-            <li><a href="#🎈brightdreamer-generic-3d-gaussian-generative-framework-for-fast-text-to-3d-synthesis">BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis</a></li>
-            <li><a href="#🎈learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈im-3d-iterative-multiview-diffusion-and-reconstruction-for-high-quality-3d-generation">IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation</a></li>
-            <li><a href="#🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
-            <li><a href="#🎈gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
-            <li><a href="#🎈gaussian-shell-maps-for-efficient-3d-human-generation">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
-            <li><a href="#🎈gaussiandreamer-fast-generation-from-text-to-3d-gaussians-by-bridging-2d-and-3d-diffusion-models">GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models</a></li>
-            <li><a href="#🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
-            <li><a href="#🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
-            <li><a href="#🎈prolificdreamer-high-fidelity-and-diverse-text-to-3d-generation-with-variational-score-distillation">ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</a></li>
-            <li><a href="#🎈luciddreamer-towards-high-fidelity-text-to-3d-generation-via-interval-score-matching">LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching</a></li>
+            <li><a href="# 🎈hyper-3dg-text-to-3d-gaussian-generation-via-hypergraph">Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph</a></li>
+            <li><a href="# 🎈text-to-3d-using-gaussian-splatting">Text-to-3D using Gaussian Splatting</a></li>
+            <li><a href="# 🎈gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
+            <li><a href="# 🎈brightdreamer-generic-3d-gaussian-generative-framework-for-fast-text-to-3d-synthesis">BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis</a></li>
+            <li><a href="# 🎈learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈im-3d-iterative-multiview-diffusion-and-reconstruction-for-high-quality-3d-generation">IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation</a></li>
+            <li><a href="# 🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
+            <li><a href="# 🎈gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
+            <li><a href="# 🎈gaussian-shell-maps-for-efficient-3d-human-generation">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
+            <li><a href="# 🎈gaussiandreamer-fast-generation-from-text-to-3d-gaussians-by-bridging-2d-and-3d-diffusion-models">GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models</a></li>
+            <li><a href="# 🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
+            <li><a href="# 🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
+            <li><a href="# 🎈prolificdreamer-high-fidelity-and-diverse-text-to-3d-generation-with-variational-score-distillation">ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</a></li>
+            <li><a href="# 🎈luciddreamer-towards-high-fidelity-text-to-3d-generation-via-interval-score-matching">LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching</a></li>
           </ul>
         </li>
         <li>Image to 3D Object
           <ul>
-            <li><a href="#🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-1">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
-            <li><a href="#🎈fdgaussian-fast-gaussian-splatting-from-single-image-via-geometric-aware-diffusion-model">FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</a></li>
-            <li><a href="#🎈GS-LRM Large Reconstruction Model">GS-LRM Large Reconstruction Model</a></li>
-            <li><a href="#🎈GSD View-Guided Gaussian Splatting Diffusion for 3D Reconstruction">GSD View-Guided Gaussian Splatting Diffusion for 3D Reconstruction</a></li>
+            <li><a href="# 🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-1">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
+            <li><a href="# 🎈fdgaussian-fast-gaussian-splatting-from-single-image-via-geometric-aware-diffusion-model">FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</a></li>
+            <li><a href="# 🎈GS-LRM Large Reconstruction Model">GS-LRM Large Reconstruction Model</a></li>
+            <li><a href="# 🎈GSD View-Guided Gaussian Splatting Diffusion for 3D Reconstruction">GSD View-Guided Gaussian Splatting Diffusion for 3D Reconstruction</a></li>
           </ul>
         </li>
         <li>Multi-Object and Scene Generation
           <ul>
-            <li><a href="#🎈cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
-            <li><a href="#🎈alpha-shapes-determining-3d-shape-complexity-across-morphologically-diverse-structures">Alpha shapes: determining 3D shape complexity across morphologically diverse structures</a></li>
-            <li><a href="#🎈gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
-            <li><a href="#🎈repaint-inpainting-using-denoising-diffusion-probabilistic-models">RePaint: Inpainting using Denoising Diffusion Probabilistic Models</a></li>
-            <li><a href="#🎈text2immersion-generative-immersive-scene-with-3d-gaussians">Text2Immersion: Generative Immersive Scene with 3D Gaussians</a></li>
-            <li><a href="#🎈luciddreamer-domain-free-generation-of-3d-gaussian-splatting-scenes">LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes</a></li>
-            <li><a href="#🎈ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation">ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation</a></li>
-            <li><a href="#🎈Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion">Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion</a></li>
-            <li><a href="#🎈Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting">Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting</a></li>
+            <li><a href="# 🎈cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
+            <li><a href="# 🎈alpha-shapes-determining-3d-shape-complexity-across-morphologically-diverse-structures">Alpha shapes: determining 3D shape complexity across morphologically diverse structures</a></li>
+            <li><a href="# 🎈gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
+            <li><a href="# 🎈repaint-inpainting-using-denoising-diffusion-probabilistic-models">RePaint: Inpainting using Denoising Diffusion Probabilistic Models</a></li>
+            <li><a href="# 🎈text2immersion-generative-immersive-scene-with-3d-gaussians">Text2Immersion: Generative Immersive Scene with 3D Gaussians</a></li>
+            <li><a href="# 🎈luciddreamer-domain-free-generation-of-3d-gaussian-splatting-scenes">LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes</a></li>
+            <li><a href="# 🎈ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation">ART3D 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation</a></li>
+            <li><a href="# 🎈Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion">Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion</a></li>
+            <li><a href="# 🎈Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting">Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting</a></li>
           </ul>
         </li>
         <li>4D Generation
           <ul>
-            <li><a href="#🎈gaussianflow-splatting-gaussian-dynamics-for -4d-content-creation">GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation</a></li>
-            <li><a href="#🎈mvdream-multi-view-diffusion-for-3d-generation">MVDream: Multi-view Diffusion for 3D Generation</a></li>
-            <li><a href="#🎈bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
-            <li><a href="#🎈4dgen-grounded-4d-content-generation-with-spatial-temporal-consistency">4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency</a></li>
-            <li><a href="#🎈dreamgaussian4d-generative-4d-gaussian-splatting">DreamGaussian4D: Generative 4D Gaussian Splatting</a></li>
-            <li><a href="#🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-2">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
-            <li><a href="#🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
-            <li><a href="#🎈fast-dynamic-3d-object-generation-from-a-single-view-video">Fast Dynamic 3D Object Generation from a Single-view Video</a></li>
-            <li><a href="#🎈align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
-            <li><a href="#🎈real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
+            <li><a href="# 🎈gaussianflow-splatting-gaussian-dynamics-for -4d-content-creation">GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation</a></li>
+            <li><a href="# 🎈mvdream-multi-view-diffusion-for-3d-generation">MVDream: Multi-view Diffusion for 3D Generation</a></li>
+            <li><a href="# 🎈bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
+            <li><a href="# 🎈4dgen-grounded-4d-content-generation-with-spatial-temporal-consistency">4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency</a></li>
+            <li><a href="# 🎈dreamgaussian4d-generative-4d-gaussian-splatting">DreamGaussian4D: Generative 4D Gaussian Splatting</a></li>
+            <li><a href="# 🎈dreamgaussian-generative-gaussian-splatting-for-efficient-3d-content-creation-2">DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation</a></li>
+            <li><a href="# 🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
+            <li><a href="# 🎈fast-dynamic-3d-object-generation-from-a-single-view-video">Fast Dynamic 3D Object Generation from a Single-view Video</a></li>
+            <li><a href="# 🎈align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
+            <li><a href="# 🎈real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
           </ul>
         </li>
       </ul>
@@ -208,38 +208,38 @@
       <ul>
         <li>Autonomous Driving Scene Reconstruction
           <ul>
-            <li><a href="#🎈street-gaussians-for-modeling-dynamic-urban-scenes">Street gaussians for modeling dynamic urban scenes</a></li>
-            <li><a href="#🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
-            <li><a href="#🎈3dgs-calib-3d-gaussian-splatting-for-multimodal-spatiotemporal-calibration">3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration</a></li>
-            <li><a href="#🎈drivinggaussian-composite-gaussian-splatting-for-surrounding-dynamic-autonomous-driving-scenes">DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes</a></li>
+            <li><a href="# 🎈street-gaussians-for-modeling-dynamic-urban-scenes">Street gaussians for modeling dynamic urban scenes</a></li>
+            <li><a href="# 🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
+            <li><a href="# 🎈3dgs-calib-3d-gaussian-splatting-for-multimodal-spatiotemporal-calibration">3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration</a></li>
+            <li><a href="# 🎈drivinggaussian-composite-gaussian-splatting-for-surrounding-dynamic-autonomous-driving-scenes">DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes</a></li>
           </ul>
         </li>
         <li>Simultaneous Localization and Mapping (SLAM)
           <ul>
-            <li><a href="#🎈high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
-            <li><a href="#🎈gs-slam-dense-visual-slam-with-3d-gaussian-splatting">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
-            <li><a href="#🎈sgs-slam-semantic-gaussian-splatting-for-neural-dense-slam">SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM</a></li>
-            <li><a href="#🎈neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈depth-anything-unleashing-the-power-of-large-scale-unlabeled-data">Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data</a></li>
-            <li><a href="#🎈droid-slam-deep-visual-slam-for-monocular-stereo-and-rgb-d-cameras">DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras</a></li>
-            <li><a href="#🎈semgauss-slam-dense-semantic-gaussian-splatting-slam">SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM</a></li>
-            <li><a href="#🎈gaussian-slam-photo-realistic-dense-slam-with-gaussian-splatting">Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting</a></li>
-            <li><a href="#🎈gaussnav-gaussian-splatting-for-visual-navigation">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
-            <li><a href="#🎈rgbd-gs-icp-slam">RGBD GS-ICP SLAM</a></li>
-            <li><a href="#🎈joint-scene-and-object-tracking-for-cost-effective-augmented-reality-assisted-patient-positioning-in-radiation-therapy">Joint Scene and Object Tracking for Cost-Effective Augmented Reality Assisted Patient Positioning in Radiation Therapy</a></li>
-            <li><a href="#🎈3dgs-reloc-3d-gaussian-splatting-for-map-representation-and-visual-relocalization">3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization</a></li>
-            <li><a href="#🎈how-nerfs-and-3d-gaussian-splatting-are-reshaping-slam-a-survey">How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey</a></li>
-            <li><a href="#🎈gaussian-splatting-slam">Gaussian Splatting SLAM</a></li>
-            <li><a href="#🎈splatam-splat-track--map-3d-gaussians-for-dense-rgb-d-slam">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</a></li>
-            <li><a href="#🎈GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction">GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction</a></li>
-            <li><a href="#🎈MotionGS  Compact Gaussian Splatting SLAM by Motion Filter">MotionGS  Compact Gaussian Splatting SLAM by Motion Filter</a></li>
-            <li><a href="#🎈Multi-modal 3D Gaussian Splatting for SLAM">Multi-modal 3D Gaussian Splatting for SLAM</a></li>
-            <li><a href="#🎈NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap">NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap</a></li>
-            <li><a href="#🎈Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting">Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈RTG-SLAM Real-time 3D Reconstruction at Scale Using Gaussian">RTG-SLAM Real-time 3D Reconstruction at Scale Using Gaussian</a></li>
-            <li><a href="#🎈6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model">6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model</a></li>
-            <li><a href="#🎈Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting">Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
+            <li><a href="# 🎈gs-slam-dense-visual-slam-with-3d-gaussian-splatting">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
+            <li><a href="# 🎈sgs-slam-semantic-gaussian-splatting-for-neural-dense-slam">SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM</a></li>
+            <li><a href="# 🎈neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈depth-anything-unleashing-the-power-of-large-scale-unlabeled-data">Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data</a></li>
+            <li><a href="# 🎈droid-slam-deep-visual-slam-for-monocular-stereo-and-rgb-d-cameras">DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras</a></li>
+            <li><a href="# 🎈semgauss-slam-dense-semantic-gaussian-splatting-slam">SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM</a></li>
+            <li><a href="# 🎈gaussian-slam-photo-realistic-dense-slam-with-gaussian-splatting">Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting</a></li>
+            <li><a href="# 🎈gaussnav-gaussian-splatting-for-visual-navigation">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
+            <li><a href="# 🎈rgbd-gs-icp-slam">RGBD GS-ICP SLAM</a></li>
+            <li><a href="# 🎈joint-scene-and-object-tracking-for-cost-effective-augmented-reality-assisted-patient-positioning-in-radiation-therapy">Joint Scene and Object Tracking for Cost-Effective Augmented Reality Assisted Patient Positioning in Radiation Therapy</a></li>
+            <li><a href="# 🎈3dgs-reloc-3d-gaussian-splatting-for-map-representation-and-visual-relocalization">3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization</a></li>
+            <li><a href="# 🎈how-nerfs-and-3d-gaussian-splatting-are-reshaping-slam-a-survey">How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey</a></li>
+            <li><a href="# 🎈gaussian-splatting-slam">Gaussian Splatting SLAM</a></li>
+            <li><a href="# 🎈splatam-splat-track--map-3d-gaussians-for-dense-rgb-d-slam">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</a></li>
+            <li><a href="# 🎈GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction">GS-Planner A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction</a></li>
+            <li><a href="# 🎈MotionGS  Compact Gaussian Splatting SLAM by Motion Filter">MotionGS  Compact Gaussian Splatting SLAM by Motion Filter</a></li>
+            <li><a href="# 🎈Multi-modal 3D Gaussian Splatting for SLAM">Multi-modal 3D Gaussian Splatting for SLAM</a></li>
+            <li><a href="# 🎈NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap">NGM-SLAM Gaussian Splatting SLAM with Neural Radiance Field Submap</a></li>
+            <li><a href="# 🎈Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting">Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈RTG-SLAM Real-time 3D Reconstruction at Scale Using Gaussian">RTG-SLAM Real-time 3D Reconstruction at Scale Using Gaussian</a></li>
+            <li><a href="# 🎈6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model">6DGS 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model</a></li>
+            <li><a href="# 🎈Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting">Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting</a></li>
           </ul>
         </li>
       </ul>
@@ -257,47 +257,47 @@
       <ul>
         <li>Multi-view Videos
           <ul>
-            <li><a href="#🎈swags-sampling-windows-adaptively-for-dynamic-3d-gaussian-splatting">SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
-            <li><a href="#🎈3dgstream-on-the-fly-training-of-3d-gaussians-for-efficient-streaming-of-photo-realistic-free-viewpoint-videos">3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos</a></li>
-            <li><a href="#🎈bridging-3d-gaussian-and-mesh-for-freeview-video-rendering">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
+            <li><a href="# 🎈swags-sampling-windows-adaptively-for-dynamic-3d-gaussian-splatting">SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
+            <li><a href="# 🎈3dgstream-on-the-fly-training-of-3d-gaussians-for-efficient-streaming-of-photo-realistic-free-viewpoint-videos">3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos</a></li>
+            <li><a href="# 🎈bridging-3d-gaussian-and-mesh-for-freeview-video-rendering">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
           </ul>
         </li>
         <li>Monocular Video
           <ul>
-            <li><a href="#🎈deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction">Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction</a></li>
-            <li><a href="#🎈4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
-            <li><a href="#🎈real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting-1">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
-            <li><a href="#🎈gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis">GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis</a></li>
-            <li><a href="#🎈sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes">SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes</a></li>
-            <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-1">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
-            <li><a href="#🎈dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
-            <li><a href="#🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-1">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
-            <li><a href="#🎈an-efficient-3d-gaussian-representation-for-monocularmulti-view-dynamic-scenes">An efficient 3d gaussian representation for monocular/multi-view dynamic scenes</a></li>
-            <li><a href="#🎈gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
-            <li><a href="#🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
-            <li><a href="#🎈spacetime-gaussian-feature-splatting-for-real-time-dynamic-view-synthesis">Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis</a></li>
+            <li><a href="# 🎈deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction">Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction</a></li>
+            <li><a href="# 🎈4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
+            <li><a href="# 🎈real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splatting-1">Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting</a></li>
+            <li><a href="# 🎈gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis">GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis</a></li>
+            <li><a href="# 🎈sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes">SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes</a></li>
+            <li><a href="# 🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-1">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
+            <li><a href="# 🎈dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
+            <li><a href="# 🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-1">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
+            <li><a href="# 🎈an-efficient-3d-gaussian-representation-for-monocularmulti-view-dynamic-scenes">An efficient 3d gaussian representation for monocular/multi-view dynamic scenes</a></li>
+            <li><a href="# 🎈gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
+            <li><a href="# 🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
+            <li><a href="# 🎈spacetime-gaussian-feature-splatting-for-real-time-dynamic-view-synthesis">Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Surface Representation
       <ul>
-        <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-2">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
-        <li><a href="#🎈Direct Learning of Mesh and Appearance via 3D Gaussian Splatting">Direct Learning of Mesh and Appearance via 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING">GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING</a></li>
-        <li><a href="#🎈GaussianRoom Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction">GaussianRoom Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction</a></li>
-        <li><a href="#🎈OMEGAS Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation">OMEGAS Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation</a></li>
-        <li><a href="#🎈Trim 3D Gaussian Splatting for Accurate Geometry Representation">Trim 3D Gaussian Splatting for Accurate Geometry Representation</a></li>
+        <li><a href="# 🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-2">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
+        <li><a href="# 🎈Direct Learning of Mesh and Appearance via 3D Gaussian Splatting">Direct Learning of Mesh and Appearance via 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING">GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING</a></li>
+        <li><a href="# 🎈GaussianRoom Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction">GaussianRoom Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction</a></li>
+        <li><a href="# 🎈OMEGAS Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation">OMEGAS Object Mesh Extraction from Large Scenes Guided by Gaussian Segmentation</a></li>
+        <li><a href="# 🎈Trim 3D Gaussian Splatting for Accurate Geometry Representation">Trim 3D Gaussian Splatting for Accurate Geometry Representation</a></li>
         <li><a>Segmenting 3D Gaussians with Dual Feature Fusion </a></li>
           </ul>
         </li>
         <li>Physics Simulation
           <ul>
-            <li><a href="#🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-1">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
-            <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-2">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
-            <li><a href="#🎈physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics">PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics</a></li>
+            <li><a href="# 🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-1">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
+            <li><a href="# 🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-2">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
+            <li><a href="# 🎈physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics">PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics</a></li>
           </ul>
         </li>
       </ul>
@@ -313,148 +313,148 @@
   <ul>
     <li>Initialization
       <ul>
-        <li><a href="#🎈relaxing-accurate-initialization-constraint-for-3d-gaussian-splatting">Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-1">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
-        <li><a href="#🎈text-to-3d-using-gaussian-splatting-1">Text-to-3D using Gaussian Splatting</a></li>
-        <li><a href="#🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d-1">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
-        <li><a href="#🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting-1">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
+        <li><a href="# 🎈relaxing-accurate-initialization-constraint-for-3d-gaussian-splatting">Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-1">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
+        <li><a href="# 🎈text-to-3d-using-gaussian-splatting-1">Text-to-3D using Gaussian Splatting</a></li>
+        <li><a href="# 🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d-1">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
+        <li><a href="# 🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting-1">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
       </ul>
     </li>
     <li>Attribute Expansion
       <ul>
-        <li><a href="#🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-2">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
-        <li><a href="#🎈language-embedded-3d-gaussians-for-open-vocabulary-scene-understanding-1">Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding</a></li>
-        <li><a href="#🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-1">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
-        <li><a href="#🎈ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering-1">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
-        <li><a href="#🎈cogs-controllable-gaussian-splatting-1">CoGS: Controllable Gaussian Splatting</a></li>
-        <li><a href="#🎈compact-3d-gaussian-representation-for-radiance-field-1">Compact 3D Gaussian Representation for Radiance Field</a></li>
-        <li><a href="#🎈4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes-1">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
-        <li><a href="#🎈photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras-1">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
-        <li><a href="#🎈gart-gaussian-articulated-template-models-1">GART: Gaussian Articulated Template Models</a></li>
-        <li><a href="#🎈gaussian-grouping-segment-and-edit-anything-in-3d-scenes-1">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
-        <li><a href="#🎈compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis-1">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
-        <li><a href="#🎈pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction-1">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
-        <li><a href="#🎈gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise-1">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
-        <li><a href="#🎈dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting-1">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈splatter-image-ultra-fast-single-view-3d-reconstruction-1">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
-        <li><a href="#🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-2">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
-        <li><a href="#🎈multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering-1">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
-        <li><a href="#🎈pointn-move-interactive-scene-object-manipulation-on-gaussian-splatting-radiance-fields-1">Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields</a></li>
+        <li><a href="# 🎈neural-parametric-gaussians-for-monocular-non-rigid-object-reconstruction-2">Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction</a></li>
+        <li><a href="# 🎈language-embedded-3d-gaussians-for-open-vocabulary-scene-understanding-1">Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding</a></li>
+        <li><a href="# 🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-1">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
+        <li><a href="# 🎈ges-generalized-exponential-splatting-for-efficient-radiance-field-rendering-1">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
+        <li><a href="# 🎈cogs-controllable-gaussian-splatting-1">CoGS: Controllable Gaussian Splatting</a></li>
+        <li><a href="# 🎈compact-3d-gaussian-representation-for-radiance-field-1">Compact 3D Gaussian Representation for Radiance Field</a></li>
+        <li><a href="# 🎈4d-gaussian-splatting-towards-efficient-novel-view-synthesis-for-dynamic-scenes-1">4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes</a></li>
+        <li><a href="# 🎈photo-slam-real-time-simultaneous-localization-and-photorealistic-mapping-for-monocular-stereo-and-rgb-d-cameras-1">Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras</a></li>
+        <li><a href="# 🎈gart-gaussian-articulated-template-models-1">GART: Gaussian Articulated Template Models</a></li>
+        <li><a href="# 🎈gaussian-grouping-segment-and-edit-anything-in-3d-scenes-1">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
+        <li><a href="# 🎈compressed-3d-gaussian-splatting-for-accelerated-novel-view-synthesis-1">Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis</a></li>
+        <li><a href="# 🎈pixelsplat-3d-gaussian-splats-from-image-pairs-for-scalable-generalizable-3d-reconstruction-1">pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></li>
+        <li><a href="# 🎈gaussiandiffusion-3d-gaussian-splatting-for-denoising-diffusion-probabilistic-models-with-structured-noise-1">GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise</a></li>
+        <li><a href="# 🎈dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-splatting-1">DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈splatter-image-ultra-fast-single-view-3d-reconstruction-1">Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></li>
+        <li><a href="# 🎈motion-aware-3d-gaussian-splatting-for-efficient-dynamic-scene-reconstruction-2">Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction</a></li>
+        <li><a href="# 🎈multi-scale-3d-gaussian-splatting-for-anti-aliased-rendering-1">Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering</a></li>
+        <li><a href="# 🎈pointn-move-interactive-scene-object-manipulation-on-gaussian-splatting-radiance-fields-1">Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields</a></li>
       </ul>
     </li>
     <li>Splatting
       <ul>
-        <li><a href="#🎈adop-approximate-differentiable-one-pixel-point-rendering">ADOP: Approximate Differentiable One-Pixel Point Rendering</a></li>
-        <li><a href="#🎈gs-error-analyzing-and-optimal-gaussian-splatting">GS++: Error Analyzing and Optimal Gaussian Splatting</a></li>
-        <li><a href="#🎈trips-trilinear-point-splatting-for-real-time-radiance-field-rendering">TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering</a></li>
-        <li><a href="#🎈3d-gaussian-splatting-for-real-time-radiance-field-rendering-1">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
+        <li><a href="# 🎈adop-approximate-differentiable-one-pixel-point-rendering">ADOP: Approximate Differentiable One-Pixel Point Rendering</a></li>
+        <li><a href="# 🎈gs-error-analyzing-and-optimal-gaussian-splatting">GS++: Error Analyzing and Optimal Gaussian Splatting</a></li>
+        <li><a href="# 🎈trips-trilinear-point-splatting-for-real-time-radiance-field-rendering">TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering</a></li>
+        <li><a href="# 🎈3d-gaussian-splatting-for-real-time-radiance-field-rendering-1">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></li>
       </ul>
     </li>
     <li>Regularization
       <ul>
         <li>3D Regularization
           <ul>
-            <li><a href="#🎈cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting-1">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
-            <li><a href="#🎈dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization-1">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
-            <li><a href="#🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-2">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
-            <li><a href="#🎈depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-1">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
-            <li><a href="#🎈geogaussian-geometry-aware-gaussian-splatting-for-scene-rendering">GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering</a></li>
-            <li><a href="#🎈bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors-2">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
-            <li><a href="#🎈neusg-neural-implicit-surface-reconstruction-with-3d-gaussian-splatting-guidance-1" >NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance</a></li>
-            <li><a href="#🎈gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces-1">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
-            <li><a href="#🎈gaussian-grouping-segment-and-edit-anything-in-3d-scenes-2">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
-            <li><a href="#🎈gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-1">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
-            <li><a href="#🎈high-quality-surface-reconstruction-using-gaussian-surfels-1">High-quality Surface Reconstruction using Gaussian Surfels</a></li>
+            <li><a href="# 🎈cg3d-compositional-generation-for-text-to-3d-via-gaussian-splatting-1">CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</a></li>
+            <li><a href="# 🎈dngaussian-optimizing-sparse-view-3d-gaussian-radiance-fields-with-global-local-depth-normalization-1">DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization</a></li>
+            <li><a href="# 🎈md-splatting-learning-metric-deformation-from-4d-gaussians-in-highly-deformable-scenes-2">MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes</a></li>
+            <li><a href="# 🎈depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-1">Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images</a></li>
+            <li><a href="# 🎈geogaussian-geometry-aware-gaussian-splatting-for-scene-rendering">GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering</a></li>
+            <li><a href="# 🎈bags-building-animatable-gaussian-splatting-from-a-monocular-video-with-diffusion-priors-2">BAGS: Building Animatable Gaussian Splatting from a Monocular Video with Diffusion Priors</a></li>
+            <li><a href="# 🎈neusg-neural-implicit-surface-reconstruction-with-3d-gaussian-splatting-guidance-1" >NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance</a></li>
+            <li><a href="# 🎈gaussianshader-3d-gaussian-splatting-with-shading-functions-for-reflective-surfaces-1">GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces</a></li>
+            <li><a href="# 🎈gaussian-grouping-segment-and-edit-anything-in-3d-scenes-2">Gaussian Grouping: Segment and Edit Anything in 3D Scenes</a></li>
+            <li><a href="# 🎈gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-1">Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle</a></li>
+            <li><a href="# 🎈high-quality-surface-reconstruction-using-gaussian-surfels-1">High-quality Surface Reconstruction using Gaussian Surfels</a></li>
           </ul>
         </li>
         <li>2D Regularization
           <ul>
-            <li><a href="#🎈high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization-1">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
-            <li><a href="#🎈re-imagine-the-negative-prompt-algorithm-transform-2d-diffusion-into-3d-alleviate-janus-problem-and-beyond">Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond</a></li>
-            <li><a href="#🎈fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting-1">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
-            <li><a href="#🎈learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting-1">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models-1">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
-            <li><a href="#🎈fregs-3d-gaussian-splatting-with-progressive-frequency-regularization-1">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
-            <li><a href="#🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-1">uman Generation with Gaussian Splatting</a></li>
-            <li><a href="#🎈gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
+            <li><a href="# 🎈high-fidelity-slam-using-gaussian-splatting-with-rendering-guided-densification-and-regularized-optimization-1">High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization</a></li>
+            <li><a href="# 🎈re-imagine-the-negative-prompt-algorithm-transform-2d-diffusion-into-3d-alleviate-janus-problem-and-beyond">Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond</a></li>
+            <li><a href="# 🎈fsgs-real-time-few-shot-view-synthesis-using-gaussian-splatting-1">FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting</a></li>
+            <li><a href="# 🎈learn-to-optimize-denoising-scores-for-3d-generation-a-unified-and-improved-diffusion-prior-on-nerf-and-3d-gaussian-splatting-1">Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈align-your-gaussians-text-to-4d-with-dynamic-3d-gaussians-and-composed-diffusion-models-1">Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</a></li>
+            <li><a href="# 🎈fregs-3d-gaussian-splatting-with-progressive-frequency-regularization-1">FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization</a></li>
+            <li><a href="# 🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-1">uman Generation with Gaussian Splatting</a></li>
+            <li><a href="# 🎈gvgen-text-to-3d-generation-with-volumetric-representation">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
           </ul>
         </li>
         <li>Pruning
           <ul>
-            <li><a href="#🎈lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps-3">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
-            <li><a href="#🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-1">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
-            <li><a href="#🎈gaussian-splatting-slam-1">Gaussian Splatting SLAM</a></li>
-            <li><a href="#🎈gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-1">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
-            <li><a href="#🎈gs-slam-dense-visual-slam-with-3d-gaussian-splatting-1">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting-1">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈compact-3d-gaussian-representation-for-radiance-field-2">Compact 3D Gaussian Representation for Radiance Field</a></li>
+            <li><a href="# 🎈lightgaussian-unbounded-3d-gaussian-compression-with-15x-reduction-and-200-fps-3">LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS</a></li>
+            <li><a href="# 🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-1">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
+            <li><a href="# 🎈gaussian-splatting-slam-1">Gaussian Splatting SLAM</a></li>
+            <li><a href="# 🎈gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-1">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
+            <li><a href="# 🎈gs-slam-dense-visual-slam-with-3d-gaussian-splatting-1">GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈neds-slam-a-novel-neural-explicit-dense-semantic-slam-framework-using-3d-gaussian-splatting-1">NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈compact-3d-gaussian-representation-for-radiance-field-2">Compact 3D Gaussian Representation for Radiance Field</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Post-Processing
       <ul>
-        <li><a href="#🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-1">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
-        <li><a href="#🎈ggrt-towards-generalizable-3d-gaussians-without-pose-priors-in-real-time">GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time</a></li>
-        <li><a href="#🎈sugar-surface-aligned-gaussian-splatting-for-efficient-3d-mesh-reconstruction-and-high-quality-mesh-rendering-1">SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering</a></li>
-        <li><a href="#🎈identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting-1">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈delicate-textured-mesh-recovery-from-nerf-via-adaptive-surface-refinement">Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement</a></li>
-        <li><a href="#🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing-1">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
-        <li><a href="#🎈augmented-reality-for-depth-cues-in-monocular-minimally-invasive-surgery">Augmented Reality for Depth Cues in Monocular Minimally Invasive Surgery</a></li>
-        <li><a href="#🎈gaussian-opacity-fields-efficient-and-compact-surface-reconstruction-in-unbounded-scenes-1">Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes</a></li>
+        <li><a href="# 🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-1">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
+        <li><a href="# 🎈ggrt-towards-generalizable-3d-gaussians-without-pose-priors-in-real-time">GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time</a></li>
+        <li><a href="# 🎈sugar-surface-aligned-gaussian-splatting-for-efficient-3d-mesh-reconstruction-and-high-quality-mesh-rendering-1">SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering</a></li>
+        <li><a href="# 🎈identifying-unnecessary-3d-gaussians-using-clustering-for-fast-rendering-of-3d-gaussian-splatting-1">Identifying Unnecessary 3D Gaussians using Clustering for Fast Rendering of 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈delicate-textured-mesh-recovery-from-nerf-via-adaptive-surface-refinement">Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement</a></li>
+        <li><a href="# 🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing-1">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
+        <li><a href="# 🎈augmented-reality-for-depth-cues-in-monocular-minimally-invasive-surgery">Augmented Reality for Depth Cues in Monocular Minimally Invasive Surgery</a></li>
+        <li><a href="# 🎈gaussian-opacity-fields-efficient-and-compact-surface-reconstruction-in-unbounded-scenes-1">Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes</a></li>
       </ul>
     </li>
     <li>Integration with Other Representations
       <ul>
         <li>Point Clouds
           <ul>
-            <li><a href="#🎈gaussnav-gaussian-splatting-for-visual-navigation-2">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
+            <li><a href="# 🎈gaussnav-gaussian-splatting-for-visual-navigation-2">GaussNav: Gaussian Splatting for Visual Navigation</a></li>
           </ul>
         </li>
         <li>Mesh
           <ul>
-            <li><a href="#🎈bridging-3d-gaussian-and-mesh-for-freeview-video-rendering-1">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
-            <li><a href="#🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-2">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
+            <li><a href="# 🎈bridging-3d-gaussian-and-mesh-for-freeview-video-rendering-1">Bridging 3D Gaussian and Mesh for Freeview Video Rendering</a></li>
+            <li><a href="# 🎈lgm-large-multi-view-gaussian-model-for-high-resolution-3d-content-creation-2">LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation</a></li>
           </ul>
         </li>
         <li>Triplane
           <ul>
-            <li><a href="#🎈triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers-1">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
-            <li><a href="#🎈control4d-dynamic-portrait-editing-by-learning-4d-gan-from-2d-diffusion-based-editor">Control4d: Dynamic portrait editing by learning 4D GAN from 2D diffusion-based editor</a></li>
+            <li><a href="# 🎈triplane-meets-gaussian-splatting-fast-and-generalizable-single-view-3d-reconstruction-with-transformers-1">Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers</a></li>
+            <li><a href="# 🎈control4d-dynamic-portrait-editing-by-learning-4d-gan-from-2d-diffusion-based-editor">Control4d: Dynamic portrait editing by learning 4D GAN from 2D diffusion-based editor</a></li>
           </ul>
         </li>
         <li>Grid
           <ul>
-            <li><a href="#🎈compact-3d-scene-representation-via-self-organizing-gaussian-grids-1">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
+            <li><a href="# 🎈compact-3d-scene-representation-via-self-organizing-gaussian-grids-1">Compact 3D Scene Representation via Self-Organizing Gaussian Grids</a></li>
           </ul>
         </li>
         <li>Implicit Representation
           <ul>
-            <li><a href="#🎈3dgsr-implicit-surface-reconstruction-with-3d-gaussian-splatting-1">3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting</a></li>
-            <li><a href="#🎈gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-2">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
-            <li><a href="#🎈gaussian-splatting-with-nerf-based-color-and-opacity">Gaussian Splatting with NeRF-based Color and Opacity</a></li>
+            <li><a href="# 🎈3dgsr-implicit-surface-reconstruction-with-3d-gaussian-splatting-1">3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting</a></li>
+            <li><a href="# 🎈gsdf-3dgs-meets-sdf-for-improved-rendering-and-reconstruction-2">GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction</a></li>
+            <li><a href="# 🎈gaussian-splatting-with-nerf-based-color-and-opacity">Gaussian Splatting with NeRF-based Color and Opacity</a></li>
           </ul>
         </li>
         <li>Gaussian Volumes
           <ul>
-            <li><a href="#🎈gvgen-text-to-3d-generation-with-volumetric-representation-2">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
+            <li><a href="# 🎈gvgen-text-to-3d-generation-with-volumetric-representation-2">GVGEN: Text-to-3D Generation with Volumetric Representation</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>Guidance by Additional Prior
       <ul>
-        <li><a href="#🎈human-gaussian-splatting-real-time-rendering-of-animatable-avatars-1">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
-        <li><a href="#🎈hugs-human-gaussian-splats-1">HUGS: Human Gaussian Splats</a></li>
-        <li><a href="#🎈3d-menagerie-modeling-the-3d-shape-and-pose-of-animals">3D Menagerie: Modeling the 3D shape and pose of animals</a></li>
-        <li><a href="#🎈3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting-1">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈touch-gs-visual-tactile-supervised-3d-gaussian-splatting-1">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
-        <li><a href="#🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-2">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
-        <li><a href="#🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-3">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
-        <li><a href="#🎈gaussian-shell-maps-for-efficient-3d-human-generation-2">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
-        <li><a href="#🎈gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting-1">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
-        <li><a href="#🎈gaussian-shell-maps-for-efficient-3d-human-generation-3">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
-        <li><a href="#🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting-1">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
+        <li><a href="# 🎈human-gaussian-splatting-real-time-rendering-of-animatable-avatars-1">Human Gaussian Splatting: Real-time Rendering of Animatable Avatars</a></li>
+        <li><a href="# 🎈hugs-human-gaussian-splats-1">HUGS: Human Gaussian Splats</a></li>
+        <li><a href="# 🎈3d-menagerie-modeling-the-3d-shape-and-pose-of-animals">3D Menagerie: Modeling the 3D shape and pose of animals</a></li>
+        <li><a href="# 🎈3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-splatting-1">3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈touch-gs-visual-tactile-supervised-3d-gaussian-splatting-1">Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting</a></li>
+        <li><a href="# 🎈gauhuman-articulated-gaussian-splatting-from-monocular-human-videos-2">GauHuman: Articulated Gaussian Splatting from Monocular Human Videos</a></li>
+        <li><a href="# 🎈humangaussian-text-driven-3d-human-generation-with-gaussian-splatting-3">HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting</a></li>
+        <li><a href="# 🎈gaussian-shell-maps-for-efficient-3d-human-generation-2">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
+        <li><a href="# 🎈gala3d-towards-text-to-3d-complex-scene-generation-via-layout-guided-generative-gaussian-splatting-1">GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting</a></li>
+        <li><a href="# 🎈gaussian-shell-maps-for-efficient-3d-human-generation-3">Gaussian Shell Maps for Efficient 3D Human Generation</a></li>
+        <li><a href="# 🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting-1">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
 </ul>
 </li>
 
