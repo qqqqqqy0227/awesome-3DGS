@@ -2249,7 +2249,6 @@ Recent advancements in 3D reconstruction technologies have paved the way for hig
 <summary><b>Abstract</b></summary>
 Neural rendering methods have significantly advanced photo-realistic 3D scene rendering in In this paper, we introduce Trim 3D Gaussian Splatting (TrimGS) to reconstruct accurate 3D geometry from images. Previous arts for geometry reconstruction from 3D Gaussians mainly focus on exploring strong geometry regularization. Instead, from a fresh perspective, we propose to obtain accurate 3D geometry of a scene by Gaussian trimming, which selectively removes the inaccurate geometry while preserving accurate structures. To achieve this, we analyze the contributions of individual 3D Gaussians and propose a contribution-based trimming strategy to remove the redundant or inaccurate Gaussians. Furthermore, our experimental and theoretical analyses reveal that a relatively small Gaussian scale is a non-negligible factor in representing and optimizing the intricate details. Therefore the proposed TrimGS maintains relatively small Gaussian scales. In addition, TrimGS is also compatible with the effective geometry regularization strategies in previous arts. When combined with the original 3DGS and the state-of-the-art 2DGS, TrimGS consistently yields more accurate geometry and higher perceptual quality. Our project page is this https URL
 </details>
-
 [📄 Paper](https://arxiv.org/abs/2406.07499)
 
 ## Editable 3D Gaussian Splatting
@@ -2336,8 +2335,18 @@ We propose Point'n Move, a method that achieves interactive scene object manipul
 <summary><b>Abstract</b></summary>
 Text-driven 3D scene editing has gained significant attention owing to its convenience and user-friendliness. However, existing methods still lack accurate control of the specified appearance and location of the editing result due to the inherent limitations of the text description. To this end, we propose a 3D scene editing framework, TIPEditor, that accepts both text and image prompts and a 3D bounding box to specify the editing region. With the image prompt, users can conveniently specify the detailed appearance/style of the target content in complement to the text description, enabling accurate control of the appearance. Specifically, TIP-Editor employs a stepwise 2D personalization strategy to better learn the representation of the existing scene and the reference image, in which a localization loss is proposed to encourage correct object placement as specified by the bounding box. Additionally, TIPEditor utilizes explicit and flexible 3D Gaussian splatting as the 3D representation to facilitate local editing while keeping the background unchanged. Extensive experiments have demonstrated that TIP-Editor conducts accurate editing following the text and image prompts in the specified bounding box region, consistently outperforming the baselines in editing quality, and the alignment to the prompts, qualitatively and quantitatively.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2401.14828v3.pdf)
+
+##### 🎈TrAME: Trajectory-Anchored Multi-View Editing for Text-Guided 3D Gaussian Splatting Manipulation
+
+**Authors**: [Chaofan Luo](https://arxiv.org/search/cs?searchtype=author&query=Luo,+C), [Donglin Di](https://arxiv.org/search/cs?searchtype=author&query=Di,+D), [Yongjia Ma](https://arxiv.org/search/cs?searchtype=author&query=Ma,+Y), [Zhou Xue](https://arxiv.org/search/cs?searchtype=author&query=Xue,+Z), [Chen Wei](https://arxiv.org/search/cs?searchtype=author&query=Wei,+C), [Xun Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+X), [Yebin Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Y)
+
+<details>
+<summary><b>Abstract</b></summary>
+Despite significant strides in the field of 3D scene editing, current methods encounter substantial challenge, particularly in preserving 3D consistency in multi-view editing process. To tackle this challenge, we propose a progressive 3D editing strategy that ensures multi-view consistency via a Trajectory-Anchored Scheme (TAS) with a dual-branch editing mechanism. Specifically, TAS facilitates a tightly coupled iterative process between 2D view editing and 3D updating, preventing error accumulation yielded from text-to-image process. Additionally, we explore the relationship between optimization-based methods and reconstruction-based methods, offering a unified perspective for selecting superior design choice, supporting the rationale behind the designed TAS. We further present a tuning-free View-Consistent Attention Control (VCAC) module that leverages cross-view semantic and geometric reference from the source branch to yield aligned views from the target branch during the editing of 2D views. To validate the effectiveness of our method, we analyze 2D examples to demonstrate the improved consistency with the VCAC module. Further extensive quantitative and qualitative results in text-guided 3D scene editing indicate that our method achieves superior editing quality compared to state-of-the-art methods. We will make the complete codebase publicly available following the conclusion of the double-blind review process.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2407.02034)
 
 ### Stylization
 ##### 🎈Gaussian Splatting in Style
@@ -2349,6 +2358,17 @@ Text-driven 3D scene editing has gained significant attention owing to its conve
 Scene stylization extends the work of neural style transfer to three spatial dimensions. A vital challenge in this problem is to maintain the uniformity of the stylized appearance across a multi-view setting. A vast majority of the previous works achieve this by optimizing the scene with a specific style image. In contrast, we propose a novel architecture trained on a collection of style images, that at test time produces high quality stylized novel views. Our work builds up on the framework of 3D Gaussian splatting. For a given scene, we take the pretrained Gaussians and process them using a multi resolution hash grid and a tiny MLP to obtain the conditional stylised views. The explicit nature of 3D Gaussians give us inherent advantages over NeRF-based methods including geometric consistency, along with having a fast training and rendering regime. This enables our method to be useful for vast practical use cases such as in augmented or virtual reality applications. Through our experiments, we show our methods achieve state-of-the-art performance with superior visual quality on various indoor and outdoor real-world data.
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.08498v1.pdf)
+
+##### 🎈StyleSplat 3D Object Style Transfer with Gaussian Splatting
+
+**Authors**: [Sahil Jain](https://arxiv.org/search/cs?searchtype=author&query=Jain,+S), [Avik Kuthiala](https://arxiv.org/search/cs?searchtype=author&query=Kuthiala,+A), [Prabhdeep Singh Sethi](https://arxiv.org/search/cs?searchtype=author&query=Sethi,+P+S), [Prakanshul Saxena](https://arxiv.org/search/cs?searchtype=author&query=Saxena,+P)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent advancements in radiance fields have opened new avenues for creating high-quality 3D assets and scenes. Style transfer can enhance these 3D assets with diverse artistic styles, transforming creative expression. However, existing techniques are often slow or unable to localize style transfer to specific objects. We introduce StyleSplat, a lightweight method for stylizing 3D objects in scenes represented by 3D Gaussians from reference style images. Our approach first learns a photorealistic representation of the scene using 3D Gaussian splatting while jointly segmenting individual 3D objects. We then use a nearest-neighbor feature matching loss to finetune the Gaussians of the selected objects, aligning their spherical harmonic coefficients with the style image to ensure consistency and visual appeal. StyleSplat allows for quick, customizable style transfer and localized stylization of multiple objects within a scene, each with a different style. We demonstrate its effectiveness across various 3D scenes and styles, showcasing enhanced control and customization in 3D creation.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2407.09473)
 
 ### Animation
 ##### 🎈CoGS: Controllable Gaussian Splatting
@@ -2381,8 +2401,31 @@ Animatable 3D reconstruction has significant applications across various fields,
 <summary><b>Abstract</b></summary>
 Novel view synthesis for dynamic scenes is still a challenging problem in computer vision and graphics. Recently, Gaussian splatting has emerged as a robust technique to represent static scenes and enable high-quality and real-time novel view synthesis. Building upon this technique, we propose a new representation that explicitly decomposes the motion and appearance of dynamic scenes into sparse control points and dense Gaussians, respectively. Our key idea is to use sparse control points, significantly fewer in number than the Gaussians, to learn compact 6 DoF transformation bases, which can be locally interpolated through learned interpolation weights to yield the motion field of 3D Gaussians. We employ a deformation MLP to predict time-varying 6 DoF transformations for each control point, which reduces learning complexities, enhances learning abilities, and facilitates obtaining temporal and spatial coherent motion patterns. Then, we jointly learn the 3D Gaussians, the canonical space locations of control points, and the deformation MLP to reconstruct the appearance, geometry, and dynamics of 3D scenes. During learning, the location and number of control points are adaptively adjusted to accommodate varying motion complexities in different regions, and an ARAP loss following the principle of as rigid as possible is developed to enforce spatial continuity and local rigidity of learned motions. Finally, thanks to the explicit sparse motion representation and its decomposition from appearance, our method can enable user-controlled motion editing while retaining high-fidelity appearances. Extensive experiments demonstrate that our approach outperforms existing approaches on novel view synthesis with a high rendering speed and enables novel appearance-preserved motion editing applications. Project page: https://yihua7.github.io/SC-GS-web/
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2312.14937v3.pdf)
+
+### Will be Categorized Later
+
+##### 🎈GSDeformer: Direct Cage-based Deformation for 3D Gaussian Splatting
+
+**Authors**: [Jiajun Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+J), [Hongchuan Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+H)
+
+<details>
+<summary><b>Abstract</b></summary>
+We present GSDeformer, a method that achieves free-form deformation on 3D Gaussian Splatting(3DGS) without requiring any architectural changes. Our method extends cage-based deformation, a traditional mesh deformation method, to 3DGS. This is done by converting 3DGS into a novel proxy point cloud representation, where its deformation can be used to infer the transformations to apply on the 3D gaussians making up 3DGS. We also propose an automatic cage construction algorithm for 3DGS to minimize manual work. Our method does not modify the underlying architecture of 3DGS. Therefore, any existing trained vanilla 3DGS can be easily edited by our method. We compare the deformation capability of our method against other existing methods, demonstrating the ease of use and comparable quality of our method, despite being more direct and thus easier to integrate with other concurrent developments on 3DGS.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.15491)
+
+##### 🎈GScream: Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal
+
+**Authors**: [Yuxin Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Qianyi Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+Q), [Guofeng Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+G), [Dan Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+D)
+
+<details>
+<summary><b>Abstract</b></summary>
+This paper tackles the intricate challenge of object removal to update the radiance field using the 3D Gaussian Splatting. The main challenges of this task lie in the preservation of geometric consistency and the maintenance of texture coherence in the presence of the substantial discrete nature of Gaussian primitives. We introduce a robust framework specifically designed to overcome these obstacles. The key insight of our approach is the enhancement of information exchange among visible and invisible areas, facilitating content restoration in terms of both geometry and texture. Our methodology begins with optimizing the positioning of Gaussian primitives to improve geometric consistency across both removed and visible areas, guided by an online registration process informed by monocular depth estimation. Following this, we employ a novel feature propagation mechanism to bolster texture coherence, leveraging a cross-attention design that bridges sampling Gaussians from both uncertain and certain areas. This innovative approach significantly refines the texture coherence within the final radiance field. Extensive experiments validate that our method not only elevates the quality of novel view synthesis for scenes undergoing object removal but also showcases notable efficiency gains in training and rendering speeds.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.13679)
 
 ## Semantic Understanding
 ##### 🎈Gaussian Grouping: Segment and Edit Anything in 3D Scenes
@@ -2499,7 +2542,6 @@ We present a method that simultaneously addresses the tasks of dynamic scene nov
 <summary><b>Abstract</b></summary>
 We introduce PhysGaussian, a new method that seamlessly integrates physically grounded Newtonian dynamics within 3D Gaussians to achieve high-quality novel motion synthesis. Employing a custom Material Point Method (MPM), our approach enriches 3D Gaussian kernels with physically meaningful kinematic deformation and mechanical stress attributes, all evolved in line with continuum mechanics principles. A defining characteristic of our method is the seamless integration between physical simulation and visual rendering: both components utilize the same 3D Gaussian kernels as their discrete representations. This negates the necessity for triangle/tetrahedron meshing, marching cubes, "cage meshes," or any other geometry embedding, highlighting the principle of "what you see is what you simulate (WS$^2$)." Our method demonstrates exceptional versatility across a wide variety of materials--including elastic entities, metals, non-Newtonian fluids, and granular materials--showcasing its strong capabilities in creating diverse visual content with novel viewpoints and movements. Our project page is at: https://xpandora.github.io/PhysGaussian/
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2311.12198v3.pdf)
 
 # Technical Classification
