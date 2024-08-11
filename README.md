@@ -326,6 +326,8 @@
         <li><a href="#🎈text-to-3d-using-gaussian-splatting-1">Text-to-3D using Gaussian Splatting</a></li>
         <li><a href="#🎈agg-amortized-generative-3d-gaussians-for-single-image-to-3d-1">AGG: Amortized Generative 3D Gaussians for Single Image to 3D</a></li>
         <li><a href="#🎈gaussianobject-just-taking-four-images-to-get-a-high-quality-3d-object-with-gaussian-splatting-1">GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting</a></li>
+        <li><a href="#🎈Evaluating Alternatives to SFM Point Cloud Initialization for Gaussian Splatting">Evaluating Alternatives to SFM Point Cloud Initialization for Gaussian Splatting</a></li>
+        <li><a href="#🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data">Dense 3D Gaussian Splatting Initialization for Sparse Image Data</a></li>
       </ul>
     </li>
     <li>Attribute Expansion
@@ -465,6 +467,7 @@
         <li><a href="#🎈hugs-holistic-urban-3d-scene-understanding-via-gaussian-splatting-1">HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting</a></li>
 </ul>
 </li>
+
 
 </ul> </details>  
 
@@ -2598,8 +2601,29 @@ Given the growing need for automatic 3D content creation pipelines, various 3D r
 <summary><b>Abstract</b></summary>
 Reconstructing and rendering 3D objects from highly sparse views is of critical importance for promoting applications of 3D vision techniques and improving user experience. However, images from sparse views only contain very limited 3D information, leading to two significant challenges: 1) Difficulty in building multi-view consistency as images for matching are too few; 2) Partially omitted or highly compressed object information as view coverage is insufficient. To tackle these challenges, we propose GaussianObject, a framework to represent and render the 3D object with Gaussian splatting, that achieves high rendering quality with only 4 input images. We first introduce techniques of visual hull and floater elimination which explicitly inject structure priors into the initial optimization process for helping build multi-view consistency, yielding a coarse 3D Gaussian representation. Then we construct a Gaussian repair model based on diffusion models to supplement the omitted object information, where Gaussians are further refined. We design a self-generating strategy to obtain image pairs for training the repair model. Our GaussianObject is evaluated on several challenging datasets, including MipNeRF360, OmniObject3D, and OpenIllumination, achieving strong reconstruction results from only 4 views and significantly outperforming previous state-of-the-art methods.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2402.10259v2.pdf)
+
+##### 🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data
+
+**Authors**: [Seibt, Simon](https://diglib.eg.org/browse/author?startsWith=Seibt, Simon)[Chang, Thomas Vincent Siu-Lung](https://diglib.eg.org/browse/author?startsWith=Chang, Thomas Vincent Siu-Lung)[von Rymon Lipinski, Bartosz](https://diglib.eg.org/browse/author?startsWith=von Rymon Lipinski, Bartosz )[Latoschik, Marc Erich](https://diglib.eg.org/browse/author?startsWith=Latoschik, Marc Erich)
+
+<details>
+<summary><b>Abstract</b></summary>
+This paper presents advancements in novel-view synthesis with 3D Gaussian Splatting (3DGS) using a dense and accurate SfM point cloud initialization approach. We address the challenge of achieving photorealistic renderings from sparse image data, where basic 3DGS training may result in suboptimal convergence, thus leading to visual artifacts. The proposed method enhances precision and density of initially reconstructed point clouds by refining 3D positions and extrapolating additional points, even for difficult image regions, e.g. with repeating patterns and suboptimal visual coverage. Our contributions focus on improving ''Dense Feature Matching for Structure-from-Motion'' (DFM4SfM) based on a homographic decomposition of the image space to support 3DGS training: First, a grid-based feature detection method is introduced for DFM4SfM to ensure a welldistributed 3D Gaussian initialization uniformly over all depth planes. Second, the SfM feature matching is complemented by a geometric plausibility check, priming the homography estimation and thereby improving the initial placement of 3D Gaussians. Experimental results on the NeRF-LLFF dataset demonstrate that this approach achieves superior qualitative and quantitative results, even for fewer views, and the potential for a significantly accelerated 3DGS training with faster convergence.
+</details>
+
+[📄 Paper](https://diglib.eg.org/items/777dca56-b620-412c-86a9-fd5163a90c92)
+
+##### 🎈Evaluating Alternatives to SFM Point Cloud Initialization for Gaussian Splatting
+
+**Authors**: [Yalda Foroutan](https://arxiv.org/search/cs?searchtype=author&query=Foroutan,+Y), [Daniel Rebain](https://arxiv.org/search/cs?searchtype=author&query=Rebain,+D), [Kwang Moo Yi](https://arxiv.org/search/cs?searchtype=author&query=Yi,+K+M), [Andrea Tagliasacchi](https://arxiv.org/search/cs?searchtype=author&query=Tagliasacchi,+A)
+
+<details>
+<summary><b>Abstract</b></summary>
+  3D Gaussian Splatting has recently been embraced as a versatile and effective method for scene reconstruction and novel view synthesis, owing to its high-quality results and compatibility with hardware rasterization. Despite its advantages, Gaussian Splatting's reliance on high-quality point cloud initialization by Structure-from-Motion (SFM) algorithms is a significant limitation to be overcome. To this end, we investigate various initialization strategies for Gaussian Splatting and delve into how volumetric reconstructions from Neural Radiance Fields (NeRF) can be utilized to bypass the dependency on SFM data. Our findings demonstrate that random initialization can perform much better if carefully designed and that by employing a combination of improved initialization strategies and structure distillation from low-cost NeRF models, it is possible to achieve equivalent results, or at times even superior, to those obtained from SFM initialization. Source code is available at this https <a herf=https://theialab.github.io/nerf-3dgs>URL</a> .
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.12547)
 
 ## Attribute Expansion
 ##### 🎈Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction
