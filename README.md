@@ -99,10 +99,12 @@
 				<li><a href="#🎈Dense 3D Gaussian Splatting Initialization for Sparse Image Data">Dense 3D Gaussian Splatting Initialization for Sparse Image Data</a></li>
 				<li><a href="#🎈DIG3D Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction">DIG3D: Marrying Gaussian Splatting with Deformable Transformer for Single Image 3D Reconstruction</a></li>
 				<li><a href="#🎈Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views">Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views</a></li>
+				<li><a href="#🎈CoR-GS Sparse-View 3D Gaussian Splatting via Co-Regularization">CoR-GS Sparse-View 3D Gaussian Splatting via Co-Regularization</a></li>
       </ul>
     </li>
   </ul>
 </details>
+
 
 
 ### Applications of 3D Gaussian Splatting
@@ -957,8 +959,18 @@ In this paper, we study the problem of 3D reconstruction from a single-view RGB 
 <summary><b>Abstract</b></summary>
 The technique of 3D Gaussian splatting (3DGS) has demonstrated its effectiveness and efficiency in rendering photo-realistic images for novel view synthesis. However, 3DGS requires a high density of camera coverage, and its performance inevitably degrades with sparse training views, which significantly restricts its applications in real-world products. In recent years, many researchers have tried to use depth information to alleviate this problem, but the performance of their methods is sensitive to the accuracy of depth estimation. To this end, we propose an efficient method to enhance the performance of 3DGS with sparse training views. Specifically, instead of applying depth maps for regularization, we propose a densification method that generates high-quality point clouds for improved initialization of 3D Gaussians. Furthermore, we propose Systematically Angle of View Sampling (SAOVS), which employs Spherical Linear Interpolation (SLERP) and linear interpolation for side view sampling, to determine unseen views outside the training data for semantic pseudo-label regularization. Experiments show that our proposed method significantly outperforms other promising 3D rendering models on the ScanNet dataset and the LLFF dataset. In particular, compared with the conventional 3DGS method, the PSNR and SSIM performance gains achieved by our method are up to 1.71dB and 0.07, respectively. In addition, the novel view synthesis obtained by our method demonstrates the highest visual quality with fewer distortions.
 </details>
-
 [📄 Paper](https://openreview.net/forum?id=vW5070FoXi&noteId=wmfIKrNmtV)
+
+##### 🎈CoR-GS Sparse-View 3D Gaussian Splatting via Co-Regularization
+
+**Authors**: [Jiawei Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J), [Jiahe Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J), [Xiaohan Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+X), [Lei Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+L), [Lin Gu](https://arxiv.org/search/cs?searchtype=author&query=Gu,+L), [Jin Zheng](https://arxiv.org/search/cs?searchtype=author&query=Zheng,+J), [Xiao Bai](https://arxiv.org/search/cs?searchtype=author&query=Bai,+X)
+
+<details>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting (3DGS) creates a radiance field consisting of 3D Gaussians to represent a scene. With sparse training views, 3DGS easily suffers from overfitting, negatively impacting rendering. This paper introduces a new co-regularization perspective for improving sparse-view 3DGS. When training two 3D Gaussian radiance fields, we observe that the two radiance fields exhibit point disagreement and rendering disagreement that can unsupervisedly predict reconstruction quality, stemming from the randomness of densification implementation. We further quantify the two disagreements and demonstrate the negative correlation between them and accurate reconstruction, which allows us to identify inaccurate reconstruction without accessing ground-truth information. Based on the study, we propose CoR-GS, which identifies and suppresses inaccurate reconstruction based on the two disagreements: (1) Co-pruning considers Gaussians that exhibit high point disagreement in inaccurate positions and prunes them. (2) Pseudo-view co-regularization considers pixels that exhibit high rendering disagreement are inaccurate and suppress the disagreement. Results on LLFF, Mip-NeRF360, DTU, and Blender demonstrate that CoR-GS effectively regularizes the scene geometry, reconstructs the compact representations, and achieves state-of-the-art novel view synthesis quality under sparse training views.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.12110)
 
 # Applications of 3D Gaussian Splatting
 ## Human Reconstruction
