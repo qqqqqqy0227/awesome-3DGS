@@ -3356,8 +3356,51 @@ Novel view synthesis from limited observations remains an important and persiste
 <summary><b>Abstract</b></summary>
 In recent years, 3D Gaussian splatting has emerged as a powerful technique for 3D reconstruction and generation, known for its fast and high-quality rendering capabilities. To address these shortcomings, this paper introduces a novel diffusion-based framework, GVGEN, designed to efficiently generate 3D Gaussian representations from text input. We propose two innovative techniques:(1) Structured Volumetric Representation. We first arrange disorganized 3D Gaussian points as a structured form GaussianVolume. This transformation allows the capture of intricate texture details within a volume composed of a fixed number of Gaussians. To better optimize the representation of these details, we propose a unique pruning and densifying method named the Candidate Pool Strategy, enhancing detail fidelity through selective optimization. (2) Coarse-to-fine Generation Pipeline. To simplify the generation of GaussianVolume and empower the model to generate instances with detailed 3D geometry, we propose a coarse-to-fine pipeline. It initially constructs a basic geometric structure, followed by the prediction of complete Gaussian attributes. Our framework, GVGEN, demonstrates superior performance in qualitative and quantitative assessments compared to existing 3D generation methods. Simultaneously, it maintains a fast generation speed ($\sim$7 seconds), effectively striking a balance between quality and efficiency. Our project page is: https://gvgen.github.io/
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2403.12957v2.pdf)
+
+##### 🎈Point Cloud Densification for 3D Gaussian Splatting from Sparse Input Views
+
+**Authors**: [Kin-Chung Chan](https://openreview.net/profile?id=~Kin-Chung_Chan1), [Jun Xiao](https://openreview.net/profile?id=~Jun_Xiao5), [Hana Lebeta Goshu](https://openreview.net/profile?id=~Hana_Lebeta_Goshu1), [Kin-man Lam](https://openreview.net/profile?id=~Kin-man_Lam1)
+
+<details>
+<summary><b>Abstract</b></summary>
+The technique of 3D Gaussian splatting (3DGS) has demonstrated its effectiveness and efficiency in rendering photo-realistic images for novel view synthesis. However, 3DGS requires a high density of camera coverage, and its performance inevitably degrades with sparse training views, which significantly restricts its applications in real-world products. In recent years, many researchers have tried to use depth information to alleviate this problem, but the performance of their methods is sensitive to the accuracy of depth estimation. To this end, we propose an efficient method to enhance the performance of 3DGS with sparse training views. Specifically, instead of applying depth maps for regularization, we propose a densification method that generates high-quality point clouds for improved initialization of 3D Gaussians. Furthermore, we propose Systematically Angle of View Sampling (SAOVS), which employs Spherical Linear Interpolation (SLERP) and linear interpolation for side view sampling, to determine unseen views outside the training data for semantic pseudo-label regularization. Experiments show that our proposed method significantly outperforms other promising 3D rendering models on the ScanNet dataset and the LLFF dataset. In particular, compared with the conventional 3DGS method, the PSNR and SSIM performance gains achieved by our method are up to 1.71dB and 0.07, respectively. In addition, the novel view synthesis obtained by our method demonstrates the highest visual quality with fewer distortions.
+</details>
+
+[📄 Paper](https://openreview.net/forum?id=vW5070FoXi&noteId=wmfIKrNmtV)
+
+##### 🎈3D Gaussian Splatting as Markov Chain Monte Carlo
+
+**Authors**: [Shakiba Kheradmand](https://arxiv.org/search/cs?searchtype=author&query=Kheradmand,+S), [Daniel Rebain](https://arxiv.org/search/cs?searchtype=author&query=Rebain,+D), [Gopal Sharma](https://arxiv.org/search/cs?searchtype=author&query=Sharma,+G), [Weiwei Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+W), [Jeff Tseng](https://arxiv.org/search/cs?searchtype=author&query=Tseng,+J), [Hossam Isack](https://arxiv.org/search/cs?searchtype=author&query=Isack,+H), [Abhishek Kar](https://arxiv.org/search/cs?searchtype=author&query=Kar,+A), [Andrea Tagliasacchi](https://arxiv.org/search/cs?searchtype=author&query=Tagliasacchi,+A), [Kwang Moo Yi](https://arxiv.org/search/cs?searchtype=author&query=Yi,+K+M)
+
+<details>
+<summary><b>Abstract</b></summary>
+While 3D Gaussian Splatting has recently become popular for neural rendering, current methods rely on carefully engineered cloning and splitting strategies for placing Gaussians, which can lead to poor-quality renderings, and reliance on a good initialization. In this work, we rethink the set of 3D Gaussians as a random sample drawn from an underlying probability distribution describing the physical representation of the scene-in other words, Markov Chain Monte Carlo (MCMC) samples. Under this view, we show that the 3D Gaussian updates can be converted as Stochastic Gradient Langevin Dynamics (SGLD) updates by simply introducing noise. We then rewrite the densification and pruning strategies in 3D Gaussian Splatting as simply a deterministic state transition of MCMC samples, removing these heuristics from the framework. To do so, we revise the 'cloning' of Gaussians into a relocalization scheme that approximately preserves sample probability. To encourage efficient use of Gaussians, we introduce a regularizer that promotes the removal of unused Gaussians. On various standard evaluation scenes, we show that our method provides improved rendering quality, easy control over the number of Gaussians, and robustness to initialization.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.09591)
+
+##### 🎈Color-cued Efficient Densification Method for 3D Gaussian Splatting
+
+**Authors**: Sieun Kim, Kyungjin Lee, Youngki Lee
+
+<details>
+<summary><b>Abstract</b></summary>
+Many variants of Neural Radiance Fields (NeRF) have been explored in pursuit of high-quality results with reasonable data size and real-time rendering speed. 3D Gaussian Splatting (3DGS) gained popularity due to its ability to render quality images in real-time; however it still faces challenges with large data sizes. Meanwhile the densification process of 3DGS plays a large role in deciding the quality and the data size of a model. Hence it is crucial to devise a densification method that can populate Gaussians efficiently so that quality can be enhanced and fewer Gaussians are used. An efficient densification method that results in fewer Gaussians can also promote efficiency in training time GPU memory usage and rendering speed. Hence we propose a novel efficient densification method based on color cues aiming to achieve a more compact Gaussian model without sacrificing image quality. By expanding the original 3DGS densification scheme we identify weaknesses in the original method that lead to redundant Gaussians and compromise quality. In contrast to the original approach which relies solely on the 2D position gradient our method additionally leverages the spherical harmonics (SH) gradient to consider color cues. This approach resolves the inefficiencies of the original densification by aligning with the expanded scheme. Our method achieves at least 9x data size reduction with increased perceptual quality accompanied by additional efficiencies in training time GPU memory usage and rendering speed.
+</details>
+
+[📄 Paper](https://openaccess.thecvf.com/content/CVPR2024W/3DMV/html/Kim_Color-cued_Efficient_Densification_Method_for_3D_Gaussian_Splatting_CVPRW_2024_paper.html)
+
+##### 🎈Revising Densification in Gaussian Splatting
+
+**Authors**: [Samuel Rota Bulò](https://arxiv.org/search/cs?searchtype=author&query=Bulò,+S+R), [Lorenzo Porzi](https://arxiv.org/search/cs?searchtype=author&query=Porzi,+L), [Peter Kontschieder](https://arxiv.org/search/cs?searchtype=author&query=Kontschieder,+P)
+
+<details>
+<summary><b>Abstract</b></summary>
+In this paper, we address the limitations of Adaptive Density Control (ADC) in 3D Gaussian Splatting (3DGS), a scene representation method achieving high-quality, photorealistic results for novel view synthesis. ADC has been introduced for automatic 3D point primitive management, controlling densification and pruning, however, with certain limitations in the densification logic. Our main contribution is a more principled, pixel-error driven formulation for density control in 3DGS, leveraging an auxiliary, per-pixel error function as the criterion for densification. We further introduce a mechanism to control the total number of primitives generated per scene and correct a bias in the current opacity handling strategy of ADC during cloning operations. Our approach leads to consistent quality improvements across a variety of benchmark scenes, without sacrificing the method's efficiency.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2404.06109)
 
 ### Pruning
 ##### 🎈LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
