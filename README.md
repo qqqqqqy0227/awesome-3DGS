@@ -3477,8 +3477,40 @@ We propose NEDS-SLAM, an Explicit Dense semantic SLAM system based on 3D Gaussia
 <summary><b>Abstract</b></summary>
 Neural Radiance Fields (NeRFs) have demonstrated remarkable potential in capturing complex 3D scenes with high fidelity. However, one persistent challenge that hinders the widespread adoption of NeRFs is the computational bottleneck due to the volumetric rendering. On the other hand, 3D Gaussian splatting (3DGS) has recently emerged as an alternative representation that leverages a 3D Gaussisan-based representation and adopts the rasterization pipeline to render the images rather than volumetric rendering, achieving very fast rendering speed and promising image quality. However, a significant drawback arises as 3DGS entails a substantial number of 3D Gaussians to maintain the high fidelity of the rendered images, which requires a large amount of memory and storage. To address this critical issue, we place a specific emphasis on two key objectives: reducing the number of Gaussian points without sacrificing performance and compressing the Gaussian attributes, such as view-dependent color and covariance. To this end, we propose a learnable mask strategy that significantly reduces the number of Gaussians while preserving high performance. In addition, we propose a compact but effective representation of view-dependent color by employing a grid-based neural field rather than relying on spherical harmonics. Finally, we learn codebooks to compactly represent the geometric attributes of Gaussian by vector quantization. With model compression techniques such as quantization and entropy coding, we consistently show over 25$\times$ reduced storage and enhanced rendering speed, while maintaining the quality of the scene representation, compared to 3DGS. Our work provides a comprehensive framework for 3D scene representation, achieving high performance, fast training, compactness, and real-time rendering. Our project page is available at https://maincold2.github.io/c3dgs/.
 </details>
-
 [📄 Paper](https://arxiv.org/pdf/2311.13681v2.pdf)
+
+##### 🎈LP-3DGS: Learning to Prune 3D Gaussian Splatting
+
+**Authors**: [Zhaoliang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Z), [Tianchen Song](https://arxiv.org/search/cs?searchtype=author&query=Song,+T), [Yongjae Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+Y), [Li Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+L), [Cheng Peng](https://arxiv.org/search/cs?searchtype=author&query=Peng,+C), [Rama Chellappa](https://arxiv.org/search/cs?searchtype=author&query=Chellappa,+R), [Deliang Fan](https://arxiv.org/search/cs?searchtype=author&query=Fan,+D)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recently, 3D Gaussian Splatting (3DGS) has become one of the mainstream methodologies for novel view synthesis (NVS) due to its high quality and fast rendering speed. However, as a point-based scene representation, 3DGS potentially generates a large number of Gaussians to fit the scene, leading to high memory usage. Improvements that have been proposed require either an empirical and preset pruning ratio or importance score threshold to prune the point cloud. Such hyperparamter requires multiple rounds of training to optimize and achieve the maximum pruning ratio, while maintaining the rendering quality for each scene. In this work, we propose learning-to-prune 3DGS (LP-3DGS), where a trainable binary mask is applied to the importance score that can find optimal pruning ratio automatically. Instead of using the traditional straight-through estimator (STE) method to approximate the binary mask gradient, we redesign the masking function to leverage the Gumbel-Sigmoid method, making it differentiable and compatible with the existing training process of 3DGS. Extensive experiments have shown that LP-3DGS consistently produces a good balance that is both efficient and high quality.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.18784)
+
+##### 🎈PUP 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting
+
+**Authors**: [Alex Hanson](https://arxiv.org/search/cs?searchtype=author&query=Hanson,+A), [Allen Tu](https://arxiv.org/search/cs?searchtype=author&query=Tu,+A), [Vasu Singla](https://arxiv.org/search/cs?searchtype=author&query=Singla,+V), [Mayuka Jayawardhana](https://arxiv.org/search/cs?searchtype=author&query=Jayawardhana,+M), [Matthias Zwicker](https://arxiv.org/search/cs?searchtype=author&query=Zwicker,+M), [Tom Goldstein](https://arxiv.org/search/cs?searchtype=author&query=Goldstein,+T)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent advancements in novel view synthesis have enabled real-time rendering speeds and high reconstruction accuracy. 3D Gaussian Splatting (3D-GS), a foundational point-based parametric 3D scene representation, models scenes as large sets of 3D Gaussians. Complex scenes can comprise of millions of Gaussians, amounting to large storage and memory requirements that limit the viability of 3D-GS on devices with limited resources. Current techniques for compressing these pretrained models by pruning Gaussians rely on combining heuristics to determine which ones to remove. In this paper, we propose a principled spatial sensitivity pruning score that outperforms these approaches. It is computed as a second-order approximation of the reconstruction error on the training views with respect to the spatial parameters of each Gaussian. Additionally, we propose a multi-round prune-refine pipeline that can be applied to any pretrained 3D-GS model without changing the training pipeline. After pruning 88.44% of the Gaussians, we observe that our PUP 3D-GS pipeline increases the average rendering speed of 3D-GS by 2.65× while retaining more salient foreground information and achieving higher image quality metrics than previous pruning techniques on scenes from the Mip-NeRF 360, Tanks & Temples, and Deep Blending datasets.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2406.10219)
+
+##### 🎈Spectrally Pruned Gaussian Fields with Neural Compensation
+
+**Authors**: [Runyi Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+R), [Zhenxin Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu,+Z), [Zhou Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Z), [Baijun Ye](https://arxiv.org/search/cs?searchtype=author&query=Ye,+B), [Xiaoxue Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+X), [Yifei Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Y), [Yuantao Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+Y), [Jian Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+J), [Hao Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+H)
+
+<details>
+<summary><b>Abstract</b></summary>
+Recently, 3D Gaussian Splatting, as a novel 3D representation, has garnered attention for its fast rendering speed and high rendering quality. However, this comes with high memory consumption, e.g., a well-trained Gaussian field may utilize three million Gaussian primitives and over 700 MB of memory. We credit this high memory footprint to the lack of consideration for the relationship between primitives. In this paper, we propose a memory-efficient Gaussian field named SUNDAE with spectral pruning and neural compensation. On one hand, we construct a graph on the set of Gaussian primitives to model their relationship and design a spectral down-sampling module to prune out primitives while preserving desired signals. On the other hand, to compensate for the quality loss of pruning Gaussians, we exploit a lightweight neural network head to mix splatted features, which effectively compensates for quality losses while capturing the relationship between primitives in its weights. We demonstrate the performance of SUNDAE with extensive results. For example, SUNDAE can achieve 26.80 PSNR at 145 FPS using 104 MB memory while the vanilla Gaussian splatting algorithm achieves 25.60 PSNR at 160 FPS using 523 MB memory, on the Mip-NeRF360 dataset. Codes are publicly available at this https <a herf='https://runyiyang.github.io/projects/SUNDAE/'>URL<a>.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.00676f)
 
 ## Post-Processing
 ##### 🎈LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation
