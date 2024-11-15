@@ -54,6 +54,7 @@
     </li>
     <li>Photorealism
       <ul>
+        <li><a href="#🎈GS^3: Efficient Relighting with Triple Gaussian Splatting">GS^3: Efficient Relighting with Triple Gaussian Splatting</a></li>
         <li><a href="#🎈microfacet-models-for-refraction-through-rough-surfaces">Microfacet models for refraction through rough surfaces</a></li>
         <li><a href="#🎈mirror-3dgs-incorporating-mirror-reflections-into-3d-gaussian-splatting">Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting</a></li>
         <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-1">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
@@ -139,6 +140,7 @@
         <li>Others
           <ul>
             <li><a href="#🎈gaussianhair-hair-modeling-and-rendering-with-light-aware-gaussians">GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</a></li>
+            <li><a href="#🎈Relightable Gaussian Codec Avatars">🎈Relightable Gaussian Codec Avatars</a></li>
           </ul>
         </li>
       </ul>
@@ -151,6 +153,9 @@
     </li>
     <li>Artificial Intelligence-Generated Content (AIGC)
       <ul>
+        <ul><li>
+        <a herf="#🎈L3DG: Latent 3D Gaussian Diffusion">L3DG: Latent 3D Gaussian Diffusion</a>
+        </li></ul>
         <li>Text to 3D Objects
           <ul>
             <li><a href="#🎈hyper-3dg-text-to-3d-gaussian-generation-via-hypergraph">Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph</a></li>
@@ -293,6 +298,7 @@
     </li>
     <li>Surface Representation
       <ul>
+        <li><a herf="#🎈Mesh-based Gaussian Splatting for Real-time Large-scale Deformation">Mesh-based Gaussian Splatting for Real-time Large-scale Deformation</a></li>
         <li><a href="#🎈scaffold-gs-structured-3d-gaussians-for-view-adaptive-rendering-2">Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</a></li>
         <li><a href="#🎈Direct Learning of Mesh and Appearance via 3D Gaussian Splatting">Direct Learning of Mesh and Appearance via 3D Gaussian Splatting</a></li>
         <li><a href="#🎈GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING">GS-OCTREE OCTREE-BASED 3D GAUSSIAN SPLATTING FOR ROBUST OBJECT-LEVEL 3D RECONSTRUCTION UNDER STRONG LIGHTING</a></li>
@@ -302,7 +308,13 @@
         <li><a>Segmenting 3D Gaussians with Dual Feature Fusion </a></li>
           </ul>
         </li>
-        <li>Physics Simulation
+    <li>Editable 3D Gaussian Splatting
+      <ul>
+      <li><a href="#🎈SketchDream: Sketch-based Text-to-3D Generation and Editing">Trim 3D Gaussian Splatting for Accurate Geometry Representation</a></li>
+      <li><a>EVSplitting: An Efficient and Visually Consistent Splitting Algorithm for 3D Gaussian Splatting</a>
+      </ul>
+    </li>
+    <li>Physics Simulation
           <ul>
             <li><a href="#🎈4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-1">4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</a></li>
             <li><a href="#🎈dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-2">Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis</a></li>
@@ -662,6 +674,20 @@ It is shown to represent signals with sharp edges more accurately, which are typ
 [📄 Paper](https://arxiv.org/pdf/2402.10128)
 
 ## Photorealism
+
+#### 🎈GS3: Efficient Relighting with Triple Gaussian Splatting
+
+**Authors**: Zoubin Bi, Yixin Zeng, Chong Zeng, Fan Pei, Xiang Feng, Kun Zhou, Hongzhi Wu
+
+<details>
+<summary><b>Abstract</b></summary>
+
+We present a spatial and angular Gaussian based representation and a triple splatting process for real-time, high-quality novel lighting-and-view synthesis from multi-view point-lit input images. To describe complex appearance, we employ a Lambertian plus a mixture of angular Gaussians as an effective reflectance function for each spatial Gaussian. To generate self-shadow, we splat all spatial Gaussians towards the light source to obtain shadow values, which are further refined by a small multi-layer perceptron. To compensate for other effects like global illumination, another network is trained to compute and add a per-spatial-Gaussian RGB tuple. The effectiveness of our representation is demonstrated on 30 samples with a wide variation in geometry and appearance, as well as using different forms of input data. We achieve a training time of 40-70 minutes and a rendering speed of 90 fps on a single commodity GPU. Our results compare favorably with state-of-the-art techniques in terms of quality/performance.
+
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2410.11419)
+
 
 ##### 🎈Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting
 
@@ -1130,6 +1156,21 @@ Radiance fields have demonstrated impressive performance in synthesizing lifelik
 [📄 Paper](https://arxiv.org/pdf/2312.03029v2.pdf)
 
 ### Others
+
+#### 🎈Relightable Gaussian Codec Avatars
+
+**Authors**: Shunsuke Saito, Gabriel Schwartz, Tomas Simon, Junxuan Li, Giljoo Nam
+
+<details>
+<summary><b>Abstract</b></summary>
+
+We present Relightable Gaussian Codec Avatars, a method to build high-fidelity relightable head avatars that can be animated to generate novel expressions. Our geometry model based on 3D Gaussians can capture 3D-consistent sub-millimeter details such as hair strands and pores on dynamic face sequences. To support diverse materials of human heads such as the eyes, skin, and hair in a unified manner, we present a novel relightable appearance model based on learnable radiance transfer. Together with global illumination-aware spherical harmonics for the diffuse components, we achieve real-time relighting with all-frequency reflections using spherical Gaussians. This appearance model can be efficiently relit under both point light and continuous illumination. We further improve the fidelity of eye reflections and enable explicit gaze control by introducing relightable explicit eye models. Our method outperforms existing approaches without compromising real-time performance. We also demonstrate real-time relighting of avatars on a tethered consumer VR headset, showcasing the efficiency and fidelity of our avatars.
+
+</details>
+
+[📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Saito_Relightable_Gaussian_Codec_Avatars_CVPR_2024_paper.pdf)
+
+
 ##### 🎈GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians
 
 **Authors**: Jingyi Yu, Lan Xu, Wei Yang, Qixuan Zhang, Longwen Zhang, Suyi Jiang, Zijun Zhao, Min Ouyang, Haimin Luo
@@ -1164,6 +1205,21 @@ Reconstructing dynamic objects from monocular videos is a severely underconstrai
 [📄 Paper](https://arxiv.org/pdf/2312.01196v2.pdf)
 
 ## Artificial Intelligence-Generated Content (AIGC)
+
+#### 🎈L3DG: Latent 3D Gaussian Diffusion
+
+**Authors**: Barbara Roessle, Norman Müller, Lorenzo Porzi, Samuel Rota Bulò, Peter Kontschieder, Angela Dai, Matthias Nießner
+
+<details>
+<summary><b>Abstract</b></summary>
+
+We propose L3DG, the first approach for generative 3D modeling of 3D Gaussians through a latent 3D Gaussian diffusion formulation. This enables effective generative 3D modeling, scaling to generation of entire room-scale scenes which can be very efficiently rendered. To enable effective synthesis of 3D Gaussians, we propose a latent diffusion formulation, operating in a compressed latent space of 3D Gaussians. This compressed latent space is learned by a vector-quantized variational autoencoder (VQ-VAE), for which we employ a sparse convolutional architecture to efficiently operate on room-scale scenes. This way, the complexity of the costly generation process via diffusion is substantially reduced, allowing higher detail on object-level generation, as well as scalability to large scenes. By leveraging the 3D Gaussian representation, the generated scenes can be rendered from arbitrary viewpoints in real-time. We demonstrate that our approach significantly improves visual quality over prior work on unconditional object-level radiance field synthesis and showcase its applicability to room-scale scene generation.
+
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2410.13530)
+
+
 ### Text to 3D Objects
 ##### 🎈Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph
 
@@ -2104,6 +2160,21 @@ Human activities are inherently complex, and even simple household tasks involve
 [📄 Paper](https://arxiv.org/abs/2406.19811)
 
 ## Surface Representation
+
+#### 🎈Mesh-based Gaussian Splatting for Real-time Large-scale Deformation
+
+**Authors**: Lin Gao, Jie Yang, Bo-Tao Zhang, Jia-Mu Sun, Yu-Jie Yuan, Hongbo Fu, Yu-Kun Lai
+
+<details>
+<summary><b>Abstract</b></summary>
+
+Neural implicit representations, including Neural Distance Fields and Neural Radiance Fields, have demonstrated significant capabilities for reconstructing surfaces with complicated geometry and topology, and generating novel views of a scene. Nevertheless, it is challenging for users to directly deform or manipulate these implicit representations with large deformations in the real-time fashion. Gaussian Splatting (GS) has recently become a promising method with explicit geometry for representing static scenes and facilitating high-quality and real-time synthesis of novel views. However, it cannot be easily deformed due to the use of discrete Gaussians and lack of explicit topology. To address this, we develop a novel GS-based method that enables interactive deformation. Our key idea is to design an innovative mesh-based GS representation, which is integrated into Gaussian learning and manipulation. 3D Gaussians are defined over an explicit mesh, and they are bound with each other: the rendering of 3D Gaussians guides the mesh face split for adaptive refinement, and the mesh face split directs the splitting of 3D Gaussians. Moreover, the explicit mesh constraints help regularize the Gaussian distribution, suppressing poor-quality Gaussians (e.g., misaligned Gaussians, long-narrow shaped Gaussians), thus enhancing visual quality and avoiding artifacts during deformation. Based on this representation, we further introduce a large-scale Gaussian deformation technique to enable deformable GS, which alters the parameters of 3D Gaussians according to the manipulation of the associated mesh. Our method benefits from existing mesh deformation datasets for more realistic data-driven Gaussian deformation. Extensive experiments show that our approach achieves high-quality reconstruction and effective deformation, while maintaining the promising rendering results at a high frame rate (65 FPS on average on a single commodity GPU).
+
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2402.04796)
+
+
 ##### 🎈Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
 
 **Authors**: Bo Dai, Dahua Lin, LiMin Wang, Yuanbo Xiangli, Linning Xu, Mulin Yu, Tao Lu
@@ -2331,6 +2402,34 @@ We propose GaussCtrl, a text-driven method to edit a 3D scene reconstructed by t
 [📄 Paper](https://arxiv.org/pdf/2403.08733v4.pdf)
 
 ### Manipulation by Other Conditions
+
+#### 🎈SketchDream: Sketch-based Text-to-3D Generation and Editing
+
+**Authors**: Feng-Lin Liu, Hongbo Fu, Yu-Kun Lai, Lin Gao
+
+<details>
+<summary><b>Abstract</b></summary>
+
+We propose SketchDream, a method for sketch-based text-to-3D generation and editing of photo-realistic contents. Given hand-drawn sketches and text prompts, our method generates high-quality rendering results of 3D contents from scratch. It also supports free-view sketch-based local editing. To tackle the 2D-to-3D ambiguity challenge, we introduce a sketch-based multi-view image generation diffusion model, which leverages depth guidance to establish spatial correspondence. A 3D ControlNet with a 3D attention module is utilized to control multi-view images and ensure their 3D consistency. To support local editing, we further propose a coarse-to-fine editing approach: the coarse phase analyzes component interactions and provides 3D masks to label edited regions, while the fine stage generates realistic results with refined details by local enhancement. Extensive experiments validate that our method generates higher-quality results compared with a combination of 2D ControlNet and image-to-3D generation techniques and achieves detailed control compared with existing diffusion-based 3D editing approaches.
+
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2405.06461)
+
+
+#### 🎈EVSplitting: An Efficient and Visually Consistent Splitting Algorithm for 3D Gaussian Splatting
+
+**Authors**: Qi-Yuan Feng, Geng-Chen Cao, Hao-Xiang Chen, Qun-Ce Xu, Tai-Jiang Mu, Ralph Martin, Shi-Min Hu
+
+<details>
+<summary><b>Abstract</b></summary>
+
+This paper presents EVSplitting, an efficient and visually consistent splitting algorithm for 3D Gaussian Splatting (3DGS). It is designed to make operating 3DGS as easy and effective as other 3D explicit representations, readily for industrial productions. The challenges of above target are: 1) The huge number and complex attributes of 3DGS make it tough to explicitly operate on 3DGS in a real-time and learning-free manner; 2) The visual effect of 3DGS is very difficult to maintain during explicit operations and 3) The anisotropism of Gaussian always leads to blurs and artifacts. As far as we know, no prior work can address these challenges well. In this work, we introduce a direct and efficient 3DGS splitting algorithm to solve them. Specifically, we formulate the 3DGS splitting as two minimization problems that aim to ensure visual consistency and reduce Gaussian overflow across boundary (splitting plane), respectively. Firstly, we impose conservations on the zero-, first- and second-order moments of the weighted Gaussian distribution to guarantee visual consistency. Secondly, we reduce the boundary overflow with a special constraint on the aforementioned conservations. With these conservations and constraints, we derive a closed-form solution for the 3DGS splitting problem. This yields an easy-to-implement, plug-and-play, efficient and fundamental tool, benefiting various downstream applications of 3DGS.
+</details>
+
+[📄 Paper](https://asia.siggraph.org/2024/presentation/?id=papers_333&sess=sess115)
+
+
 ##### 🎈Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields
 
 **Authors**: Hongchuan Yu, Jiajun Huang
