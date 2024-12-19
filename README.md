@@ -67,10 +67,12 @@
         <li><a href="#🎈deblurgs-gaussian-splatting-for-camera-motion-blur">DeblurGS: Gaussian Splatting for Camera Motion Blur</a></li>
         <li><a href="#🎈gaussianpro-3d-gaussian-splatting-with-progressive-propagation">GaussianPro: 3D Gaussian Splatting with Progressive Propagation</a></li>
         <li><a href="#🎈sa-gs-scale-adaptive-gaussian-splatting-for-training-free-anti-aliasing">SA-GS: Scale-Adaptive Gaussian Splatting for Training-Free Anti-Aliasing</a></li>
+        <li><a href="#🎈DynaSurfGS: Dynamic Surface Reconstruction with Planar-based Gaussian">DynaSurfGS: Dynamic Surface Reconstruction with Planar-based Gaussian</a></li>
       </ul>
     </li>
   </ul>
 </details>
+
 
 
 ### Generalization and Sparse Views
@@ -806,6 +808,19 @@ The advent of 3D Gaussian Splatting (3DGS) has recently brought about a revoluti
 In this paper, we present a Scale-adaptive method for Anti-aliasing Gaussian Splatting (SA-GS). While the state-of-the-art method Mip-Splatting needs modifying the training procedure of Gaussian splatting, our method functions at test-time and is training-free. Specifically, SA-GS can be applied to any pretrained Gaussian splatting field as a plugin to significantly improve the field's anti-alising performance. The core technique is to apply 2D scale-adaptive filters to each Gaussian during test time. As pointed out by Mip-Splatting, observing Gaussians at different frequencies leads to mismatches between the Gaussian scales during training and testing. Mip-Splatting resolves this issue using 3D smoothing and 2D Mip filters, which are unfortunately not aware of testing frequency. In this work, we show that a 2D scale-adaptive filter that is informed of testing frequency can effectively match the Gaussian scale, thus making the Gaussian primitive distribution remain consistent across different testing frequencies. When scale inconsistency is eliminated, sampling rates smaller than the scene frequency result in conventional jaggedness, and we propose to integrate the projected 2D Gaussian within each pixel during testing. This integration is actually a limiting case of super-sampling, which significantly improves anti-aliasing performance over vanilla Gaussian Splatting. Through extensive experiments using various settings and both bounded and unbounded scenes, we show SA-GS performs comparably with or better than Mip-Splatting. Note that super-sampling and integration are only effective when our scale-adaptive filtering is activated. Our codes, data and models are available at https://github.com/zsy1987/SA-GS.
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.19615v1.pdf)
+
+##### 🎈DynaSurfGS: Dynamic Surface Reconstruction with Planar-based Gaussian**
+
+  Splatting
+
+**Authors**: Weiwei Cai, Weicai Ye, Peng Ye, Tong He, Tao Chen
+
+<details>
+<summary><b>Abstract</b></summary>
+Dynamic scene reconstruction has garnered significant attention in recent years due to its capabilities in high-quality and real-time rendering. Among various methodologies, constructing a 4D spatial-temporal representation, such as 4D-GS, has gained popularity for its high-quality rendered images. However, these methods often produce suboptimal surfaces, as the discrete 3D Gaussian point clouds fail to align with the object's surface precisely. To address this problem, we propose DynaSurfGS to achieve both photorealistic rendering and high-fidelity surface reconstruction of dynamic scenarios. Specifically, the DynaSurfGS framework first incorporates Gaussian features from 4D neural voxels with the planar-based Gaussian Splatting to facilitate precise surface reconstruction. It leverages normal regularization to enforce the smoothness of the surface of dynamic objects. It also incorporates the as-rigid-as-possible (ARAP) constraint to maintain the approximate rigidity of local neighborhoods of 3D Gaussians between timesteps and ensure that adjacent 3D Gaussians remain closely aligned throughout. Extensive experiments demonstrate that DynaSurfGS surpasses state-of-the-art methods in both high-fidelity surface reconstruction and photorealistic rendering.
+</details>
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AReal-time%20Photorealistic%20Dynamic%20Scene%20Representation%20and%20Rendering%20with%204D%20Gaussian%20Splatting%26id_list%3D%26start%3D0%26max_results%3D1)
 
 ## Generalization and Sparse Views
 ### Generalizable 3D Gaussian Splatting
@@ -3968,6 +3983,381 @@ Efficient generation of 3D digital humans is important in several industries, in
 Holistic understanding of urban scenes based on RGB images is a challenging yet important problem. It encompasses understanding both the geometry and appearance to enable novel view synthesis, parsing semantic labels, and tracking moving objects. Despite considerable progress, existing approaches often focus on specific aspects of this task and require additional inputs such as LiDAR scans or manually annotated 3D bounding boxes. In this paper, we introduce a novel pipeline that utilizes 3D Gaussian Splatting for holistic urban scene understanding. Our main idea involves the joint optimization of geometry, appearance, semantics, and motion using a combination of static and dynamic 3D Gaussians, where moving object poses are regularized via physical constraints. Our approach offers the ability to render new viewpoints in real-time, yielding 2D and 3D semantic information with high accuracy, and reconstruct dynamic scenes, even in scenarios where 3D bounding box detection are highly noisy. Experimental results on KITTI, KITTI-360, and Virtual KITTI 2 demonstrate the effectiveness of our approach.
 </details>
 [📄 Paper](https://arxiv.org/pdf/2403.12722v1.pdf)
+
+## New papers to be classified
+
+#####  🎈DynaSurfGS: Dynamic Surface Reconstruction with Planar-based Gaussian
+
+  Splatting
+
+**Authors**: Weiwei Cai, Weicai Ye, Peng Ye, Tong He, Tao Chen
+
+<details>
+<summary><b>Abstract</b></summary>
+Dynamic scene reconstruction has garnered significant attention in recent
+years due to its capabilities in high-quality and real-time rendering. Among
+various methodologies, constructing a 4D spatial-temporal representation, such
+as 4D-GS, has gained popularity for its high-quality rendered images. However,
+these methods often produce suboptimal surfaces, as the discrete 3D Gaussian
+point clouds fail to align with the object's surface precisely. To address this
+problem, we propose DynaSurfGS to achieve both photorealistic rendering and
+high-fidelity surface reconstruction of dynamic scenarios. Specifically, the
+DynaSurfGS framework first incorporates Gaussian features from 4D neural voxels
+with the planar-based Gaussian Splatting to facilitate precise surface
+reconstruction. It leverages normal regularization to enforce the smoothness of
+the surface of dynamic objects. It also incorporates the as-rigid-as-possible
+(ARAP) constraint to maintain the approximate rigidity of local neighborhoods
+of 3D Gaussians between timesteps and ensure that adjacent 3D Gaussians remain
+closely aligned throughout. Extensive experiments demonstrate that DynaSurfGS
+surpasses state-of-the-art methods in both high-fidelity surface reconstruction
+and photorealistic rendering.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AReal-time%20Photorealistic%20Dynamic%20Scene%20Representation%20and%20Rendering%20with%204D%20Gaussian%20Splatting%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for
+
+  Dynamic Scenes
+
+**Authors**: Yuanxing Duan, Fangyin Wei, Qiyu Dai, Yuhang He, Wenzheng Chen, Baoquan Chen
+
+<details>
+<summary><b>Abstract</b></summary>
+We consider the problem of novel-view synthesis (NVS) for dynamic scenes.
+Recent neural approaches have accomplished exceptional NVS results for static
+3D scenes, but extensions to 4D time-varying scenes remain non-trivial. Prior
+efforts often encode dynamics by learning a canonical space plus implicit or
+explicit deformation fields, which struggle in challenging scenarios like
+sudden movements or generating high-fidelity renderings. In this paper, we
+introduce 4D Gaussian Splatting (4DRotorGS), a novel method that represents
+dynamic scenes with anisotropic 4D XYZT Gaussians, inspired by the success of
+3D Gaussian Splatting in static scenes. We model dynamics at each timestamp by
+temporally slicing the 4D Gaussians, which naturally compose dynamic 3D
+Gaussians and can be seamlessly projected into images. As an explicit
+spatial-temporal representation, 4DRotorGS demonstrates powerful capabilities
+for modeling complicated dynamics and fine details--especially for scenes with
+abrupt motions. We further implement our temporal slicing and splatting
+techniques in a highly optimized CUDA acceleration framework, achieving
+real-time inference rendering speeds of up to 277 FPS on an RTX 3090 GPU and
+583 FPS on an RTX 4090 GPU. Rigorous evaluations on scenes with diverse motions
+showcase the superior efficiency and effectiveness of 4DRotorGS, which
+consistently outperforms existing methods both quantitatively and
+qualitatively.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3A4d-rotor%20gaussian%20splatting%3A%20towards%20efficient%20novel%20view%20synthesis%20for%20dynamic%20scenes%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation
+
+  for Natural Camera Motion
+
+**Authors**: Otto Seiskari, Jerry Ylilammi, Valtteri Kaatrasalo, Pekka Rantalankila, Matias Turkulainen, Juho Kannala, Esa Rahtu, Arno Solin
+
+<details>
+<summary><b>Abstract</b></summary>
+High-quality scene reconstruction and novel view synthesis based on Gaussian
+Splatting (3DGS) typically require steady, high-quality photographs, often
+impractical to capture with handheld cameras. We present a method that adapts
+to camera motion and allows high-quality scene reconstruction with handheld
+video data suffering from motion blur and rolling shutter distortion. Our
+approach is based on detailed modelling of the physical image formation process
+and utilizes velocities estimated using visual-inertial odometry (VIO). Camera
+poses are considered non-static during the exposure time of a single image
+frame and camera poses are further optimized in the reconstruction process. We
+formulate a differentiable rendering pipeline that leverages screen space
+approximation to efficiently incorporate rolling-shutter and motion blur
+effects into the 3DGS framework. Our results with both synthetic and real data
+demonstrate superior performance in mitigating camera motion over existing
+methods, thereby advancing 3DGS in naturalistic settings.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AGaussian%20splatting%20on%20the%20move%3A%20Blur%20and%20rolling%20shutter%20compensation%20for%20natural%20camera%20motion%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈Deblurring 3D Gaussian Splatting
+
+**Authors**: Byeonghyeon Lee, Howoong Lee, Xiangyu Sun, Usman Ali, Eunbyung Park
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent studies in Radiance Fields have paved the robust way for novel view
+synthesis with their photorealistic rendering quality. Nevertheless, they
+usually employ neural networks and volumetric rendering, which are costly to
+train and impede their broad use in various real-time applications due to the
+lengthy rendering time. Lately 3D Gaussians splatting-based approach has been
+proposed to model the 3D scene, and it achieves remarkable visual quality while
+rendering the images in real-time. However, it suffers from severe degradation
+in the rendering quality if the training images are blurry. Blurriness commonly
+occurs due to the lens defocusing, object motion, and camera shake, and it
+inevitably intervenes in clean image acquisition. Several previous studies have
+attempted to render clean and sharp images from blurry input images using
+neural fields. The majority of those works, however, are designed only for
+volumetric rendering-based neural radiance fields and are not straightforwardly
+applicable to rasterization-based 3D Gaussian splatting methods. Thus, we
+propose a novel real-time deblurring framework, Deblurring 3D Gaussian
+Splatting, using a small Multi-Layer Perceptron (MLP) that manipulates the
+covariance of each 3D Gaussian to model the scene blurriness. While Deblurring
+3D Gaussian Splatting can still enjoy real-time rendering, it can reconstruct
+fine and sharp details from blurry images. A variety of experiments have been
+conducted on the benchmark, and the results have revealed the effectiveness of
+our approach for deblurring. Qualitative results are available at
+https://benhenryl.github.io/Deblurring-3D-Gaussian-Splatting/
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3ADeblurring%203d%20gaussian%20splatting%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈HFGaussian: Learning Generalizable Gaussian Human with Integrated Human
+
+  Features
+
+**Authors**: Arnab Dey, Cheng-You Lu, Andrew I. Comport, Srinath Sridhar, Chin-Teng Lin, Jean Martinet
+
+<details>
+<summary><b>Abstract</b></summary>
+Recent advancements in radiance field rendering show promising results in 3D
+scene representation, where Gaussian splatting-based techniques emerge as
+state-of-the-art due to their quality and efficiency. Gaussian splatting is
+widely used for various applications, including 3D human representation.
+However, previous 3D Gaussian splatting methods either use parametric body
+models as additional information or fail to provide any underlying structure,
+like human biomechanical features, which are essential for different
+applications. In this paper, we present a novel approach called HFGaussian that
+can estimate novel views and human features, such as the 3D skeleton, 3D key
+points, and dense pose, from sparse input images in real time at 25 FPS. The
+proposed method leverages generalizable Gaussian splatting technique to
+represent the human subject and its associated features, enabling efficient and
+generalizable reconstruction. By incorporating a pose regression network and
+the feature splatting technique with Gaussian splatting, HFGaussian
+demonstrates improved capabilities over existing 3D human methods, showcasing
+the potential of 3D human representations with integrated biomechanics. We
+thoroughly evaluate our HFGaussian method against the latest state-of-the-art
+techniques in human Gaussian splatting and pose estimation, demonstrating its
+real-time, state-of-the-art performance.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3ADistractor-free%20Generalizable%203D%20Gaussian%20Splatting%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈N-Dimensional Gaussians for Fitting of High Dimensional Functions
+
+**Authors**: Stavros Diolatzis, Tobias Zirr, Alexandr Kuznetsov, Georgios Kopanas, Anton Kaplanyan
+
+<details>
+<summary><b>Abstract</b></summary>
+In the wake of many new ML-inspired approaches for reconstructing and
+representing high-quality 3D content, recent hybrid and explicitly learned
+representations exhibit promising performance and quality characteristics.
+However, their scaling to higher dimensions is challenging, e.g. when
+accounting for dynamic content with respect to additional parameters such as
+material properties, illumination, or time. In this paper, we tackle these
+challenges for an explicit representations based on Gaussian mixture models.
+With our solutions, we arrive at efficient fitting of compact N-dimensional
+Gaussian mixtures and enable efficient evaluation at render time: For fast
+fitting and evaluation, we introduce a high-dimensional culling scheme that
+efficiently bounds N-D Gaussians, inspired by Locality Sensitive Hashing. For
+adaptive refinement yet compact representation, we introduce a loss-adaptive
+density control scheme that incrementally guides the use of additional capacity
+towards missing details. With these tools we can for the first time represent
+complex appearance that depends on many input dimensions beyond position or
+viewing angle within a compact, explicit representation optimized in minutes
+and rendered in milliseconds.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AN-dimensional%20gaussians%20for%20fitting%20of%20high%20dimensional%20functions%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈3D Gaussian Ray Tracing: Fast Tracing of Particle Scenes
+
+**Authors**: Nicolas Moenne-Loccoz, Ashkan Mirzaei, Or Perel, Riccardo de Lutio, Janick Martinez Esturo, Gavriel State, Sanja Fidler, Nicholas Sharp, Zan Gojcic
+
+<details>
+<summary><b>Abstract</b></summary>
+Particle-based representations of radiance fields such as 3D Gaussian
+Splatting have found great success for reconstructing and re-rendering of
+complex scenes. Most existing methods render particles via rasterization,
+projecting them to screen space tiles for processing in a sorted order. This
+work instead considers ray tracing the particles, building a bounding volume
+hierarchy and casting a ray for each pixel using high-performance GPU ray
+tracing hardware. To efficiently handle large numbers of semi-transparent
+particles, we describe a specialized rendering algorithm which encapsulates
+particles with bounding meshes to leverage fast ray-triangle intersections, and
+shades batches of intersections in depth-order. The benefits of ray tracing are
+well-known in computer graphics: processing incoherent rays for secondary
+lighting effects such as shadows and reflections, rendering from
+highly-distorted cameras common in robotics, stochastically sampling rays, and
+more. With our renderer, this flexibility comes at little cost compared to
+rasterization. Experiments demonstrate the speed and accuracy of our approach,
+as well as several applications in computer graphics and vision. We further
+propose related improvements to the basic Gaussian representation, including a
+simple use of generalized kernel functions which significantly reduces particle
+hit counts.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3A3D%20Gaussian%20Ray%20Tracing%3A%20Fast%20Tracing%20of%20Particle%20Scenes%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈HeadGAP: Few-shot 3D Head Avatar via Generalizable Gaussian Priors
+
+**Authors**: Xiaozheng Zheng, Chao Wen, Zhaohu Li, Weiyi Zhang, Zhuo Su, Xu Chang, Yang Zhao, Zheng Lv, Xiaoyuan Zhang, Yongjie Zhang, Guidong Wang, Lan Xu
+
+<details>
+<summary><b>Abstract</b></summary>
+In this paper, we present a novel 3D head avatar creation approach capable of
+generalizing from few-shot in-the-wild data with high-fidelity and animatable
+robustness. Given the underconstrained nature of this problem, incorporating
+prior knowledge is essential. Therefore, we propose a framework comprising
+prior learning and avatar creation phases. The prior learning phase leverages
+3D head priors derived from a large-scale multi-view dynamic dataset, and the
+avatar creation phase applies these priors for few-shot personalization. Our
+approach effectively captures these priors by utilizing a Gaussian
+Splatting-based auto-decoder network with part-based dynamic modeling. Our
+method employs identity-shared encoding with personalized latent codes for
+individual identities to learn the attributes of Gaussian primitives. During
+the avatar creation phase, we achieve fast head avatar personalization by
+leveraging inversion and fine-tuning strategies. Extensive experiments
+demonstrate that our model effectively exploits head priors and successfully
+generalizes them to few-shot personalization, achieving photo-realistic
+rendering quality, multi-view consistency, and stable animation.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AGaussian%20head%20avatar%3A%20Ultra%20high-fidelity%20head%20avatar%20via%20dynamic%20gaussians%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈3D Gaussian Blendshapes for Head Avatar Animation
+
+**Authors**: Shengjie Ma, Yanlin Weng, Tianjia Shao, Kun Zhou
+
+<details>
+<summary><b>Abstract</b></summary>
+We introduce 3D Gaussian blendshapes for modeling photorealistic head
+avatars. Taking a monocular video as input, we learn a base head model of
+neutral expression, along with a group of expression blendshapes, each of which
+corresponds to a basis expression in classical parametric face models. Both the
+neutral model and expression blendshapes are represented as 3D Gaussians, which
+contain a few properties to depict the avatar appearance. The avatar model of
+an arbitrary expression can be effectively generated by combining the neutral
+model and expression blendshapes through linear blending of Gaussians with the
+expression coefficients. High-fidelity head avatar animations can be
+synthesized in real time using Gaussian splatting. Compared to state-of-the-art
+methods, our Gaussian blendshape representation better captures high-frequency
+details exhibited in input video, and achieves superior rendering performance.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3A3d%20gaussian%20blendshapes%20for%20head%20avatar%20animation%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈3D Geometry-aware Deformable Gaussian Splatting for Dynamic View
+
+  Synthesis
+
+**Authors**: Zhicheng Lu, Xiang Guo, Le Hui, Tianrui Chen, Min Yang, Xiao Tang, Feng Zhu, Yuchao Dai
+
+<details>
+<summary><b>Abstract</b></summary>
+In this paper, we propose a 3D geometry-aware deformable Gaussian Splatting
+method for dynamic view synthesis. Existing neural radiance fields (NeRF) based
+solutions learn the deformation in an implicit manner, which cannot incorporate
+3D scene geometry. Therefore, the learned deformation is not necessarily
+geometrically coherent, which results in unsatisfactory dynamic view synthesis
+and 3D dynamic reconstruction. Recently, 3D Gaussian Splatting provides a new
+representation of the 3D scene, building upon which the 3D geometry could be
+exploited in learning the complex 3D deformation. Specifically, the scenes are
+represented as a collection of 3D Gaussian, where each 3D Gaussian is optimized
+to move and rotate over time to model the deformation. To enforce the 3D scene
+geometry constraint during deformation, we explicitly extract 3D geometry
+features and integrate them in learning the 3D deformation. In this way, our
+solution achieves 3D geometry-aware deformation modeling, which enables
+improved dynamic view synthesis and 3D dynamic reconstruction. Extensive
+experimental results on both synthetic and real datasets prove the superiority
+of our solution, which achieves new state-of-the-art performance.
+  The project is available at https://npucvr.github.io/GaGS/
+</details>
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3A3d%20geometry-aware%20deformable%20gaussian%20splatting%20for%20dynamic%20view%20synthesis%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈PRTGaussian: Efficient Relighting Using 3D Gaussians with Precomputed
+
+  Radiance Transfer
+
+**Authors**: Libo Zhang, Yuxuan Han, Wenbin Lin, Jingwang Ling, Feng Xu
+
+<details>
+<summary><b>Abstract</b></summary>
+We present PRTGaussian, a realtime relightable novel-view synthesis method
+made possible by combining 3D Gaussians and Precomputed Radiance Transfer
+(PRT). By fitting relightable Gaussians to multi-view OLAT data, our method
+enables real-time, free-viewpoint relighting. By estimating the radiance
+transfer based on high-order spherical harmonics, we achieve a balance between
+capturing detailed relighting effects and maintaining computational efficiency.
+We utilize a two-stage process: in the first stage, we reconstruct a coarse
+geometry of the object from multi-view images. In the second stage, we
+initialize 3D Gaussians with the obtained point cloud, then simultaneously
+refine the coarse geometry and learn the light transport for each Gaussian.
+Extensive experiments on synthetic datasets show that our approach can achieve
+fast and high-quality relighting for general objects. Code and data are
+available at https://github.com/zhanglbthu/PRTGaussian.
+</details>
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AOLAT%20Gaussians%20for%20Generic%20Relightable%20Appearance%20Acquisition%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
+
+#####  🎈A Hierarchical 3D Gaussian Representation for Real-Time Rendering of
+
+  Very Large Datasets
+
+**Authors**: Bernhard Kerbl, Andréas Meuleman, Georgios Kopanas, Michael Wimmer, Alexandre Lanvin, George Drettakis
+
+<details>
+<summary><b>Abstract</b></summary>
+Novel view synthesis has seen major advances in recent years, with 3D
+Gaussian splatting offering an excellent level of visual quality, fast training
+and real-time rendering. However, the resources needed for training and
+rendering inevitably limit the size of the captured scenes that can be
+represented with good visual quality. We introduce a hierarchy of 3D Gaussians
+that preserves visual quality for very large scenes, while offering an
+efficient Level-of-Detail (LOD) solution for efficient rendering of distant
+content with effective level selection and smooth transitions between levels.We
+introduce a divide-and-conquer approach that allows us to train very large
+scenes in independent chunks. We consolidate the chunks into a hierarchy that
+can be optimized to further improve visual quality of Gaussians merged into
+intermediate nodes. Very large captures typically have sparse coverage of the
+scene, presenting many challenges to the original 3D Gaussian splatting
+training method; we adapt and regularize training to account for these issues.
+We present a complete solution, that enables real-time rendering of very large
+scenes and can adapt to available resources thanks to our LOD method. We show
+results for captured scenes with up to tens of thousands of images with a
+simple and affordable rig, covering trajectories of up to several kilometers
+and lasting up to one hour. Project Page:
+https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/
+</details>
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AA%20hierarchical%203d%20gaussian%20representation%20for%20real-time%20rendering%20of%20very%20large%20datasets%26id_list%3D%26start%3D0%26max_results%3D1)
+
+
 
 ​            
 
