@@ -2176,7 +2176,37 @@ Human activities are inherently complex, and even simple household tasks involve
 
 ## Surface Representation
 
-#### 🎈Mesh-based Gaussian Splatting for Real-time Large-scale Deformation
+##### 🎈DynaSurfGS: Dynamic Surface Reconstruction with Planar-based Gaussian
+
+  Splatting
+
+**Authors**: Weiwei Cai, Weicai Ye, Peng Ye, Tong He, Tao Chen
+
+<details>
+<summary><b>Abstract</b></summary>
+Dynamic scene reconstruction has garnered significant attention in recent
+years due to its capabilities in high-quality and real-time rendering. Among
+various methodologies, constructing a 4D spatial-temporal representation, such
+as 4D-GS, has gained popularity for its high-quality rendered images. However,
+these methods often produce suboptimal surfaces, as the discrete 3D Gaussian
+point clouds fail to align with the object's surface precisely. To address this
+problem, we propose DynaSurfGS to achieve both photorealistic rendering and
+high-fidelity surface reconstruction of dynamic scenarios. Specifically, the
+DynaSurfGS framework first incorporates Gaussian features from 4D neural voxels
+with the planar-based Gaussian Splatting to facilitate precise surface
+reconstruction. It leverages normal regularization to enforce the smoothness of
+the surface of dynamic objects. It also incorporates the as-rigid-as-possible
+(ARAP) constraint to maintain the approximate rigidity of local neighborhoods
+of 3D Gaussians between timesteps and ensure that adjacent 3D Gaussians remain
+closely aligned throughout. Extensive experiments demonstrate that DynaSurfGS
+surpasses state-of-the-art methods in both high-fidelity surface reconstruction
+and photorealistic rendering.
+</details>
+
+
+[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AReal-time%20Photorealistic%20Dynamic%20Scene%20Representation%20and%20Rendering%20with%204D%20Gaussian%20Splatting%26id_list%3D%26start%3D0%26max_results%3D1)
+
+##### 🎈Mesh-based Gaussian Splatting for Real-time Large-scale Deformation
 
 **Authors**: Lin Gao, Jie Yang, Bo-Tao Zhang, Jia-Mu Sun, Yu-Jie Yuan, Hongbo Fu, Yu-Kun Lai
 
@@ -3985,36 +4015,6 @@ Holistic understanding of urban scenes based on RGB images is a challenging yet 
 [📄 Paper](https://arxiv.org/pdf/2403.12722v1.pdf)
 
 ## New papers to be classified
-
-#####  🎈DynaSurfGS: Dynamic Surface Reconstruction with Planar-based Gaussian
-
-  Splatting
-
-**Authors**: Weiwei Cai, Weicai Ye, Peng Ye, Tong He, Tao Chen
-
-<details>
-<summary><b>Abstract</b></summary>
-Dynamic scene reconstruction has garnered significant attention in recent
-years due to its capabilities in high-quality and real-time rendering. Among
-various methodologies, constructing a 4D spatial-temporal representation, such
-as 4D-GS, has gained popularity for its high-quality rendered images. However,
-these methods often produce suboptimal surfaces, as the discrete 3D Gaussian
-point clouds fail to align with the object's surface precisely. To address this
-problem, we propose DynaSurfGS to achieve both photorealistic rendering and
-high-fidelity surface reconstruction of dynamic scenarios. Specifically, the
-DynaSurfGS framework first incorporates Gaussian features from 4D neural voxels
-with the planar-based Gaussian Splatting to facilitate precise surface
-reconstruction. It leverages normal regularization to enforce the smoothness of
-the surface of dynamic objects. It also incorporates the as-rigid-as-possible
-(ARAP) constraint to maintain the approximate rigidity of local neighborhoods
-of 3D Gaussians between timesteps and ensure that adjacent 3D Gaussians remain
-closely aligned throughout. Extensive experiments demonstrate that DynaSurfGS
-surpasses state-of-the-art methods in both high-fidelity surface reconstruction
-and photorealistic rendering.
-</details>
-
-
-[📄 Paper](http://arxiv.org/api/query?search_query%3Dall%3AReal-time%20Photorealistic%20Dynamic%20Scene%20Representation%20and%20Rendering%20with%204D%20Gaussian%20Splatting%26id_list%3D%26start%3D0%26max_results%3D1)
 
 
 
